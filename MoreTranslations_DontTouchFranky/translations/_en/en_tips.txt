@@ -1,0 +1,28 @@
+tip0=The smaller your deck, the higher the chances of drawing a card that you need.
+tip1=The faster you finish the fight, the better the rewards.
+tip2=Do NOT pet Magnus. He has a reputation.
+tip3=You can create a party with any combination of classes, including multiple characters of the same class.
+tip4=Sometimes not adding cards is as beneficial as adding cards.
+tip5=Join our Discord community for guides, help, feedback and suggestions! There's a link to join on the main menu screen.
+tip6=Find other people to play with in the #LFG channel on the official Discord.
+tip7=You can always choose to fight without accepting a corruption. They are high risk, high reward!
+tip8=You don't have to use the recommended classes. Try different teams to create your own style!
+tip9=Cards with the <icon=vanish> icon can only be used once per fight.
+tip10=<icon=fury> can make you stronger, at the cost of <icon=bleed> each turn. Can you handle the power?
+tip11=<icon=thorns> and <icon=burn> damage can both be blocked by <icon=block>.<br>Be sure to hit them first if you want this damage to get through!
+tip12=Keep an eye out for Key Item icons on the map. There may be a unique interaction with an Item you have collected.
+tip13=Each character has their own dialog options. Try them all out to see what secrets you can discover.
+tip14=<icon=block> is removed at the end of the round.<br>The <icon=fortify> aura will let you keep that <icon=block> for the next round.
+tip15=Increasing your resistances with auras like <icon=insulate>, <icon=reinforce> or <icon=courage> will help your party to suffer less damage.
+tip16=There's no need to roll your cards in all events. If you are having a hard time, try to play it safe.
+tip17=Being the first to move is essential for some characters. Keep an eye on cards that modify the speed.
+tip18=The <icon=energy> that's not being used will be saved for the next turn. Don't waste it when it's not necessary.
+tip19=You can right click any card to access a screen with all the info regarding that card.
+tip20=Focusing on one damage type can be powerful, but you may need a backup plan for enemies who can resist it.
+tip21=Is the combat too slow for you? You can activate 'Fast mode' under the Gameplay tab in the Settings option.
+tip22=Always watch out for <icon=thorns>. You will be damaged if you attack a monster protected by this effect.
+tip23=Are elemental monsters a problem for your party?<br><icon=insulate> will increase your elemental resistances.
+tip24=Want to get rid of that annoying <icon=burn> effect?<br><icon=wet> is a fast way to remove it fully.
+//////////////////////////////// TRANSLATION ENDS HERE
+tip25=Do you want faster games or a more randomized mode? Play the Obelisk Challenge!
+tip26=When a hero equips the same item twice, the item will transform into its corrupted version.

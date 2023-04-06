@@ -1,0 +1,1844 @@
+gameExpired=This Alpha version has expired.<br>Thank you for trying Across the Obelisk.
+notAvailable=** Feature <b>not available</b> on this EA version.
+accept=Accept
+cancel=Cancel
+select=Select
+continue=Continue
+password=Password
+close=Close
+exit=Exit
+shuffle=Shuffle
+modify=Modify
+resign=Resign
+reloadCombat=Reload<br>Combat
+combat=Combat
+settings=Settings
+allCards=All cards
+ready=Ready
+success=Success
+successCritical=Critical success
+fail=Fail
+failCritical=Critical failure
+immune=Immune
+health=Health
+speed=Speed
+energy=Energy
+rarity=Rarity
+cardsTier=Cards Tier
+maximumAbb=Max.
+sold=Sold
+stats=Stats
+perks=Perks
+skin=Skins
+rank=Rank
+cardback=Card backs
+combatStats=Combat stats
+mainStats=Main stats
+dataPerTurn=<%>/turn
+baseResist=Base resistance
+baseDamage=Base damage
+baseValue=Base value
+baseDT=Base damage taken
+allDamage=All damage
+healDone=Heal done
+healTaken=Heal received
+damageResistance=Damage resistance
+damageResistanceMax=(95 max.)
+damagePercentMin=(-50% min.)
+damageDone=Damage done
+damageTaken=Damage taken
+damageBlocked=Damage blocked
+directDamage=Direct damage
+detailedDamage=Detailed damage
+globalModifiers=Global modifiers
+damage=Damage
+resistance=Resistance
+resistances=Resistances
+resistancesAndBonus=Resistances and bonus
+activeEffects=Active effects
+immunities=Immunities
+chargeBonus=Aura/curse bonuses
+remove=Remove
+corrupt=Corrupt
+skip=Skip
+blocked=Blocked
+evaded=Evaded
+resisted=Resisted
+currentHp=Current HP
+#########
+######### CreateTextMenu
+#########
+menuPlay=Play
+menuLoadGame=Load Game
+menuChallenge=Obelisk Challenge
+menuWeekly=Weekly Challenge
+menuMultiplayer=Multiplayer
+menuTome=Tome of Knowledge
+menuStatistics=Statistics
+menuOptions=Settings
+menuQuit=Quit Game
+menuChallenge=Obelisk Challenge
+mainMenu=Main Menu
+inputNameMultiplayer=Please enter your nickname into the text box below to be able to join or create multiplayer games.
+playersReady=Players ready
+waitingForPlayers=Waiting for players
+wantToQuitGame=Do you want to quit the game?
+wantToRemoveSave=Do you want to delete this saved game?
+wantToRemoveSavePermanent=It will be deleted permanently.
+saveAvailable=[Available]
+back=Back
+backMainMenu=<size=+10><< Back</size><br>Main menu
+singleplayer=Singleplayer
+multiplayer=Multiplayer
+weeklySingleplayer=Weekly Singleplayer
+weeklyMultiplayer=Weekly Multiplayer
+obeliskChallenge=Obelisk Challenge
+obeliskChallengeSingleplayer=Obelisk Challenge Singleplayer
+obeliskChallengeMultiplayer=Obelisk Challenge Multiplayer
+weekNumber=Week {0}
+mainMenuSaveSingle=Singleplayer game
+mainMenuSaveMulti=Multiplayer game
+mainMenuCreateNewGame=Create new game
+mainMenuClickUseThis=Click here to use this slot
+mainMenuDelete=Delete
+mainMenuSaveDescription=Choose a save slot for this game (or load a previously saved game).
+mainMenuGameModeChoose=Choose a game mode.
+mainMenuAdventureDescription=<color=#FFD98F>Unveil the history of Senenthia.</color><br><br>Discover new characters, unlock cards and fight evil bosses in this roguelite adventure.
+mainMenuObeliskDescription=<color=#FFD98F>A fully random roguelike adventure.</color><br><br>Every game will be different as you progress through the void while trying to reach the Obelisk.
+mainMenuWeeklyDescription=<color=#FFD98F>Compete against other players.</color><br><br>Each week, a new set of rules and fixed characters awaits. See who can get the top score.
+modeAdventure=Adventure mode
+modeObelisk=Obelisk challenge
+modeWeekly=Weekly challenge
+obeliskNeedCharacter=You need a character with rank 3
+joinMultiplayer=Join a multiplayer game
+abortMultiplayer=One player disconnected. The game will close now. You can create a new game and load from the last save point.
+abortSave=There was an error saving the game. The game will close now to avoid further problems. You can create a new game and load from the last save point.
+enterText=Enter text...
+waitingPlayers=Waiting for players...
+exitRoom=Exit room
+steamInvite=Invite Steam friends
+roomFull=The room is full.
+openSlot=[open slot]
+roomId=Room ID
+master=Master
+slash=Slashing
+piercing=Piercing
+blunt=Blunt
+fire=Fire
+cold=Cold
+lightning=Lightning
+mind=Mind
+holy=Holy
+shadow=Shadow
+#########
+######### CreateTextGameplay
+#########
+index=Index
+loading=Loading
+deck=Deck
+characterMenuCards=<sprite name=cards> Hero Deck
+characterMenuLevel=<sprite name=experience> Level & Traits
+characterMenuItems=<sprite name=block> Equipment
+characterMenuStats=<sprite name=sheet> Character Sheet
+characterMenuPerks=<sprite name=perk> Perks
+characterMenuCombatDraw=<sprite name=cards> Draw Pile
+characterMenuCastedCards=<sprite name=cards> Cast Cards
+characterMenuCombatDiscard=<sprite name=cardsdiscard> Discard Pile
+characterMenuCombatVanish=<sprite name=vanish> Vanished Cards
+traits=Traits
+activatedTraits=Activated traits
+traitsList=Innate<br>Level 2<br>Level 3<br>Level 4<br>Level 5
+item=Item
+initialCards=Initial cards
+incrementMaxHp=+<N> Max HP
+level=Level
+levelNumber=Level <N>
+warriors=Warriors
+mages=Mages
+healers=Healers
+scouts=Scouts
+mageknights=Mage Knights
+monsters=Monsters
+warriorCards=Warrior Cards
+mageCards=Mage Cards
+healerCards=Healer Cards
+scoutCards=Scout Cards
+injuries=Injuries
+boons=Boons
+equipment=Equipment
+upgradedCard=Upgraded
+upgradesTo=Upgrades to
+upgradedFrom=Upgraded from
+transmutesTo=Transmutes to
+sourceCard=Source Card
+unlockedCard=Unlocked
+unlockedHero=Unlocked
+unlockedCards=Unlocked Cards
+unlockTable=Unlocked Elements
+glossary=Glossary
+termsGlossary=Terms Glossary
+termsDescription=Summaries and descriptions of the terms used in game, auras, curses and effects.
+gameplayStatistics=Gameplay statistics
+bestScoreTome=Best score:
+lastRuns=Past games
+scoreboards=Scoreboards
+chooseScoreboard=Choose a scoreboard.
+scoresNotFound=Scores not found
+travelPath=Travel path
+path=Path
+cardsUnlockedTome=Cards unlocked:
+adventuresPlayedTome=Adventures played:
+treasuresClaimedTome=Treasures claimed:
+monstersKilledTome=Monsters killed:
+bossesKilledTome=Bosses killed:
+corruptionsCompleted=Corruptions completed:
+adventureCompleted=Adventure completed:
+uniqueBosses=Unique Bosses
+experienceGainedTome=Experience gained:
+equipmentDiscoveredTome=Equipment discovered:
+heroDeaths=Hero deaths:
+totalResources=Total resources:
+gold=Gold
+shards=Shards
+goldGainedTome=Gold gained:
+dustGainedTome=Shards gained:
+cardsCraftedTome=Cards crafted:
+cardsUpgradedTome=Cards upgraded:
+purchasedItemsTome=Purchased items:
+corruptionsCompletedTome=Corruptions completed:
+Melee_Attack=Melee attack
+Ranged_Attack=Ranged attack
+Magic_Attack=Magic attack
+Defense=Defense
+Fire_Spell=Fire spell
+Cold_Spell=Cold spell
+Lightning_Spell=Lightning spell
+Mind_Spell=Mind spell
+Shadow_Spell=Shadow spell
+Holy_Spell=Holy spell
+Curse_Spell=Curse spell
+Healing_Spell=Healing spell
+Book=Book
+Small_Weapon=Small weapon
+Song=Song spell
+Skill=Skill
+Power=Power
+Injury=Injury
+Attack=Attack
+Spell=Spell
+Boon=Boon
+weapon=Weapon
+armour=Armor
+armor=Armor
+jewelry=Jewelry
+accesory=Accessory
+enchantment=Enchantment
+enchantments=Enchantments
+itemActivated=Activated
+itemChargeUsed=Charge used
+itemsDescription=Only one item of the same type is allowed for each hero. Be careful when you are about to equip a new item: the old one will be removed forever.
+cardNotUnlockedPopup=<voffset=-2><size=26><sprite name=lock></size></voffset>Card not unlocked
+minDeckCards=Minimum number of cards in a deck: <color=#FFFFFF><n></color>
+shopDiscount=Discount
+shopIncrease=Increase
+heroCards=<hero> cards
+heroEquipment={0}<br><color=#bbb>Equipment</color>
+heroInjuries=<hero> injuries
+heroInjuriesBoons=<hero> boons and injuries
+heroDrawPile=<hero> draw pile
+heroDiscardPile=<hero> discard pile
+heroCastedCards=<hero> cast cards
+heroVanishedCards=<hero> vanished cards
+town=Town
+townPlace={0} Town
+townIntro=Take your time and manage your decks before the adventure. When you are done, press ready!
+ready=Ready
+charReceive=<char> receives
+charsReceives=<chars> receive
+freeCost=Free
+oldCost=(Old cost: {0})
+reaminingUses=Remaining uses
+noMoreUses=No more uses allowed
+removeCards=Church
+removeCardsButtonDes=Remove cards from your decks
+removeCardsDes=You can remove cards from your deck as long as you fulfill the minimum number of cards requirement.
+upgradeCards=Altar
+upgradeCardsButtonDes=Upgrade your cards and transform them into more powerful versions.
+upgradeCardsDes=Each card has different upgrades that are more powerful than the basic version.<br><br>You can make an offer of shards in order to upgrade a card.<br><br>Also, it's possible to transmute a card between its upgraded versions.<br><br><color=#FFC88F>The higher the rarity of the card, the higher the cost to upgrade it.</color>
+reset=Reset
+upgradedCards=Upgraded
+upgradedCardsDes=Show the upgraded cards. You can upgrade cards on the Altar, too.
+filterCards=Filter
+filterCardsDes=Filter cards based on explicit modifiers.
+affordableCards=Available
+affordableCardsDes=Show only cards that you can craft with your current number of shards.
+craftCards=Magic forge
+craftCardsButtonDes=Craft cards for your decks.
+craftRarityBlocked=This rarity is not allowed here.
+craftMaxCards=Max. number of crafts allowed for this card
+treasureClaimButtonDes=Press here to claim this reward.
+wantToClaimTreasure=Do you want to claim this treasure?
+lastRunsRewards=Last rewards
+lastRunsRewardsDes=Every game will reward your performance with gold and shards.<br><br>You will be able to claim up to three of the last rewards every time you begin a game.
+lastRunsRewardsStack=You can stack up to 3 chests.
+communityRewards=Community rewards
+expiresInHoursMinutes=Expires in {0} hour(s) {1} minute(s)
+expiresInMinutes=Expires in {0} minute(s)
+divinationCards=Zingarian cart
+divinationCardsButtonDes=Pay gold to the beautiful Zingara and get a divination round.
+divinationCardsDes=If you have enough money, the Zingara will grant you a divination card round.<br><br>In a multiplayer game, everyone will benefit from this divination round.<br><br>The higher the cost of a divination round, the higher the chance to obtain better cards.
+divinationT0=Fast Divination
+divinationT1=Basic Divination
+divinationT2=Advanced Divination
+divinationT3=Premium Divination
+divinationT4=Supreme Divination
+divinationRoundJoin={0} just paid for a round of Card Divination. Press the button to join when you're ready.
+divinationRoundExists=There's already a Card Divination round in process.
+divinationRoundLaunch=Loading Card Divination round...
+sell=Sell
+buyItems=Armory
+buyItemsButtonDes=Buy equipment for your heroes.
+deckPile=Deck of cards
+discardPile=Discard pile
+pressWhenReady=Press the button when you are ready.
+cardsNum=Cards: {0}
+youCanDiscardUpTo=You can discard up to: {0} cards
+youCanVanishUpTo=You can vanish up to: {0} cards
+youCanAdd=You can add: 1 card
+youCanAddPlural=You can add: {0} cards
+#########
+######### performance bonus
+#########
+roundNumber=Round {0}
+excellent=Excellent
+good=Good
+poor=Poor
+satisfactory=Satisfactory
+underwhelming=Underwhelming
+dreadful=Dreadful
+great=Great
+performanceBonus=Performance bonus
+combatPerformance=Combat Performance
+combatPerformanceDes=Kill your enemies fast and use less rounds in order to get better rewards. Each round counts...
+dreadfulNoReward=Your combat performance was dreadful, hence you are not getting any card rewards.
+#########
+######### rewards
+#########
+combatRewards=Combat rewards
+eventRewards=Event rewards
+eventRewardsSubtitle=Choose one card or a pile of shards
+eventYouGet=You get:
+divinationRoundRewards=Divination rewards
+itemRewards=Item rewards
+itemRewardsSelection=You can choose one of the items or the following gold amount:
+itemRewardsChosing=Character choosing:
+chooseCards=Choose one of these cards
+chooseDust=Choose shards
+notEnoughGold=Not enough gold/shards
+#########
+######### finish run
+#########
+finishRun=Reward based on the performance of your adventure. At the beginning of a new game, you will be able to claim this reward while in town.
+questEndsIn=Your quest ends in
+actNumber=Act {0}
+prologue=Prologue
+congratulations=Congratulations
+placesVisited=Places visited
+placeOfDeath=Place of death
+combatPerformance=Combat performance
+experienceGained=Experience gained
+bossesKilled=Bosses killed
+finalScore=Final score
+timePlayed=Time played {0}
+gameScore=Game score
+finishBestScore=Best score!
+currencyRetention=Currency retention
+currencyRetentionBonus=<q>% of total
+gameReward=Game reward
+mpBonus=Multiplayer bonus (+<q>%)
+itemBonus=Item bonus (+<q>%)
+#########
+######### event rolls
+#########
+eventRolls=Event rolls:
+singleDesc=Everyone draws a card, and the results are individual to each character.
+groupDesc=Everyone draws a card, and the results are added up.
+competitionDesc=Everyone draws a card and competes against each other.
+single=Single
+competition=Competition
+group=Group
+character=Character
+higherThan=higher than
+higherOrEqual={0} or higher
+lowerThan=lower than
+lowerOrEqual={0} or lower
+rollCard={0} card
+highest=highest
+lowest=lowest
+closest=closest to
+#########
+######### event actions
+#########
+healPercent=[Heal {0}%]
+eventBag=This bag contains all the useful items that you find during your adventure.
+eventMissingOptions=Hidden options
+eventMissingOptionsDesc=Some replies have special requirements like shards, gold, different characters...
+continueAction=Continue
+joinAction=Join
+combatAction=Combat
+jumpAction=Jump
+runAction=Run
+bribeAction=Bribe
+threatenAction=Threaten
+persuadeAction=Persuade
+stealthAction=Stealth
+stealAction=Steal
+sneakAwayAction=Sneak away
+leaveAction=Leave
+lootAction=Loot
+profaneAction=Profane
+forageAction=Forage
+declineAction=Decline
+acceptAction=Accept
+extorsionAction=Extortion
+ambushAction=Ambush
+raceAction=Race
+restAction=Rest
+buryAction=Bury
+digAction=Dig
+breakAction=Break
+betAction=Bet
+playAction=Play
+fishingAction=Fishing
+payAction=Pay
+bargainAction=Bargain
+exploreAction=Explore
+enterAction=Enter
+pretendAction=Pretend
+captureAction=Capture
+throwAction=Throw
+lookAction=Look
+examineAction=Examine
+repairAction=Repair
+rebuildAction=Rebuild
+healAction=Heal
+climbAction=Climb
+evadeAction=Evade
+useAction=Use
+askAction=Ask
+answerAction=Answer
+openAction=Open
+buyAction=Buy
+murderAction=Murder
+burnAction=Burn
+killAction=Kill
+giveAction=Give
+talkAction=Talk
+singAction=Sing
+readAction=Read
+confirm=Confirm
+hide=Hide
+show=Show
+chooseEnergy=Choose how much energy to spend casting this spell.
+chooseEnergyAvailable=Available energy:
+chooseEnergyMax=Max. energy to assign:
+#########
+######### CreateTextLobby
+#########
+exitGameConfirm=Are you sure you want to exit?
+exitGameConfirmLoss=All your progress will be lost.
+exitGameConfirmSave=Your current progress will be saved.
+exitGameRewards=You must claim your rewards before exiting the game.
+exitGameEvent=You must finish the active event before exiting the game.
+exitRoomConfirm=Are you sure you want to exit the game room?
+inputPasswordRoom=Please enter the room password and press the button.
+inputIDRoom=Please enter the room ID
+joinById=Join by ID
+launchGame=Launch game
+inviteSteamFriends=Invite Steam Friends
+statusMP=Multiplayer status
+statusConnecting=Connecting to multiplayer server
+statusJoinedLobby=Joined Lobby
+statusConnected=Connected to server
+chatPlayerJoined=%p has joined the game.
+chatPlayerLeft=%p has left the game.
+chatPlayerKicked=%p has been kicked from the game.
+masterKickedYou=You have been kicked from the game.
+playersInGame=Players in game:
+multiplayerDescription=Play with up to 3 other friends! Create a game or join another player's room. Choose your heroes and begin the adventure.
+multiplayerSubDescription=* In a multiplayer game, you will only be able to select heroes you have previously unlocked. On the other hand, unlocking heroes in a multiplayer game will let you play with those heroes in any available mode.
+availableRooms=Available rooms
+chooseRoom=Choose a game room.
+createRoom=Create a game room.
+roomDescription=Game description
+numberOfPlayers=Number of players
+privateRoom=Private room
+roomPasswordDesc=** Only users who know the password will be able to join the room.
+createRoomButton=Create room
+disconnect=Disconnect
+selectRegion=Select region
+connectedRegion=Connected <br>Region: [{0}]
+regionEU=EU region
+regionUS=US region
+regionASIA=ASIA region
+lfgLobby=<color=#DB9D6A>Are you looking for people to play co-op?</color><br>Join the #LFG channel in our official Discord!
+#########
+######### CreateTextSelection
+#########
+adventure=Adventure
+beginAdventure=Begin Adventure
+teamSelection=Team Selection
+dragCharacters=Drag the characters that you want to use in this game.<br>Some attacks can only target front, back or middle units.
+heroselectionWeekly=These are the characters that you can control in this Challenge.
+dragRecommended=* Recommended class for this position
+positionFront=Front
+positionBack=Back
+masterAssign=The master of the game must assign a player to each slot. When all players have been selected at least once, the game will be ready to begin.
+helpCharacterHealth=Character's health points
+helpCharacterEnergy=Character's initial energy and the amount that will be gained at the beginning of their turn
+helpCharacterSpeed=Speed of the character The character with the highest speed will be the first to move each round.
+tutorialTownTitle=Town actions
+tutorialTown=You can craft new cards for your decks, upgrade any card that you have, and buy equipment for your heroes. You will also be able to claim rewards from previous games.
+tutorialCombatSpeedTitle=Speed and character order
+tutorialCombatSpeed=All characters have a speed value (which can be modified by cards, items and traits). That value establishes who moves first. In case of a tie, the closest HERO to center will have priority.
+tutorialFirstTurnEnergyTitle=Energy management and cards
+tutorialFirstTurnEnergy=You can cast cards until you run out of energy.<br><br>When you end a turn, energy that hasn't been used will be saved for the next turn of this hero.
+tutorialCombatCardTargetTitle=Card targets
+tutorialCombatCardTarget=This box shows the available targets.<br><br>If there are multiple targets for a card, you'll have to select which one will be affected. If there is only one, releasing the card will automatically select it.
+tutorialCombatResistsTitle=Damage and resists
+tutorialCombatResists=There are 9 different damage types (and resists).<br><br>The damage values listed on a card will be reduced by the target's resist percentage.
+tutorialEventRollsTitle=Event rolls
+tutorialEventRolls=Some options will force you to roll in order to determine the result of the action. Each character will use the cards from their own deck.
+tutorialTownRewardsTitle=Finished game rewards
+tutorialTownRewards=While in town, you can claim rewards obtained in past games. Don't wait too long to claim these rewards: only the last three will be stored.
+tutorialCardsRewardTitle=Locked cards
+tutorialCardsReward=During your adventures, you will discover new cards after each combat. All cards shown will be unlocked. Remember: you will only be able to craft unlocked cards.
+tutorialCharactersTitle=Select your team.
+tutorialCharacters=Unlock new characters by completing quests during your adventures. Character quests are marked with this icon  <size=+.5><sprite name=questBegin></size>.
+tutorialPerksTitle=Character perks
+tutorialPerks=At the end of an adventure, all the characters in your group will get experience points (each rank level will award you perk points). You can spend these points on character upgrades.
+tutorialTownCraftTitle=Crafting cards
+tutorialTownCraft=In each town, you will be able to craft cards that you have previously unlocked for all your heroes. Some restrictions will apply based on your town upgrades.
+watchingTutorial=[Please Wait]<br>Another player is watching a tutorial.
+castNPCTitle=Monster cards
+castNPC=The cards that monsters are going to cast are hidden by default. The "sight"  <sprite name=sight> effect will reveal these cards, allowing you to plan your movements in anticipation.
+levelUp=Level Up!
+cantLevelUp=You can only level up while in town or on the map screen.
+cantGiveGoldDivination=You can't give gold or shards while there's a divination round pending.
+gameSeed=Game seed
+gameSeedInput=Please enter a new game seed.
+#########
+######### CreateTextCards
+#########
+requireSkill=Requires {0}
+priority=Priority: {0}
+global=Global
+friends=Friends
+self=Self
+random=Random
+hero=Hero
+anyone=Anyone
+heroes=Heroes
+monsters=Monsters
+allHeroes=All Heroes
+randomHero=Random Hero
+frontHero=Front Hero
+backHero=Back Hero
+middleHero=Middle Hero
+slowestHero=Slowest Hero
+fastestHero=Fastest Hero
+leastHPHero=Lowest HP Hero
+mostHPHero=Highest HP Hero
+otherHero=Other Hero
+monster=Monster
+allMonsters=All Monsters
+randomMonster=Random Monster
+frontMonster=Front Monster
+backMonster=Back Monster
+middleMonster=Middle Monster
+slowestMonster=Slowest Monster
+fastestMonster=Fastest Monster
+leastHPMonster=Lowest HP Monster
+mostHPMonster=Highest HP Monster
+priorityBack=Back
+priorityMiddle=Middle Heroes
+priorityFront=Front
+priorityAnyButBack=Any but Back
+priorityLessHealthPercent=Lowest percent health
+priorityMoreHealthPercent=Highest percent health
+priorityLessHealthFlat=Lowest health
+priorityMoreHealthFlat=Highest health
+priorityLessHealthAbsolute=Lower absolute health
+priorityMoreHealthAbsolute=Highest absolute health
+priorityLessInitiative=Slowest
+priorityMoreInitiative=Fastest
+damageType=Damage type
+damageTypes=Damage types
+aura=Aura
+curse=Curse
+deal=Deal
+apply=Apply
+gain=Gain
+youGain=You gain
+suffer=Suffer
+youSuffer=You suffer
+lose=Lose
+youLose=You lose
+grant=Grant
+heal=Heal
+draw=Draw
+discard=Discard
+discover=Discover
+reveal=Reveal
+pick=Pick
+place=Place
+look=Look
+onDraw=On draw
+onEndTurn=On end turn
+endTurn=End Turn
+#########
+######### CreateTextCombat
+#########
+newTurn=New turn
+chooseDiscard=Choose the cards to discard.
+chooseTopDeck=Choose the cards to place on top of the deck.
+cardsLeft=Cards left:
+combatEffects=Combat effects
+combatVictory=Victory!
+combatFail=Your quest ends here...
+combatOnlyMasterCanResign=Only the master of the game can resign.
+combatWantToRetry=<color=#BBB>Sometimes, taking a different approach is the key to success.</color><line-height=50><br></line-height>Do you want to retry the combat?
+combatWantToRetryClient=(Waiting for the master to make a decision.)
+combatWantToResign=<color=#f88>Do you want to resign?</color>
+combatWantToResignEnd=Your adventure will end here.
+removeProgressQuestion=Do you really want to remove all your saved progress?
+resetTutorialQuestion=Do you really want to reset the tutorial?
+mapNodes=Map Nodes
+mapEntryPoint=Entry point
+mapLegend=Map Legend
+mapLegendEvent=Event (rarity)
+mapLegendCard=Card node
+mapLegendCrafter=Crafter node
+mapLegendMapTransition=Map transition
+mapLegendShop=Article shop
+mapLegendRest=Rest node
+mapLegendCharacter=Character
+mapLegendQuestEnd=Quest end
+mapLegendBoss=Region boss
+typeCardsUnlocked={0} cards unlocked
+relatedCard=Related Card
+basicValues=* These are the basic values of the cards (without character talents, character perks or item bonuses).
+corruptedVersion=Corrupted Version
+specialCard=Special Card
+characterCard=Character Card
+rareVersion=Rare Version
+cardsAnd={0} and {1}
+cardsDealDamage=Deal {0}
+cardsSuffer=Suffer {0}
+cardsYouSuffer=You suffer {0}
+cardsYouLose=You lose {0}
+cardsTargetSides=Target sides {0}
+cardsGrant=Grant {0}
+cardsGain=Gain {0}
+cardsYouGain=You gain {0}
+cardsApply=Apply {0}
+cardsDispel=Dispel {0}
+cardsDispelAll=Dispel all
+cardsPurge=Purge {0}
+cardsPurgeAll=Purge all
+cardsTransferCurse=Transfer {0} curses
+cardsReduceCurse=Reduce curse charges by {0}%
+cardsCast=cast card {0}
+cardsRepeat=Repeat {0}
+cardsRepeatUpTo=Repeat up to {0}
+cardsRepeatChain=Chain {0}
+cardsRepeatJump=Jump {0}
+cardsIgnoreBlock=Ignore block
+cardsTransformInto=Transform <nobr>{0} into {1}</nobr>
+cardsTransformIntoAnd=Transform <nobr>{0} into {1} and {2}</nobr>
+cardsXEqualsYourHand=(X equals your <nobr>hand {0}{1}</nobr>)
+cardsXEqualsYourDeck=(X equals your <nobr>draw pile {0}{1}</nobr>)
+cardsXEqualsYourDiscard=(X equals your <nobr>discard pile {0}{1}</nobr>)
+cardsXEqualsYourVanish=(X equals your <nobr>vanish pile {0}{1}</nobr>)
+cardsXEqualsYourHp=(X equals your HP {0})
+cardsXEqualsYour=(X equals your {0}{1})
+cardsXEqualsTarget=(X equals target {0}{1})
+cardsXEqualsTargetHp=(X equals target HP {0})
+cardsXEqualsTargetDeck=(X equals target <nobr>draw pile {0}{1}</nobr>)
+cardsXEqualsTargetDiscard=(X equals target <nobr>discard pile {0}{1}</nobr>)
+cardsXEqualsTargetVanish=(X equals target <nobr>vanish pile {0}{1}</nobr>)
+cardsShareYour=Split your {0}
+cardsDoubleYour=Double your {0}
+cardsDoubleTarget=Double target {0}
+cardsTripleYour=Triple your {0}
+cardsTripleTarget=Triple target {0}
+cardsLosePercentYour=Lose {0}% of your {1}
+cardsLosePercentTarget=Target loses {0}% {1}
+cardsHeal=Heal {0}
+cardsHealSelf=Self heal {0}
+cardsHealSelfPerDamage=Heal yourself for {0}% of the damage done
+cardsConsume=Consume {0}
+cardsConsumeYour=Consume your {0}
+cardsDispelYour=Dispel your {0}
+cardsPurgeYour=Purge your {0}
+cardsOverCharge=Overcharge {0}
+cardsLoseHp=Lose {0}
+cardsDraw=Draw {0}
+cardsDiscard=Discard {0}
+cardsDiscardAny=Discard any of them
+cardsDiscardUpTo=Discard up to {0} of them
+cardsVanishUpTo=Vanish up to {0} of them
+cardsLook=Look {0}
+cardsCost=Cost {0}
+cardsCostReducedBy=Reduced by {0}
+cardsCostUntilDiscarded=until discarded
+cardsAddCost=(cost {0})
+cardsAddCostVanish=(cost {0} and vanish)
+cardsAddCostVanishTurn=(cost {0} and vanish this turn)
+cardsAddCostTurn=(cost {0} until discarded)
+cardsAddCostReduced=(cost reduced by {0})
+cardsAddCostReducedVanish=(cost reduced by {0} and vanish)
+cardsAddCostReducedTurn=(cost reduced by {0} until discarded)
+cardsAddCostReducedVanishTurn=(cost reduced by {0} and vanish this turn)
+cardsDiscoverToDeck=Discover {0} and shuffle them into your deck
+cardsDiscoverNumberToTopDeck=Discover {0} and place {1} on top of your deck
+cardsDiscoverNumberToHand=Discover {0} and place {1} into your hand
+cardsDiscoverNumberToDeck=Discover {0} and shuffle {1} into your deck
+cardsDiscoverToHand=Discover {0} and put them into your hand
+cardsPlaceToTop=Place {0} from your hand on top of your deck
+cardsRevealThemToHand=Reveal {0} from your draw pile and put them into your hand
+cardsRevealItToHand=Reveal {0} from your draw pile and put it into your hand
+cardsRevealNumberToHand=Reveal {0} from your draw pile and put {1} into your hand
+cardsRevealItToTopDeck=Reveal {0} from your draw pile and place it on top of your deck
+cardsRevealThemToTopDeck=Reveal {0} from your draw pile and place them on top of your deck
+cardsRevealNumberToTopDeck=Reveal {0} from your draw pile and place {1} on top of your deck
+cardsPickToTop=Pick {0} from your discard pile and place it on top of your deck
+cardsPickToHand=Pick {0} from your discard pile and put it into your hand
+cardsFromVanishToTop=Pick {0} from your vanish pile and place it on top of your deck
+cardsFromVanishToHand=Pick {0} from your vanish pile and put it into your hand
+cardsDuplicateToHand=Duplicate {0} from your hand// 0 => cardname
+cardsDuplicateToTargetTopDeck=Duplicate {0} from your hand and put it at top of target's deck// 0 => cardname
+cardsDuplicateToTargetRandomDeck=Duplicate {0} from your hand and shuffle it in target's deck// 0 => cardname
+cardsIDShuffleDeck=Shuffle {0} into your deck// 0 => cardname
+cardsIDShuffleTargetDeck=Shuffle {0} in target's deck// 0 => cardname
+cardsIDPlaceHand=Put {0} into your hand// 0 => cardname
+cardsIDPlaceTopDeck=Place {0} on top of your deck// 0 => cardname
+cardsIDPlaceTargetTopDeck=Put {0} on top of target's deck// 0 => cardname
+cardsIDPlaceTargetDiscard=Place {0} on target's discard pile// 0 => cardname
+cardsDuplicateHand=Put a copy of it into your hand// 0 => cardname
+cardsSummon=Summon {0}
+cardsImmuneTo=Immune to: {0}
+cardsTransformDamage=Transform damage to {0}
+cardsPassEventRoll=100% success in single character event rolls
+killPet=Kill hero's pet
+requiredPoints={0} used points required
+cantDrawAnyCard=Can't draw any card
+missesThisTurn=Misses this turn
+itemMaxHp=Max HP {0}
+itemAllResistances=All resistances {0}
+itemXResistances={0} resistance {1}
+itemSpeed=Speed {0}
+itemInitialEnergy=Initial energy {0}
+itemInitialCurrency=Initial gold and shards {0}
+itemCharges={0} charges {1}
+itemEnergyRegeneration={0} regeneration {1}
+itemAllDamages=All damage {0}
+itemSingleDamage={0} {1} damage  /// +1 damage
+itemXDamages={0} damage {1}
+itemHealDone=heal done {0}
+itemCombatStart=Combat start
+itemCombatEnd=Combat end
+itemFirstTurn=First turn
+itemEachTurn=Each turn
+itemOncePerTurn=1 time/turn
+itemTwicePerTurn=2 times/turn
+itemThricePerTurn=3 times/turn
+itemFourPerTurn=4 times/turn
+itemFivePerTurn=5 times/turn
+itemDamageDone=Damage with hit
+itemWhenDamaged=Damaged by others//When damaged
+itemWhenDamagedBelow=Damaged by others <{0}
+itemWhenHitted=When hit
+itemWhenHealed=When healed
+itemWhenEvaded=When evaded
+itemWhenEvade=When you evade
+itemWhenBlock=When you block
+itemHealDoneAction=When you heal a hero
+itemWhenHandEmpty=If you play a  <sprite name=card>that leaves your hand empty
+itemChanceToDispel={0} chance to: <br> dispel {1}
+itemEveryRound=Every turn
+itemEveryNRounds=Every {0} turns
+itemForEveryCharge=For every {0} charge you apply, /// "haste"
+itemApplyEnemies=Apply {0} to all monsters/// "haste"
+itemApplyHeroesFromMonster=Apply {0} to all heroes/// "haste"
+itemApplyHeroes=All heroes gain {0}/// "haste"
+itemApplyRandomHero=A random hero gains {0}/// "haste"
+itemApplyRandomEnemy=Apply {0} to a random monster/// "haste"
+itemApplyHighestFlatHpEnemy=Apply {0} to highest HP monster/// "haste"
+itemApplyLowestFlatHpEnemy=Apply {0} to lowest HP monster/// "haste"
+itemApplyHighestFlatHpHero=Apply {0} to highest HP hero/// "haste"
+itemApplyLowestFlatHpHero=Apply {0} to lowest HP hero/// "haste"
+itemApplyForEvery=For every {0} charge you apply, apply {1}/// "haste"
+itemApplyForEnergyUsed=For every {0} used:
+itemWhenYouPlay=When you play a {0}/// "Cold spell"
+itemWhenYouApply=When you apply {0}/// "Cold spell"
+itemCustomTextMaxChargesIncrasedYouApply={0} you apply has {1} Max. charges
+itemCustomTextMaxChargesIncrasedOnHeroes={0} on heroes have {1} Max. charges
+itemCustomTextMaxChargesIncrasedOnEnemies={0} on monsters have {1} Max. charges
+itemCustomTextExplodeChargesMonsters={0}charges on monsters explode at {1}
+itemCustomTextAllResistHealingReceived={0} on heroes give +{1}% all resist and +{2}% healing received per charge
+itemTheNext=The next {0}
+itemWhenKilled=When you die
+itemDestroyStartTurn=Lasts one turn
+itemLastUse=Lasts 1 use
+itemLastUses=Lasts {0} uses
+itemOncePerCombat=Once per combat
+itemTheNext=The next {0}{1}
+itemRecoverSelf=recover {0} HP
+itemRecoverLowestHPMonster=lowest HP monster recovers {0} HP
+itemRecoverHeroes=All heroes recover {0} HP/// All heroes gain "haste"
+itemReduce=Reduce the cost of {0} random {1} in your hand by {2}/// reduce the cost of 1 random "Song" in your hand by 1
+itemReduceTurn=Reduce the cost of {0} random {1} in your hand by {2} until discarded/// reduce the cost of 1 random "Song" in your hand by 1 this turn
+itemReduceHighestTurn=Reduce the cost of the {0}highest cost {1} in your hand by {2} until discarded/// reduce the cost of 1 random "Song" in your hand by 1 this turn
+itemReduceHighestPermanent=Reduce the cost of the {0}highest cost {1} in your hand by {2}
+itemDiscount={0} extra discount in the Magic forge, altars and item shops
+itemDieRetain=When you die, retain an additional {0} gold and shards
+itemResurrectHP=resurrect with {0} HP
+customSOR=When you die, resurrect with 50% of your HP and destroy Scroll of Resurrection
+customSORRare=When you die, resurrect with 100% of your HP and destroy Scroll of Resurrection
+customBurnedI=-If you play with fire, you're gonna get burned-
+customBrokenI=-Haste makes waste-
+customVoidMemory=-You only remember that you have forgotten something-
+customLowSelf=-A shameful reminder that something didn't go as planned-
+customSuccess=-Against all odds, you have challenged fate and won-
+customTombstone=-R.I.P.-
+
+customSurpriseBox=<size=-.2><color=#3A3A3A>[Combat start]</color><br></size>Gain one of these:<br><bl>2</bl><i=fast>, <bl>2</bl><i=powerful>, <bl>2</bl><i=bless>,<br><rd>2</rd><i=slow>, <rd>2</rd><i=vulnerable>, <rd>2</rd><i=mark>
+customSurpriseBoxRare=<size=-.2><color=#3A3A3A>[Combat start]</color><br></size>Gain one of these:<br><bl>4</bl><i=fast>, <bl>4</bl><i=powerful>, <bl>4</bl><i=bless>,<br><rd>4</rd><i=slow>, <rd>4</rd><i=vulnerable>, <rd>4</rd><i=mark>
+
+customSurpriseGiftBox=<size=-.2><color=#3A3A3A>[Combat start]</color><br></size>All heroes gain one of these:<br><bl>2</bl><i=fast>, <bl>2</bl><i=powerful>, <bl>2</bl><i=bless>,<br><rd>2</rd><i=slow>, <rd>2</rd><i=vulnerable>, <rd>2</rd><i=mark>
+customSurpriseGiftBoxRare=<size=-.2><color=#3A3A3A>[Combat start]</color><br></size>All heroes gain one of these:<br><bl>4</bl><i=fast>, <bl>4</bl><i=powerful>, <bl>4</bl><i=bless>,<br><rd>4</rd><i=slow>, <rd>4</rd><i=vulnerable>, <rd>4</rd><i=mark>
+
+customBurningBlood=Transform<i=bleed>into<i=burn><br>Gain <bl>X</bl><i=fury><br><size=-.15><gl>(X equals your<i=bleed>x0.3)</gl></size>
+customBurningBloodA=Transform<i=bleed>into<i=burn><br>Grant <bl>X</bl><i=fury><br><size=-.15><gl>(X equals target<i=bleed>x0.5)</gl></size>
+customBurningBloodB=Transform<i=bleed>into<i=burn>x0.5<br>Gain <bl>X</bl><i=fury><br><size=-.15><gl>(X equals your<i=bleed>x0.5)</gl></size>
+customBurningBloodRare=Transform<i=bleed>into<i=burn>x0.5<br>Gain <bl>X</bl><i=fury><br><size=-.15><gl>(X equals your<i=bleed>)</gl></size>
+
+customArmagedon=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>Immune to <i=burn><i=crack><br><gl>-Every round-</gl><br>Add <crd=meteorite,1> to all monsters.
+customArmagedonA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>Immune to <i=burn><i=crack><br><gl>-Every round-</gl><br>Add <crd=meteorite,1> to all monsters.
+customArmagedonB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br>Immune to <i=burn><i=crack><br><gl>-Every round-</gl><br>Add <crd=meteorite,1> to all monsters.
+customArmagedonRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br>Immune to <i=burn><i=crack><br><gl>-Every round-</gl><br>Add <crd=meteorite,1> to all monsters.
+
+customThunderstorm=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br><i=lightning> resistance <bl>+15%</bl><br><gl>-Every round-</gl><br>Add <crd=storm,1> to a random monster.
+customThunderstormA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=lightning> resistance <bl>+20%</bl><br><gl>-Every round-</gl><br>Add <crd=storm,1> to a random monster.
+customThunderstormB=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=lightning> resistance <bl>+25%</bl><br><gl>-Every round-</gl><br>Add <crd=storm,1> to a random monster.
+customThunderstormRare=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><i=lightning> resistance <bl>+30%</bl><br><gl>-Every round-</gl><br>Add <crd=storm,1> to a random monster.
+
+customWindsofAmnesia=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br><gl>-Every round-</gl><br>Add <crd=tabularasa,1> to a random monster.</color>
+customWindsofAmnesiaA=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br><gl>-Every round-</gl><br>Add <crd=tabularasa,1> to a random monster.</color>
+customWindsofAmnesiaB=<gl>All monsters gain:</gl><br>Max HP <bl>+35</bl><br><gl>-Every round-</gl><br>Add <crd=tabularasa,1> to a random monster.</color>
+customWindsofAmnesiaRare=<gl>All monsters gain:</gl><br>Max HP <bl>+45</bl><br><gl>-Every round-</gl><br>Add <crd=tabularasa,1> to a random monster.</color>
+
+customNoxiousParasites=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>Immune to <i=poison><br><gl>-Every round-</gl><br>Shuffle <crd=hatchcorrupt,1> into each hero deck.
+customNoxiousParasitesA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>Immune to <i=poison><br><gl>-Every round-</gl><br>Shuffle <crd=hatchcorrupt,1> into each hero deck.
+customNoxiousParasitesB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br>Immune to <i=poison><br><gl>-Every round-</gl><br>Shuffle <crd=hatchcorrupt,1> into each hero deck.
+customNoxiousParasitesRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br>Immune to <i=poison><br><gl>-Every round-</gl><br>Shuffle <crd=hatchcorrupt,1> into each hero deck.
+
+customMelancholy=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br>All resistances <bl>+10%</bl><br>Immune to <i=insane><br><gl>-Every round-</gl><br>Shuffle <crd=sad,2> into each hero deck.</color>
+customMelancholyA=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br>All resistances <bl>+15%</bl><br>Immune to <i=insane><br><gl>-Every round-</gl><br>Shuffle <crd=sad,2> into each hero deck.</color>
+customMelancholyB=<gl>All monsters gain:</gl><br>Max HP <bl>+35</bl><br>All resistances <bl>+20%</bl><br>Immune to <i=insane><br><gl>-Every round-</gl><br>Shuffle <crd=sad,2> into each hero deck.</color>
+customMelancholyRare=<gl>All monsters gain:</gl><br>Max HP <bl>+45</bl><br>All resistances <bl>+25%</bl><br>Immune to <i=insane><br><gl>-Every round-</gl><br>Shuffle <crd=sad,2> into each hero deck.</color>
+
+customFungalOutbreak=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br><i=mind> resistance <bl>+15%</bl><br><gl>-Every round-</gl><br>Place <crd=magicmushroom,1> at the top of a random hero's deck.
+customFungalOutbreakA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=mind> resistance <bl>+20%</bl><br><gl>-Every round-</gl><br>Place <crd=magicmushroom,1> at the top of a random hero's deck.
+customFungalOutbreakB=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=mind> resistance <bl>+25%</bl><br><gl>-Every round-</gl><br>Place <crd=magicmushroom,1> at the top of a random hero's deck.
+customFungalOutbreakRare=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><i=mind> resistance <bl>+30%</bl><br><gl>-Every round-</gl><br>Place <crd=magicmushroom,1> at the top of a random hero's deck.
+
+customEmpower=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br><gl>-Every round-</gl><br>Gain <bl>3</bl><i=powerful>
+customEmpowerA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><gl>-Every round-</gl><br>Gain <bl>3</bl><i=powerful>
+customEmpowerB=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><gl>-Every round-</gl><br>Gain <bl>4</bl><i=powerful>
+customEmpowerRare=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><gl>-Every round-</gl><br>Gain <bl>4</bl><i=powerful>
+
+customPoisonFields=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>Immune to <i=poison><br><gl>-Every round-</gl><br>All heroes suffer <rd>3<rd><i=poison>
+customPoisonFieldsA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>Immune to <i=poison><br><gl>-Every round-</gl><br>All heroes suffer <rd>5<rd><i=poison>
+customPoisonFieldsB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br>Immune to <i=poison><br><gl>-Every round-</gl><br>All heroes suffer <rd>7<rd><i=poison>
+customPoisonFieldsRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br>Immune to <i=poison><br><gl>-Every round-</gl><br>All heroes suffer <rd>9<rd><i=poison>
+
+customPacifism=<gl>All monsters gain:</gl><br><i=slashing><i=blunt><i=piercing><br>Resistances <bl>+15%</bl><br><gl>-Every two rounds-</gl><br>All heroes suffer <rd>1</rd><i=disarm></size>
+customPacifismA=<gl>All monsters gain:</gl><br><i=slashing><i=blunt><i=piercing><br>Resistances <bl>+20%</bl><br><gl>-Every two rounds-</gl><br>All heroes suffer <rd>1</rd><i=disarm></size>
+customPacifismB=<gl>All monsters gain:</gl><br><i=slashing><i=blunt><i=piercing><br>Resistances <bl>+25%</bl><br><gl>-Every two rounds-</gl><br>All heroes suffer <rd>1</rd><i=disarm></size>
+customPacifismRare=<gl>All monsters gain:</gl><br><i=slashing><i=blunt><i=piercing><br>Resistances <bl>+30%</bl><br><gl>-Every two rounds-</gl><br>All heroes suffer <rd>1</rd><i=disarm></size>
+
+customIronclad=<gl>All monsters gain:</gl><br>All resistances <bl>+10%</bl><br><gl>-Combat start-</gl><br>Gain<br><bl>14</bl><i=block> <bl>2</bl><i=reinforce>
+customIroncladA=<gl>All monsters gain:</gl><br>All resistances <bl>+15%</bl><br><gl>-Combat start-</gl><br>Gain<br><bl>20</bl><i=block> <bl>3</bl><i=reinforce>
+customIroncladB=<gl>All monsters gain:</gl><br>All resistances <bl>+20%</bl><br><gl>-Combat start-</gl><br>Gain<br><bl>26</bl><i=block> <bl>3</bl><i=reinforce>
+customIroncladRare=<gl>All monsters gain:</gl><br>All resistances <bl>+25%</bl><br><gl>-Combat start-</gl><br>Gain<br><bl>32</bl><i=block> <bl>4</bl><i=reinforce>
+
+customVigorous=<gl>All monsters gain:</gl><br>Max HP <bl>+30</bl><br>All damage <bl>+1</bl>
+customVigorousA=<gl>All monsters gain:</gl><br>Max HP <bl>+45</bl><br>All damage <bl>+1</bl>
+customVigorousB=<gl>All monsters gain:</gl><br>Max HP <bl>+60</bl><br>All damage <bl>+2</bl>
+customVigorousRare=<gl>All monsters gain:</gl><br>Max HP <bl>+75</bl><br>All damage <bl>+2</bl>
+
+customUpwind=<gl>All monsters gain:</gl><br>Speed <bl>+3</bl><br>All resistances <bl>+5%</bl><br><gl>-Combat start-</gl><br>All heroes suffer <bl>2</bl><i=slow>
+customUpwindA=<gl>All monsters gain:</gl><br>Speed <bl>+3</bl><br>All resistances <bl>+10%</bl><br><gl>-Combat start-</gl><br>All heroes suffer <bl>3</bl><i=slow>
+customUpwindB=<gl>All monsters gain:</gl><br>Speed <bl>+4</bl><br>All resistances <bl>+15%</bl><br><gl>-Combat start-</gl><br>All heroes suffer <bl>3</bl><i=slow>
+customUpwindRare=<gl>All monsters gain:</gl><br>Speed <bl>+5</bl><br>All resistances <bl>+20%</bl><br><gl>-Combat start-</gl><br>All heroes suffer <bl>4</bl><i=slow>
+
+customSacredGround=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br><i=holy> resistance <bl>+15%</bl><br><gl>-Combat start-</gl><br>All heroes suffer <bl>7</bl><i=sanctify>
+customSacredGroundA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=holy> resistance <bl>+20%</bl><br><gl>-Combat start-</gl><br>All heroes suffer <bl>11</bl><i=sanctify>
+customSacredGroundB=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=holy> resistance <bl>+25%</bl><br><gl>-Combat start-</gl><br>All heroes suffer <bl>15</bl><i=sanctify>
+customSacredGroundRare=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><i=holy> resistance <bl>+30%</bl><br><gl>-Combat start-</gl><br>All heroes suffer <bl>19</bl><i=sanctify>
+
+customHypotermia=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br><i=cold> resistance <bl>+15%</bl><br><gl>When a hero plays a card,</gl> suffers <rd>2</rd><i=chill>
+customHypotermiaA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=cold> resistance <bl>+20%</bl><br><gl>When a hero plays a card,</gl> suffers <rd>3</rd><i=chill>
+customHypotermiaB=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=cold> resistance <bl>+25%</bl><br><gl>When a hero plays a card,</gl> suffers <rd>4</rd><i=chill>
+customHypotermiaRare=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><i=cold> resistance <bl>+30%</bl><br><gl>When a hero plays a card,</gl> suffers <rd>5</rd><i=chill>
+
+customBacklash=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>All resistances <bl>+5%</bl><br><gl>When a hero plays a "Spell",</gl> suffers <rd>3</rd><i=dark> <rd>2</rd><i=insane>
+customBacklashA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>All resistances <bl>+10%</bl><br><gl>When a hero plays a "Spell",</gl> suffers <rd>4</rd><i=dark> <rd>2</rd><i=insane>
+customBacklashB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br>All resistances <bl>+15%</bl><br><gl>When a hero plays a "Spell",</gl> suffers <rd>4</rd><i=dark> <rd>3</rd><i=insane>
+customBacklashRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br>All resistances <bl>+20%</bl><br><gl>When a hero plays a "Spell",</gl> suffers <rd>5</rd><i=dark> <rd>3</rd><i=insane>
+
+customSubZero=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>Immune to <i=chill><i=slow><br><gl>-Every two rounds-</gl><br>Add <crd=freezecorruption,1> to all monsters.
+customSubZeroA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>Immune to <i=chill><i=slow><br><gl>-Every two rounds-</gl><br>Add <crd=freezecorruption,1> to all monsters.
+customSubZeroB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br>Immune to <i=chill><i=slow><br><gl>-Every two rounds-</gl><br>Add <crd=freezecorruption,1> to all monsters.
+customSubZeroRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br>Immune to <i=chill><i=slow><br><gl>-Every two rounds-</gl><br>Add <crd=freezecorruption,1> to all monsters.
+
+customRevenge=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>Immune to <i=bleed><br><gl>When a hero plays an "Attack",</gl> all monsters gain <bl>3</bl><i=fury>
+customRevengeA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>Immune to <i=bleed><br><gl>When a hero plays an "Attack",</gl> all monsters gain <bl>4</bl><i=fury>
+customRevengeB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br>Immune to <i=bleed><br><gl>When a hero plays an "Attack",</gl> all monsters gain <bl>5</bl><i=fury>
+customRevengeRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br>Immune to <i=bleed><br><gl>When a hero plays an "Attack",</gl> all monsters gain <bl>6</bl><i=fury>
+
+customBurningWeapons=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br><i=fire> resistance <bl>+15%</bl><br><gl>When a monster deals damage,</gl> it applies <rd>1</rd><i=burn>
+customBurningWeaponsA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=fire> resistance <bl>+20%</bl><br><gl>When a monster deals damage,</gl> it applies <rd>2</rd><i=burn>
+customBurningWeaponsB=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=fire> resistance <bl>+25%</bl><br><gl>When a monster deals damage,</gl> it applies <rd>3</rd><i=burn>
+customBurningWeaponsRare=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><i=fire> resistance <bl>+30%</bl><br><gl>When a monster deals damage,</gl> it applies <rd>4</rd><i=burn>
+
+customPutrefaction=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>Immune to <i=dark><i=decay><br><gl>When a monster deals damage,</gl> it applies <rd>2</rd><i=dark><rd>1</rd><i=decay>
+customPutrefactionA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>Immune to <i=dark><i=decay><br><gl>When a monster deals damage,</gl> it applies <rd>3</rd><i=dark><rd>1</rd><i=decay>
+customPutrefactionB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br>Immune to <i=dark><i=decay><br><gl>When a monster deals damage,</gl> it applies <rd>3</rd><i=dark><rd>2</rd><i=decay>
+customPutrefactionRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br>Immune to <i=dark><i=decay><br><gl>When a monster deals damage,</gl> it applies <rd>4</rd><i=dark><rd>2</rd><i=decay>
+
+customHexproof=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br>All damage <bl>+2</bl><br><gl>-Every round-</gl><br>Gain <bl>5</bl><i=buffer>
+customHexproofA=<gl>All monsters gain:</gl><br>Max HP <bl>+20</bl><br>All damage <bl>+2</bl><br><gl>-Every round-</gl><br>Gain <bl>6</bl><i=buffer>
+customHexproofB=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br>All damage <bl>+3</bl><br><gl>-Every round-</gl><br>Gain <bl>7</bl><i=buffer>
+customHexproofRare=<gl>All monsters gain:</gl><br>Max HP <bl>+30</bl><br>All damage <bl>+4</bl><br><gl>-Every round-</gl><br>Gain <bl>8</bl><i=buffer>
+
+customHeavyWeaponry=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br>Immune to <i=vulnerable><br><gl>When a monster deals damage,</gl> it applies <rd>1</rd><i=vulnerable><rd>1</rd><i=slow>
+customHeavyWeaponryA=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br>Immune to <i=vulnerable><br><gl>When a monster deals damage,</gl> it applies <rd>2</rd><i=vulnerable><rd>1</rd><i=slow>
+customHeavyWeaponryB=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br>Immune to <i=vulnerable><br><gl>When a monster deals damage,</gl> it applies <rd>2</rd><i=vulnerable><rd>2</rd><i=slow>
+customHeavyWeaponryRare=<gl>All monsters gain:</gl><br>All damage <bl>+5</bl><br>Immune to <i=vulnerable><br><gl>When a monster deals damage,</gl> it applies <rd>2</rd><i=vulnerable><rd>2</rd><i=slow>
+
+customThornProliferation=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br>All damage <bl>+2</bl><br><gl>When a hero plays a card,</gl> a random monster gains <rd>1</rd><i=thorns>
+customThornProliferationA=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br>All damage <bl>+2</bl><br><gl>When a hero plays a card,</gl> a random monster gains <rd>2</rd><i=thorns>
+customThornProliferationB=<gl>All monsters gain:</gl><br>Max HP <bl>+35</bl><br>All damage <bl>+3</bl><br><gl>When a hero plays a card,</gl> a random monster gains <rd>2</rd><i=thorns>
+customThornProliferationRare=<gl>All monsters gain:</gl><br>Max HP <bl>+45</bl><br>All damage <bl>+4</bl><br><gl>When a hero plays a card,</gl> a random monster gains <rd>3</rd><i=thorns>
+
+innate=Innate
+vanish=Vanish
+frail=Frail
+mitigate=Mitigate
+stanzai=Stanza I
+stanzaii=Stanza II
+stanzaiii=Stanza III
+chain=Chain
+dispel=Dispel
+jump(bonus%)=Jump X (bonus%)
+overcharge=Overcharge
+overchargeAcronym=OC
+purge=Purge
+repeat=Repeat X
+repeatupto=Repeat up to X
+bless=Bless
+block=Block
+buffer=Buffer
+courage=Courage
+energize=Energize
+evasion=Evasion
+fast=Fast
+fortify=Fortify
+fury=Fury
+haste=Haste
+inspire=Inspire
+insulate=Insulate
+invulnerable=Invulnerable
+powerful=Powerful
+regeneration=Regeneration
+reinforce=Reinforce
+sharp=Sharp
+shield=Shield
+stanza=Stanza
+stealth=Stealth
+taunt=Taunt
+thorns=Thorns
+vitality=Vitality
+bleed=Bleed
+burn=Burn
+chill=Chill
+crack=Crack
+dark=Dark
+daze=Daze
+decay=Decay
+disarm=Disarm
+doom=Doom
+fatigue=Fatigue
+paralyze=Paralyze
+insane=Insane
+mark=Mark
+poison=Poison
+sanctify=Sanctify
+shackle=Shackle
+sight=Sight
+silence=Silence
+slow=Slow
+spark=Spark
+stress=Stress
+vulnerable=Vulnerable
+weak=Weak
+wet=Wet
+transfer=Transfer
+cards=Cards
+challenge=Challenge
+items=Items
+pet=Pet
+pets=Pets
+petShopWarning=** You can only adopt 1 pet.
+ifUnlockSigils=Unlocking content will reward you with sigil points. Use those points to increase the power of your favorite cards.
+challengeSelection=Challenge card selection
+challengeSelectionIntro=Always try to select packs with the most synergy, and don't forget about the energy cost.
+challengeReroll=Reroll packs
+challengeRound=Round
+challengeRoundPerks=Perks selected
+challengeSelectionPerk=Challenge perk selection
+challengeSelectionPerkIntro=Once you have selected your cards, you must select 4 perks that will be assigned to your hero.
+challengeEnergy=Average energy cost
+rankProgress=Rank {0}
+rankTier=Tier {0}
+rankPointsAvailable=<sprite name=perk>Available points
+rankPointsHowto=A perk is a different kind of bonus that you can assign to your heroes. You will get perk points to distribute at the end of your adventures.
+rankPointsHighest=The number of perk points available for your characters is based on the rank level of your <color=#F1D2A9>highest character</color>. (1 point for each level and max. 36 points)
+rankPerkPoints={0} Perk points
+rankPerkPointsGain=You can assign perk points to heroes when playing a new game.
+rankPerkPress=Press to assign perk
+rankPerkNotEnough=Not enough points
+rankDescription0=Starting item (blue)
+rankDescription1=New card back
+rankDescription2=Starting card (blue)
+rankDescription3=New skin
+rankDescription4=Talent cards (blue)
+rankDescription5=New card back
+rankDescription6=Starting item (yellow)
+rankDescription7=New skin
+rankDescription8=Starting card (yellow)
+rankDescription9=New card back
+rankDescription10=Talent cards (yellow)
+rankLevelDescrition=Each character will gain points after an adventure. With each new rank, the character will unlock new features.
+cantModifyPerkMP=You can't modify perk points during a loaded game.
+perkNone=This character doesn't have any active perks for this game
+perkAuraDescription=Charges that you apply {0}
+skinRequiredRankLevel=To use this skin, your character must be:<br> Rank Level {0}
+requiredAdventureComplete=You need to complete the Adventure mode.
+requiredAdventureLevel=You need to complete the Adventure mode in Madness level {0}.
+requiredObeliskComplete=You need to complete the Obelisk Challenge mode.
+requiredObeliskLevel=You need to complete the Obelisk Challenge mode in Madness level {0}.
+senenthia=Kingdom of Senenthia
+velkarath=The Velkarath Mountains
+aquarfall=The Aquarfall Marsh
+theHatch=The Hatch
+spiderLair=Spider Lair
+theVoid=The Void
+act0Intro=How did it happen, you ask? It all started during the princess's 16th birthday. Everyone was in the courtyard, anxiously waiting for her. She was going to be inducted into the Wizard Academy, an honor reserved for those who show aptitude (and she really had a gift).<br><br>Suddenly, an explosion erupted from the princess's chamber, followed by a burst of energy that swept through the kingdom of Senenthia. The royal guards explored every corner of the castle, but found no sign of her or Lord Hanshek, the court magician and advisor to the king.<br><br>Though the king sent soldiers throughout the kingdom, none of them returned. The last thing he heard was that her trail had been lost deep in the Old Forest, near the ancient obelisk that had been dormant for centuries...until now.<br><br>Desperate, the king proclaimed a royal decree and announced that he would reward anyone who brought the princess home safely. The news quickly spread through the kingdom. Many groups of adventurers prepared to venture into the forest and investigate the obelisk to find the princess.<br><br>This is the story of one of those groups.
+act1Intro=The group went across the obelisk and, in an instant, found themselves elsewhere, far away from the Senenthia forest.<br><br>One of the mysteries of the obelisk was revealed: in ancient times, the obelisk had been used as a means of transport, since reaching this land by road would have taken months.<br><br>The group looked for signs that the princess and Lord Hanshek had passed through this place...but with no luck. It didn't seem like anyone had been there in a long time.<br><br>Luckily, on the horizon they saw that there was another obelisk, and it also seemed to be active. Their only hope now was to reach it and try their luck with another destination.
+act2Intro=The group crossed through their second obelisk. Upon arrival, they looked for signs that the princess or Lord Hanshek had been there. This time they found two pairs of footprints leading away from the arrival area, and they appeared to be only a few days old.<br><br>The group was finally on the right track to chase after them, even though they didn't really know where they were going.<br><br>As the group looked towards the horizon, they saw another obelisk. In that moment, the obelisk glowed brightly, the same way that the other two obelisks had when they read the runes.<br><br>They realized that at that moment Lord Hanshek and the princess had just crossed through the obelisk, and if they were fast enough, they would be able to catch them.
+act3Intro=Act 4 Intro (text work in progress)
+actEndGame=Congratulations! You have completed the game on normal difficulty.<br><br>You have unlocked the Madness levels. Now you will be able to increase the difficulty of the game and adapt it to your preferences, such as having random enemies in every fight.<br><br>Also, new corrupted items appear in the madness levels. These items are much more powerful versions of the normal items. Each level of difficulty increases the probability of these items and corrupted cards appearing.<br><br>We hope you enjoyed the game. There is still much more to come! Sincerely, Adam, Javier and Juanjo.
+goldDescription=Gold: Used to buy equipment, remove cards and complete objectives in some events
+dustDescription=Shards: Used to craft and transmute cards
+supplyDescription=Supplies: Used to improve a town's buildings and its services<br>(Max. 500)
+corruptionReward=Corruption reward
+corruptionAltarUpgrade=The party will gain access to an <color=#E0A44E>upgrade altar</color>.
+corruptionGainGold=The party will gain<br><sprite name=gold> {0}  <sprite name=dust> {1} 
+corruptionGainGold2=The party will gain<br><sprite name=gold> {0}  <sprite name=dust> {1}  <sprite name=supply> {2}
+corruptionRemoveCard=Each hero will be able to <color=#E0A44E>remove one card</color> for free from the deck.
+corruptionRemoveCard2=Each hero will be able to <color=#E0A44E>remove two cards</color> for free from the deck.
+corruptionRareShop=The party will gain access to a <color=#E0A44E>rare equipment shop</color>.
+corruptionRareShopDiscount=The party will gain access to a <color=#E0A44E>rare equipment shop</color> (with 30% discount).
+corruptionRandomCardUpgrade=A random basic card <color=#E0A44E>will be upgraded</color> for each hero.
+corruptionHeal20=The party will <color=#34FF46>heal 30%</color> of their Max HP at the end of the combat.
+corruptionHeroFreeCard={0} will get the <color={1}>"{2}"</color> card for free.
+corruptionFreeCardUpgrade=Each hero will get a <color=#E0A44E>free card upgrade</color>.
+corruptionExoticShop=The party will gain access to an <color=#E0A44E>exotic equipment shop</color>.
+corruptionExoticShopDiscount=The party will gain access to an <color=#E0A44E>exotic equipment shop</color> (with 30% discount).
+corruptionIncreasedQuality=Increase the <color=#E0A44E>quality and quantity of card rewards</color> at the end of the combat.
+corruptionRewardScore=(score: +{0})
+corruptionTitle=<sprite name=corruption>Obelisk Corruption
+corruptionDesc=The Obelisk's influence is corrupting the monsters in this area. You can choose to fight them under the effects of corruption to increase the difficulty and gain additional rewards.
+corruptionAccept=Accept the challenge?
+corruptionChoose=Choose one of these rewards
+corruptionSelect=Before accepting the challenge, you have to select one reward.
+townUpgrades=<sprite name=supply> Town upgrades
+
+townUpgrade_1_1=The <c>Common cards</c> available for crafting increased to 2.
+townUpgrade_1_2=The <c>cost of crafting</c> cards is reduced (15% total).
+townUpgrade_1_3=The <c>Uncommon cards</c> available for crafting increased to 2.
+townUpgrade_1_4=<c>Rare cards</c> unlocked to craft in the starting town.
+townUpgrade_1_5=The <c>cost of crafting</c> cards is reduced (30% total).
+townUpgrade_1_6=<c>Epic cards</c> unlocked to craft in the second town.
+
+townUpgrade_2_1=The <c>cost of transforming</c> cards is reduced (25% total).
+townUpgrade_2_2=The <c>cost of upgrading</c> cards is reduced (15% total).
+townUpgrade_2_3=The <c>cost of transforming</c> cards is reduced (50% total).
+townUpgrade_2_4=The <c>cost of upgrading</c> cards is reduced (30% total).
+townUpgrade_2_5=Transforming cards is <c>free</c>.
+townUpgrade_2_6=The <c>cost of upgrading</c> cards is reduced (50% total).
+
+townUpgrade_3_1=Removing cards in the starting town is <c>free</c>.
+townUpgrade_3_2=The cost of <c>curing injuries</c> is reduced (15% total).
+townUpgrade_3_3=The cost of <c>removing cards</c> is reduced (25% total).
+townUpgrade_3_4=The cost of <c>curing injuries</c> is reduced (30% total).
+townUpgrade_3_5=The cost of <c>removing cards</c> is reduced (50% total).
+townUpgrade_3_6=Removing cards in the second town is <c>free</c>.
+
+townUpgrade_4_1=The cost of <c>divination rounds</c> is reduced (10% total).
+townUpgrade_4_2=<c>Basic divination</c> unlocked in the starting town.
+townUpgrade_4_3=The cost of <c>divination rounds</c> is reduced (25% total).
+townUpgrade_4_4=<c>Advanced divination</c> unlocked in the second town.
+townUpgrade_4_5=The cost of <c>divination rounds</c> is reduced (40% total).
+townUpgrade_4_6=<c>Advanced divination</c> unlocked in the starting town.
+
+townUpgrade_5_1=Unlock the ability to <c>reroll items</c> in the town armory.
+townUpgrade_5_2=The <c>cost of items</c> in the town armory is reduced (15% total).
+townUpgrade_5_3=Increased the <c>rarity</c> of the items in the town armory.
+townUpgrade_5_4=The <c>cost of rerolling items</c> in the town armory is reduced (50% total).
+townUpgrade_5_5=The <c>cost of items</c> in the town armory is reduced (30% total).
+townUpgrade_5_6=Increased the <c>rarity</c> of the items in the town armory.
+
+townUpgrade_6_1=<c>Currency retention</c> at the end of a game increased (10% total).
+townUpgrade_6_2=Unlock the <c>pet shop</c> inside the town armory.
+townUpgrade_6_3=<c>Currency retention</c> at the end of a game increased (20% total).
+townUpgrade_6_4=Unlock the <c>caravan node</c> outside the starting town.
+townUpgrade_6_5=<c>Currency retention</c> at the end of a game increased (30% total).
+townUpgrade_6_6=Unlock the ability to <c>sell supplies</c> for gold and shards.
+
+townRequired=<color=#FFF>[Requires]</color>  {0} more supplies spent.
+townAssignWarning=Do you want to buy this upgrade? <color=#AAAAAA>This action cannot be undone.</color>
+rerollButton=Reroll {0}
+rerollButtonCostSP=Reroll cost is increased in each Act. Items already bought will not be shown.
+rerollButtonCostCoop=Total reroll cost is based on the characters you control and is increased in each Act. Items already bought will not be shown.
+rerollLock=Only one reroll is available, in each town, in Madness base level greater than 3
+rerollWarning=(Only one available)
+helpDeck=Draw Pile
+helpCasted=Cast Cards
+saveLoad=<size=+.2><sprite name=nodeDivination></size> Save/Load Deck
+saveLoadReturn=Back to Forge
+saveLoadDes=You can save your current deck or load previously saved ones.
+save=Save
+inputSaveName=Input the name for this deck
+emptySave=<empty slot>
+decks=Decks
+cardsNum=({0} cards)
+savedDecks=Saved decks
+savedDeckDeleteConfirm=Do you want to delete this deck?
+craftDeck=Craft Deck
+craftWillCost=Crafting this deck will cost:
+craftCant=You can't craft this deck.
+craftDeckNeed=In order to craft a saved deck, you will need all cards to be available in the Magic forge.<br><br>If your current deck has an <color=#FFF>Injury, Boon, Special or Corrupted Card</color>, <color=#F00>you will not be able</color> to save/load.
+conflictPlayerChooses={0} chooses
+conflictPlayerWins={0} wins
+ngDescription=Harder game mode intended for high-ranked Heroes and upgraded towns. In this mode, corrupted cards drop more frequently.
+needSteam=You need to be connected to Steam to play Across the Obelisk.
+desyncError=<b><color=#f88>Oops, something went wrong!</color></b><br><size=-6>The game is out of sync between players. To avoid making the problem worse, the combat will be restarted.</size>
+reloadForced=<color=#FFD78F>Do you want to reload the combat?</color><br><size=-6>If you want to reload the combat because of a bug or desync, please join our Discord and report it so we can fix it!</size>
+comingSoon=Coming Soon
+onlyMasterCorruption=Only the master of the game can accept a corruption and its rewards.
+onlyMasterButton=Only the master can press the button.
+easy=Easy
+average=Average
+hard=Hard
+extreme=Extreme
+corruption=Corruption
+versionMismatch=The game cannot begin. Game versions are different.
+selectSupplyAmount=Select the amount of supplies that you want to sell.
+selectGiveGold=Select the amount of gold that you want to give to this player.
+selectGiveShards=Select the amount of shards that you want to give to this player.
+giveGold=Give gold
+giveShards=Give shards
+giveGoldShards=Give gold & shards
+general=General
+audio=Audio
+gameplay=Gameplay
+screenResolution=Screen resolution
+fullScreen=Full screen
+vsync=VSync
+resetTutorial=Reset tutorial
+resetTutorialDes=This will let you watch the tutorial descriptions again.
+resetSavedData=Reset account data
+resetSavedDataDes=WARNING: Activating this option will remove all your account progress, saved games, unlocked cards, etc.
+masterVolume=Master volume
+musicVolume=Music volume
+effectsVolume=Effects volume
+ambienceVolume=Ambience volume
+backgroundMute=Mute on background
+backgroundMuteDes=Disable sound when the game is not in front
+fastMode=Fast mode
+fastModeDes=Combat speed is increased
+autoEnd=Auto end
+autoEndDes=If you don't have any available card to cast, the game will pass your turn
+showEffects=Show effects
+showEffectsDes=Show card and character effects during combat
+extendedDescriptions=Extended descriptions
+extendedDescriptionsDes=Show additional information for auras and curses
+acBackground=Status effect background
+acBackgroundDes=Display a background behind character status effect icons
+restartCombatOption=Restart combat on defeat
+restartCombatOptionDes=Display an option to restart the combat when defeated
+enableShakeOption=Enable screen shake
+enableShakeOptionDes=The screen will shake when high damage happens in combat
+currentScore=Current score
+synchronizing=[Synchronizing]
+madnessChallengeSelect=Select the Madness level that you want for the next game (each level will also be modified by the previous ones).
+madnessChallengeBeat=Beating the Obelisk Challenge in a madness level will grant you access to the next one.
+madness=Madness
+madnessNumber=Madness {0}
+madnessTitle=Madness difficulty selection
+madnessDescription=Select the Madness difficulty that you want for the game. Additionally, you can activate different corruptors that will modify the game and increase the Madness level.
+madnessBasicInfo=This is the basic difficulty level of the game. Complete the adventure to unlock additional levels and corruptors.<br><br>In order to be able to select a new difficulty, you must complete the previous one, whether playing solo or in a cooperative game.
+madnessBasic=<i=taunt> Monsters are stronger and their abilities have been improved.
+madnessObeliskLevel5=<sprite name=perk> Heroes' starting cards, starting items and enchantments are upgraded to blue.<br><sprite name=energy> All Heroes +1 starting energy
+madnessObeliskLevel8=<sprite name=perk> Heroes' starting cards, starting items and enchantments are upgraded to yellow.<br><sprite name=energy> All Heroes +1 starting energy<br><sprite name=dice> Random seed
+madnessPerAct=<color=#AAA><size=-.5>(per act, respectively)</size></color>
+madnessExhaust=<i=vanish> Exhaust
+madnessSeriousInjuries=<i=bleed> Serious injuries
+madnessSeriousInjuriesDesc=Injury cards are stronger
+madnessDeadlyInjuries=<i=bleed> Deadly injuries
+madnessDeadlyInjuriesDesc=Injury cards are deadly
+madnessNoChest=<i=nodeShop> No Chest Rewards, {0} gold/shards per hero
+madnessMonsterHp=<i=heart> Monster Max HP: {0} {1}
+madnessMonsterSpeed=<i=fast> Monster Speed: {0} {1}
+madnessMonsterDamageTaken=<i=mitigate> Monster damage taken: {0} {1}
+madnessMonsterDamageDone=<i=slashing> Monster damage done: {0} {1}
+madnessHeroSpeed=<i=slow> Hero Speed: {0}
+madnessHeroEnergy=<i=energy> Hero starting energy: {0}
+madnessInfrequent=<i=cards> Reduced uncommon cards available by 1
+madnessDisabledCards=<i=nodeUpgrade> Rare cards disabled in the starting town. Epic cards disabled in the second town.
+madnessRandomSeed=<i=dice> Forced random seed
+madnessHarderEvents=<i=events> Harder event rolls
+madnessReroll=<i=jewelry> Town armory item rerolls limited to 1
+madnessDoubledeath=<i=weak> When a hero dies, they receive two "Death's Door"
+madnessNoSupplyExchange=<i=supply> Supply exchange is not available
+madnessCorruptor0=<i=doom> Impending Doom
+madnessCorruptor0Help=In combat, when the performance bonus reaches "Underwhelming", all heroes suffer "Doom", which kills them in 2 rounds.
+madnessCorruptor1=<i=decay> Decadence
+madnessCorruptor1Help=All heroes have -3 to healing done and <nobr>-25%</nobr> to healing received
+madnessCorruptor2=<i=bless> Restricted Power
+madnessCorruptor2Help=Auras/Curses have Max. charges:<line-height=120%><br></line-height>( 50 ) Bless, Mark, Regeneration, Sharp, Stealth, Vitality, Wet<line-height=120%><br></line-height>( 100 ) Crack, Fury, Insane, Sanctify, Sight<line-height=120%><br></line-height>( 200 ) Bleed, Burn, Chill, Poison, Shield, Spark, Thorns<line-height=120%><br></line-height>( 400 ) Block
+madnessCorruptor3=<i=insulate> Resistant Monsters
+madnessCorruptor3Help=All monsters gain an additional +15% to all resistances
+madnessCorruptor4=<i=gold> Poverty
+madnessCorruptor4Help=The acquisition of gold and shards is reduced by 50%. Items with extra discounts are not available.
+madnessCorruptor5=<i=powerful> Overcharged Monsters
+madnessCorruptor5Help=All monster cards have +1 to the charges of their auras or curses.
+madnessCorruptor6=<i=dice> Random Combats
+madnessCorruptor6Help=Non-event combats are randomly generated. In each random combat, a "Champion" monster appears with a randomly assigned immunity.
+madnessCorruptor7=<i=bossIcon> Despair
+madnessCorruptor7Help=Enemies have the most powerful cards and enchantments available to them.<line-height=120%><br></line-height>This corruptor increases the difficulty considerably.
+championMonster=Champion monster
+help=Help
+madnessCorruptors=Corruptors available
+madnessLevel=Madness level
+cardCommon=Common card
+cardUncommon=Uncommon card
+cardRare=Rare card
+cardEpic=Epic card
+cardMythic=Mythic card
+common=Common
+uncommon=Uncommon
+rare=Rare
+epic=Epic
+mythic=Mythic
+eventCommon=Common event
+eventUncommon=Uncommon event
+eventRare=Rare event
+eventEpic=Epic event
+eventMythic=Mythic event
+eventCharacter=Character event
+cardPlayerDescription=Even the smallest decisions forge your destiny. Pay attention: <color=#C59559>after these cards have been shuffled</color>, you will have to choose one.
+chooseWisely=Choose wisely
+madnessHelp=<align=left><color=#FFF>Each madness difficulty level adds new modifiers that make the game more difficult overall. Some of these are explained in more detail below.</color><br><br><u>Exhaust:</u> When you use a card that causes the deck to cycle, you suffer Exhaust, causing any card that comes into your hand during that turn to cost additional energy.<br><br><u>Serious and Deadly injuries:</u> The injuries you receive when you fail an event are replaced by more powerful versions.<br><br><u>No Chest Rewards:</u> Reward chests from previous games cannot be picked up, and starting gold/shards are limited. With this modifier you do not get reward chests at the end of a game.<br><br><u>Harder event rolls:</u> The number needed to pass a roll in an event is harder to obtain, higher or lower depending on the event.</align>
+exhaust=<u>Exhaust:</u> When you use a card that causes the deck to cycle, you suffer Exhaust, causing any card that comes into your hand during that turn to cost additional energy.
+madnessOptionsText=MADNESS {0} BONUS LIST
+replyProbability=Success probability:{0}
+masterSelected=Selected by master of the game
+notStack=Does not stack
+notStackPlain=Charges do not stack
+searchCards=Search cards
+perksNotChallenge=Perks and rank improvements are not available in the <color=#F1D2A9>Obelisk and Weekly challenge</color> modes.
+rightClickCard=Right click <br><size=-.7>(more info)
+traitAddCard=Add a copy of the card "{0}" to your deck
+addCardInstructions=Choose the cards to add
+lowerObelisk=Lower Obelisk
+upperObelisk=Upper Obelisk
+finalObelisk=Final Obelisk
+notOriginalPlayers=The current players are not the same players that created the game, therefore, <color=#F3404E>the final score will not be reflected</color> on the scoreboards.
+basicDifficulty=Basic Difficulty
+basicDifficultyDesc=This is the basic difficulty of this game mode.
+dangerousMonsters=Dangerous Monsters
+dangerousMonstersDesc=Monster damage done: +3
+decadence=Decadence
+decadenceDesc=All heroes have -3 to healing done, <nobr>-25%</nobr> to healing received and Vitality heals only 50% of the max HP gained
+doubleBoons=Double Boons
+doubleBoonsDesc=When you receive a boon, receive an additional copy.
+doubleInjuries=Double Injuries
+doubleInjuriesDesc=When you receive an injury, receive an additional copy.
+elementalMonsters=Elemental Monsters
+elementalMonstersDesc=Monster Fire / Cold / Lightning resistances: +10%
+energizedHeroes=Energized Heroes
+energizedHeroesDesc=Hero starting energy: +1
+exhaustion=Exhaustion
+exhaustionDesc=When you use a card that causes the deck to shuffle, suffer Exhaust.
+fastHeroes=Fast Heroes
+fastHeroesDesc=Hero Speed: +1
+fastMonsters=Fast Monsters
+fastMonstersDesc=Monster Speed: +1
+gargantuanMonsters=Gargantuan Monsters
+gargantuanMonstersDesc=Monster Max HP: +50%
+hardcoreBosses=Hardcore Bosses
+hardcoreBossesDesc=Bosses are harder, and their abilities have been improved.
+impedingDoom=Impending Doom
+impedingDoomDesc=All heroes suffer 2 "Doom" when the performance reaches underwhelming.
+ironcladMonsters=Ironclad Monsters
+ironcladMonstersDesc=Monster damage taken: -3
+lucky=Lucky
+luckyDesc=Event rolls are easier.
+ludicrousSpeed=Ludicrous Speed
+ludicrousSpeedDesc=Monster Speed: +3
+moreChampions=More Champions
+moreChampionsDesc=More champions appear on the map.
+overchargedMonsters=Overcharged Monsters
+overchargedMonstersDesc=All monster cards have +1 to their charges.
+poverty=Poverty
+povertyDesc=The acquisition of gold and shards is reduced by 30%.
+prosperity=Prosperity
+prosperityDesc=The acquisition of gold and shards is increased by 50%.
+punyMonsters=Puny Monsters
+punyMonstersDesc=Monster Max HP: -25%
+reinforcedMonsters=Reinforced Monsters
+reinforcedMonstersDesc=Monster Slashing / Blunt / Piercing resistances: +10%
+resistantMonsters=Resistant Monsters
+resistantMonstersDesc=All monster resistances: +15%
+restrictedPower=Restricted Power
+restrictedPowerDesc=Auras and curses have a cap on the Max. number of stacks.
+slowHeroes=Slow Heroes
+slowHeroesDesc=Hero Speed: -1
+slowMonsters=Slow Monsters
+slowMonstersDesc=Monster Speed: -1
+smartHeroes=Smart Heroes
+smartHeroesDesc=Experience earned is increased by 50%.
+spiritualMonsters=Spiritual Monsters
+spiritualMonstersDesc=Monster Holy / Shadow / Mind resistances: +10%
+tougherMonsters=Tougher Monsters
+tougherMonstersDesc=Monsters are stronger and their abilities have been improved.
+unlucky=Unlucky
+unluckyDesc=Event rolls are harder.
+vigorousMonsters=Vigorous Monsters
+vigorousMonstersDesc=Monster Max HP: +25%
+vulnerableMonsters=Vulnerable Monsters
+vulnerableMonstersDesc=All monster resistances: -15%
+wealthyHeroes=Wealthy Heroes
+wealthyHeroesDesc=Each hero begins with an additional 300 gold/shards.
+weeklyModificatorsDescription=These are the game modifications that are active for this Challenge.
+incompatible=Incompatible with this version
+weeklyModifiers=Weekly Modifiers
+weeklyModifiersStyled=<size=+.2><size=+.3><color=#FFF>Weekly</color></size><br> Modifiers</size>
+openCharacterStats=<sprite name=sheet> Open character stats
+corruptionSacrifyDust=Pay {0} additional shards for +{1}% chance
+corruptionSacrifySpeed=Sacrifice {0} Speed for an additional +{1}% chance
+corruptionSacrifyHealth=Sacrifice {0} Max. health points for an additional +{1}% chance
+corruptionSacrifyResistance=Sacrifice {0} points in all resistances for an additional +{1}% chance
+cardCorruptionTitle=Card Corruption
+cardCorruptionDesc=You can corrupt a card of your choice and transform it into the most powerful version.<br><br>However, this is not an easy task, and failing will damage the card instead.<br><br>You can also increase the chance of success with sacrifices.
+cardCorruptionChance=Chance
+deathScreenTitle={0} has been crushed!
+deathScreenBody=If your team survives, you will resurrect with {0}% of your total life, but remember that nothing comes without a price, and you will carry this stigma for the rest of your life.
+crusader=crusader
+devotee=devotee
+friar=friar
+healer=healer
+heretic=heretic
+justicar=justicar
+mentalist=mentalist
+protector=protector
+saint=saint
+seer=seer
+shaman=shaman
+zealot=zealot
+aeromancer=aeromancer
+cryomancer=cryomancer
+enchanter=enchanter
+glacier=glacier
+inferno=inferno
+scribe=scribe
+shadowmancer=shadowmancer
+sorcerer=sorcerer
+tempest=tempest
+witch=witch
+wizard=wizard
+bard=bard
+bowman=bowman
+explorer=explorer
+fencer=fencer
+hunter=hunter
+ninja=ninja
+plague=plague
+poisoner=poisoner
+reaver=reaver
+rogue=rogue
+scoundrel=scoundrel
+skald=skald
+sniper=sniper
+avenger=avenger
+axman=axman
+brawler=brawler
+commander=commander
+defender=defender
+destroyer=destroyer
+gladiator=gladiator
+guardian=guardian
+marauder=marauder
+swordman=swordman
+warlord=warlord
+pyromancer=pyromancer
+ranger=ranger
+elementalist=elementalist
+berserker=berserker
+sentinel=sentinel
+mercenary=mercenary
+voodoo_witch=voodoowitch
+prophet=prophet
+priest=priest
+cleric=cleric
+assassin=assassin
+loremaster=loremaster
+voodoowitch=Voodoo Witch
+warden=Warden
+archer=Archer
+deathknight=Death Knight
+inquisitor=Inquisitor
+minstrel=Minstrel
+paladin=Paladin
+valkyrie=Valkyrie
+warlock=Warlock
+AdventureCompletedCardback=Adventure
+AdventureCompletedMadnessCardback=Madness
+ObeliskCompletedCardback=Obelisk
+ObeliskCompletedMadnessCardback=Dementia
+preturnEffects=Begin turn effects
+postturnEffects=End turn effects
+characterDies=Character dies
+followTheLeader=Follow the leader
+followTheLeaderDesc=You will automatically choose the same options as the master of the game (map nodes, event replies, etc.).
+magnusPet1=Stop petting me... I have a reputation to uphold!
+magnusPet2=...Grrr... Mmm... Can you do it again?
+conflictTitle=<sprite name=cardrandom>Conflict Resolution
+conflictDescription=When there is a disagreement between players, a conflict resolution roll is required to decide who wins. In the event of multiple ties (3), the winner will be chosen at random.
+conflictButton0=Lowest card
+conflictButton1=Closest card to 2
+conflictButton2=Highest card
+noEnergy=No Energy
+physical=Physical
+elemental=Elemental
+mystical=Mystical
+confirmPerks=Confirm perk assignment
+cardsStealAuras=Steal {0} auras
+steal=Steal
+previousRequired=Previous node required
+usedPoints=Used points {0}
+export=Export
+import=Import
+pressForCopyPaste=Share code for this perk configuration
+pressForImportTree=Write or paste the import code
+importPerkTreeNotPoints=You don't have enough total perk points ({0}) to import this perk configuration.
+invalidImportTalentTreeCode=This code is not valid to import a perk configuration.
+importedTree=Perk configuration imported
+wantOverwritePerks=Do you want to load this slot and overwrite your perk configuration?
+loadThisPerkConf=Load this perk configuration ({0} used points)
+wantExitPerks=You have unsaved changes. Do you want to close the perk configuration window?
+itemInitialCurrencySingle=Initial gold {0}
+itemInitialShardsSingle=Initial shards {0}
+default=Default
+perkTreeDescription=You can modify your perks before the game begins and in the first town (with some restrictions).<br><br>You can also save and load different perk configurations before the game begins.
+saveSlots=Save Slots
+inputConfigSaveName=Input the name for this configuration
+savedConfigDeleteConfirm=Do you want to delete this configuration?
+savedConfigCant=Save slots can only be used before the game begins.
+perkBarDescription=All your heroes will gain perk points by playing the game.
+chooseOnePerk=Choose <u>one</u> of the following perks.
+slashing=Slashing /// this must have the same translate as "slash"
+customMainperkPoison2b=Poison on enemies also reduces Shadow resistance by 0.3% per charge.
+customMainperkPoison2c=Poison on enemies deals 50% more damage but loses all charges at the end of the turn.
+customMainperkDark2b=Dark on this hero explodes at 38 charges.
+customMainperkDark2c=Dark explosion on enemies deals 35% more damage.
+customMainperkDark2d=Dark charges on enemies also explode at the end of the turn.
+customMainperkThorns1a=Thorns on heroes do not lose charges when hit.
+customMainperkThorns1b=Thorns on this hero instead deal Holy damage.
+customMainperkThorns1c=Thorns on this hero apply 50% of its charges as Poison to the attacker, instead of doing damage.
+customMainperkSanctify2b=Sanctify on enemies reduces Holy resistance by 1.5% per charge.
+customMainperkSanctify2c=When this hero hits a monster with Sanctify, it also deals 25% of the target's Sanctify charges as Holy damage.
+customMainperkChill2b=Chill on enemies also reduces Blunt resistance by 0.3% per charge.
+customMainperkChill2c=Chill on enemies instead reduces Speed by 1 per 4 charges.
+customMainperkChill2d=Chill on this hero instead reduces Speed by 1 per 8 charges and also grants 1 Reinforce per 14 charges at the end of the turn. 
+customMainperkBurn2b=Burn on this hero also increases Speed by 1 per 8 charges and instead reduces Fire resistance by 0.3% per charge.
+customMainperkBurn2c=Burn deals Cold damage.
+customMainperkVulnerable0b=Maximum charges of Vulnerable on enemies increased to 12 and reduced by 1 at the end of the turn.
+customMainperkVulnerable0c=Vulnerable on enemies only reduces Slashing, Piercing and Blunt resistances, but the reduction is increased to 8% per charge.
+customMainperkDecay1b=Decay on enemies instead decreases healing received by 75% and cannot be dispelled unless specified.
+customMainperkDecay1c=Decay on enemies also reduces Shadow resistance by 8% per charge.
+customMainperkTaunt1b=Taunt on this hero also increases Slashing, Piercing and Blunt resistances by 10% per charge.
+customMainperkTaunt1c=Taunt on this hero also increases Fire, Cold and Lightning resistances by 10% per charge.
+customMainperkTaunt1d=Taunt on this hero also increases Holy, Shadow and Mind resistances by 10% per charge.
+customMainperkBless1a=Bless on this hero increases damage done by 1.5 per charge but no longer increases healing received.
+customMainperkBless1b=Bless on this hero also increases healing done by 1% per charge.
+customMainperkBless1c=Bless on heroes also increases Holy resistance by 0.5% per charge and does not lose charges at the end of the turn.
+customMainperkVitality1a=Vitality on this hero instead increases Max HP by 8 per charge.
+customMainperkVitality1b=When this hero gains Vitality, removes Bleed.
+customMainperkVitality1c=Vitality on heroes also increases Mind resistance by 0.5% per charge and does not lose charges at the start of the turn.
+customMainperkRegeneration1a=Regeneration on this hero also heals the heroes at their side.
+customMainperkRegeneration1b=Regeneration on heroes also increases healing received by 1% per charge.
+customMainperkRegeneration1c=Regeneration on heroes also increases Shadow resistance by 0.5% per charge and does not lose charges at the start of the turn.
+customMainperkPowerful1b=Powerful maximum charges on this hero increased to 12. Charges are reduced by 1 at the end of the turn.
+customMainperkPowerful1c=Powerful on this hero increases damage and healing done by 10% per charge and loses all charges at the end of the turn.
+customMainperkEnergy2a=When this hero plays a card that costs 6 Energy or more, refund 1 Energy.
+customMainperkEnergy2b=On round 2, this hero gains 1 Energy at the start of the turn.
+customMainperkEnergy2c=On round 4, this hero gains 2 Energy at the start of the turn.
+customMainperkMark1a=This hero is immune to Mark.
+customMainperkMark1b=Mark on enemies does not lose charges when preventing Stealth and at the end of the turn.
+customMainperkMark1c=Mark on enemies also reduces Slashing resistance by 0.3% per charge.
+customMainperkSight1b=Sight on enemies also removes Stealth when applied and cannot be dispelled unless specified.
+customMainperkSight1c=Charges that you apply +3. Sight on enemies cannot be prevented by Buffer or immunity to Sight, but loses all charges at the end of the turn.  
+customMainperkStealth1a=Stealth on heroes increases damage and healing done by 25% per charge.
+customMainperkStealth1b=Stealth on this hero does not lose charges at the start of the turn.
+customMainperkStealth1c=Stealth on heroes also increases all resistances by 5% per charge.
+customMainperkFury1b=Fury on this hero instead increases damage by 1% per charge but no longer applies Bleed at the end of the turn.
+customMainperkFury1c=Fury on this hero instead increases damage by 5% per charge. Bleed on this hero deals 50% more damage and cannot be prevented by Buffer or immunity to Bleed. 
+customMainperkBleed2b=Bleed on this hero instead deals its damage at the end of the turn but cannot be dispelled unless specified. Fury maximum charges on this hero are 25. 
+customMainperkBleed2c=Charges that you apply +2. Bleed on enemies instead deals damage at the end of the turn but cannot be prevented by Buffer or immunity to Bleed.
+customMainperkSharp1a=Sharp on this hero instead increases Slashing damage by 1.5 per charge but no longer increases Piercing damage.
+customMainperkSharp1b=Sharp on this hero instead increases Piercing damage by 1.5 per charge but no longer increases Slashing damage.
+customMainperkSharp1c=Sharp on heroes does not lose charges at the end of the turn and cannot be purged unless specified.
+customMainperkStanza0a=This hero gains Stanza I on their first turn.
+customMainperkStanza0b=Stanza I on this hero also gives 1 Inspire at the end of the turn.
+customMainperkStanza0c=This hero can't gain Stanza III.
+customMainperkReinforce0=This hero gains 1 Reinforce on their first turn. Reinforce on this hero cannot be purged unless specified.
+customMainperkReinforce1b=Reinforce on heroes instead increases the Slashing, Piercing and Blunt resistances by 35%.
+customMainperkReinforce1c=Reinforce on this hero can stack and instead increases the Slashing, Piercing and Blunt resistances by 7% per charge. Maximum charges are 8. 
+customMainperkInsulate0=This hero gains 1 Insulate on their first turn. Insulate on this hero cannot be purged unless specified.
+customMainperkInsulate1b=Insulate on heroes instead increases the Fire, Cold and Lightning resistances by 35%.
+customMainperkInsulate1c=Insulate on this hero can stack and instead increases the Fire, Cold and Lightning resistances by 7% per charge. Maximum charges are 8. 
+customMainperkCourage0=This hero gains 1 Courage on their first turn. Courage on this hero cannot be purged unless specified.
+customMainperkCourage1b=Courage on heroes instead increases the Holy, Shadow and Mind resistances by 35%.
+customMainperkCourage1c=Courage on this hero can stack and instead increases the Holy, Shadow and Mind resistances by 7% per charge. Maximum charges are 8.
+customMainperkInspire0a=This hero gains 1 Inspire at the start of the combat.
+customMainperkInspire0b=Inspire maximum charges on this hero are 1, but Inspire draws 2 cards at the start of the turn.
+customMainperkInspire0c=This hero is immune to Stress.
+customMainperkInsane2b=Insane on enemies also reduces their Max HP by 2 per charge.
+customMainperkInsane2c=Insane on heroes instead reduces Mind resistance by 0.5 per charge and damage done by 0.3% per charge.
+customMainperkWet1a=Wet on enemies also increases the Cold damage taken by 1 per charge.
+customMainperkWet1b=Wet on enemies also reduces Lightning resistance by 1% per charge and does not lose charges at the end of the turn.
+customMainperkWet1c=Wet on heroes instead prevents 3 Burn charges per charge and does not lose charges at the end of the turn.
+customMainperkFortify1a=Fortify on this hero can stack and increases Blunt and Fire damage by 1 per charge. Maximum charges are 50. 
+customMainperkFortify1b=This hero gains 1 Fortify on their first turn. Fortify on this hero cannot be purged unless specified.
+customMainperkFortify1c=Fortify on heroes also grants 7 Block per charge at the end of the round.
+customMainperkSpark2b=Spark on enemies also applies 30% of its charges as Spark charges to the sides, at the start of the turn. 
+customMainperkSpark2c=Spark on enemies also applies 1 Slow per 14 charges at the end of the turn.
+customMainperkCrack2b=Crack on enemies also reduces the Block charges gained by 0.5 per charge.
+customMainperkCrack2c=Crack on enemies also applies 1 Vulnerable per 14 charges at the end of the turn.
+emptySave=[empty slot]
+madnessCorruptor1Help=All heroes have -3 to healing done, <nobr>-25%</nobr> to healing received and Vitality provides only 50% of the max HP gained
+faeborg=Faeborg Forest
+act1Intro=The group went across the obelisk and in an instant found themselves in another place, far from Senenthia's forest.<br><br>One of the mysteries of the obelisk has just been revealed to them... In ancient times, the obelisk was used as a means of transportation, since reaching this land by road would take several days.<br><br>They searched for signs that the princess or Lord Hanshek had been there, and found two pairs of footprints leading away from the area.<br><br>The group looked to the horizon and saw that there was another obelisk in this area that was active. Undoubtedly, the princess and Lord Hanshek had something to do with the activation of the obelisks. The next destination of the group was clear. 
+act2Intro=The group crossed through their second obelisk, and as before, found a more recent trail of the princess and Lord Hanshek.<br><br>They remembered that the queen of Senenthia, known for her great magical powers, also disappeared a few years ago. Could the princess have inherited those powers? And is Lord Hanshek taking advantage of this?<br><br>They had too many questions to turn back now. They must reach Lord Hanshek at all costs.<br><br>In this area, they were not surprised to see that there was also an active obelisk on the horizon.<br><br>This time the group had the feeling that if they hurried, they might be able to catch up.
+act3Intro=Although they had become accustomed to crossing the obelisks, this time the sensation had been somewhat different.<br><br>When they looked around, they were astonished. Endless clouds and ancient ruins floated around them... Where were they? Certainly, this place could not be reached on foot or in any normal way.<br><br>The group could feel how intense the magic was, and without a doubt, this had to be Lord Hanshek's goal with the obelisks.<br><br>On the horizon they saw a large staircase rising above the clouds... That was where the group had to go to find out what Lord Hanshek was up to.
+actEndGame=Congratulations! You have completed the game on normal difficulty.<br><br>You have unlocked the Madness levels. Now you will be able to increase the difficulty of the game and adapt it to your preferences, such as having random enemies in every fight.<br><br>Also, new corrupted items appear in the madness levels. These items are much more powerful versions of the normal items. Each level of difficulty increases the probability of these items and corrupted cards appearing.<br><br>We hope you enjoyed the game. There is still much more to come! Sincerely, Adam, Javier and Juanjo.
+cinematicIntro0=It all started on the princess's 16th birthday.
+cinematicIntro1=When suddenly, a burst of energy erupted from the princess's chamber
+cinematicIntro2=and swept through the kingdom of Senenthia.
+cinematicIntro3=The royal guards explored every corner of the castle, 
+cinematicIntro4=but found no sign of her or Lord Hanshek, the court magician.
+cinematicIntro5=The king sent soldiers all over the kingdom, but none of them returned.
+cinematicIntro6=The trail of the princess was lost deep in the Old Forest, 
+cinematicIntro7=near the ancient obelisk that had been dormant for centuries...
+cinematicIntro8=Desperate, the king proclaimed a royal decree.
+cinematicIntro9=Announcing a reward for whoever brought the princess home safely. 
+cinematicIntro10=The news spread quickly throughout the kingdom.
+cinematicIntro11=Many groups of adventurers prepared to investigate the obelisk.
+cinematicIntro12=This is the story of one of those groups.
+cinematicOutro0=This is the story of how they saved me...
+selectLanguage=Language
+selectLanguageChanged=Language changes will take effect the next time you launch the game.
+steamErrorConnect=Failed to initialize Steam API. Please restart Steam and try again.
+immortal=Immortal
+emotes=Emotes
+selectTheTarget=Select the target
+credits=Credits
+gameDeveloper=Game developer
+gameDesigner=Game designer
+gameArtDirector=Art director
+gameLeadArtist=Lead artist
+gameSeniorArtis=Senior artist
+effects=Effects
+paradoxPublishing=Paradox Publishing
+collaborations=Collaborations
+music=Music
+sound=Sound
+art=Art
+iconArt=Icon art
+specialThanks=Special thanks
+huntress=huntress
+reaper=reaper
+creditsAnd={0} and to everyone who helps us every day to make a better game.
+partyMembersWithPerk=Party members with this perk:
+multiplayerNotWorkLowerVersion=Multiplayer game doesn't work for versions lower than {0}
+pleaseUpdate=Please update your game
+crackedVersion=Somebody is using a cracked version of the game. The game will close now.
+lastPlayedCard=Last played card
+restart=Restart
+restartInfo=You will rollback all the selections done and the process will begin again
+restartClient={0} asks for a rollback. Do you want to restart this screen?
+exhaust=<u>Exhaust:</u> When you cause your deck to reshuffle during your turn, you suffer Exhaust, causing any new cards added to your hand from your draw pile, discard pile, or vanish pile to cost 1 more until end of turn. Exhaust can stack, cannot be dispelled, and is removed at the end of the turn.
+madnessCorruptor3Help=All monsters gain an additional +10% to all resistances. Maximum Vulnerable charges on monsters are 6.
+resistantMonstersDesc=All monsters gain an additional +10% to all resistances. Maximum Vulnerable charges on monsters are 6.
+customMainperkPowerful1b=Powerful maximum charges on this hero increased by 2. Charges are instead reduced by 1 at the end of the turn.
+customMainperkVulnerable0b=Maximum charges of Vulnerable on enemies increased by 1. Charges are instead reduced by 1 at the end of the turn.
+customMainperkReinforce0=This hero gains 1 Reinforce at the start of the combat. Reinforce on this hero cannot be purged unless specified.
+customMainperkInsulate0=This hero gains 1 Insulate at the start of the combat. Insulate on this hero cannot be purged unless specified.
+customMainperkCourage0=This hero gains 1 Courage at the start of the combat. Courage on this hero cannot be purged unless specified.
+customMainperkBurn2c=Burn on enemies deals Cold damage and reduces Fire and Cold resistance by 0.3% per charge.
+customMainperkBurn2d=Burn on enemies deals double damage if the target have two or less curses (Burn included)
+customMainperkSharp1d=Sharp on heroes also increases the Shadow damage by 1 per charge.
+customMainperkStanza0a=Stanza on heroes increases all damage instead of only Mind damage.
+abortMultiplayerPlayer=One player was disconnected. When the player rejoins, you will be able to continue the game from the last save point.
+abortMultiplayerMaster=The master of the game disconnected. The game will close now. You can recreate a new game and load from the last save point.
+errorSteamAuth=There was a Steam authentication failure. Please try again later.
+lfmRoom=Looking for members
+joinOldGame=You seem to have disconnected from the game. Want to try to rejoin your old game?
+darkestnight=Darkest Night
+darkestnightDesc=Dark charges also explode at the end of the turn.
+challengeSpooky=Spooky Night
+customSpookyNight=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br><gl>-Every round-</gl><br>All heroes suffer <rd>3</rd><i=dark>
+customSugarRush=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><gl>-Every round-</gl><br>Shuffle <crd=candy,1> into each hero deck.
+customDeathGrip=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><gl>-Every turn-</gl><br>Apply <rd>1<i=shackle> 3</rd><i=dark> to a random character.
+itemApplyRandom=Apply {0} to a random character
+recommended=Recommended
+cardsReduceAura=Reduce aura charges by {0}%
+cardsIncreaseCurse=Increase curse charges by {0}%
+cardsIncreaseAura=Increase aura charges by {0}%
+transmute=Transmute
+transform=Transform
+upgrade=Upgrade
+cardbackDLCSpooky=Trick
+cardbackWeeklyHalloween=Treat
+requiredDLC=You need to own the DLC <nobr>"<color=#FFF>{0}</color>"</nobr>
+requiredWeekly=You need to complete the Weekly Challenge <nobr>"<color=#FFF>{0}</color>"</nobr><br><line-height=-20%><br><line-height=100%><size=-3>*Some challenges are only available during special events
+weeklyCardbackReward=Completing the challenge will grant you this cardback.
+customTrickorTreat=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br><gl>-Combat start-</gl><br>Shuffle <crd=trick,1> or <crd=treat,1> at the top of each hero deck.
+minDeckCards=Minimum number of cards in a deck (excluding Boons and Injuries): <size=+1><color=#FFFFFF><n></color>
+profileMenu=Current profile: <size=+5><color=#B0B0B0>{0}</color></size>
+profileCreate=[Create profile]
+challengeThirdFloorReward=Reach the third floor of the challenge to unlock this cardback.
+langCommunity=*Created by the community
+itemCorruptionUpgrade=* When a hero equips the same item twice, the item will transform into its corrupted version.
+
+challengeYlmer=Forest Awakens
+challengeYogger=Threatening Howls
+challengeIgnidoh=Floor Is Lava
+challengeFaeborg=Frozen to the Bone
+challengeTulah=Green Blood
+challengeMinotaur=Wild Champions
+challengeNhir=Pitch Black
+
+sacredthorns=Sacred Thorns
+sacredthornsDesc=Thorns deals Holy damage instead of Piercing.
+extremeburning=Extreme Burning
+extremeburningDesc=Burn deals double damage if the target has two or less curses (Burn included)
+frostfire=Frostfire
+frostfireDesc=Burn deals Cold damage and reduces Fire and Cold resistance by 0.3% per charge.
+intensecold=Intense Cold
+intensecoldDesc=Chill reduces Speed by 1 per 4 charges instead of every 5 charges.
+lethalpoison=Lethal Poison
+lethalpoisonDesc=Poison deals 50% more damage but loses all charges at the end of the turn.
+hemorrhage=Hemorrhage
+hemorrhageDesc=Bleed charges +2. Bleed deals damage at the end of the turn but cannot be prevented by Buffer or immunity to Bleed.
+containedfury=Contained Fury
+containedfuryDesc=Fury increases damage by 2% per charge but no longer applies Bleed at the end of the turn.
+
+customChaoticWind=<gl>All monsters gain:</gl><br>Speed <bl>+1</bl><br><gl>-Every turn-</gl><br>Apply <rd>1<i=fast> 2</rd><i=insane> to a random character.
+customChaoticWindA=<gl>All monsters gain:</gl><br>Speed <bl>+1</bl><br><gl>-Every turn-</gl><br>Apply <rd>2<i=fast> 2</rd><i=insane> to a random character.
+customChaoticWindB=<gl>All monsters gain:</gl><br>Speed <bl>+2</bl><br><gl>-Every turn-</gl><br>Apply <rd>2<i=fast> 2</rd><i=insane> to a random character.
+customChaoticWindRare=<gl>All monsters gain:</gl><br>Speed <bl>+3</bl><br><gl>-Every turn-</gl><br>Apply <rd>2<i=fast> 3</rd><i=insane> to a random character.
+
+customLivingForest=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br>All damage <bl>+2</bl><br><gl>-Every turn-</gl><br>A random monster gains <rd>2<i=thorns> 2</rd><i=regeneration>
+customLivingForestA=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br>All damage <bl>+2</bl><br><gl>-Every turn-</gl><br>A random monster gains <rd>3<i=thorns> 3</rd><i=regeneration>
+customLivingForestB=<gl>All monsters gain:</gl><br>Max HP <bl>+35</bl><br>All damage <bl>+3</bl><br><gl>-Every turn-</gl><br>A random monster gains <rd>4<i=thorns> 4</rd><i=regeneration>
+customLivingForestRare=<gl>All monsters gain:</gl><br>Max HP <bl>+45</bl><br>All damage <bl>+4</bl><br><gl>-Every turn-</gl><br>A random monster gains <rd>5<i=thorns> 4</rd><i=regeneration>
+
+customStarryNight=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br><gl>-Every turn-</gl><br>Deal <rd>4<i=holy></rd> and apply <rd>1<i=sanctify> 1</rd><i=burn> to a random hero.
+customStarryNightA=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br><gl>-Every turn-</gl><br>Deal <rd>5<i=holy></rd> and apply <rd>2<i=sanctify> 2</rd><i=burn> to a random hero.
+customStarryNightB=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br><gl>-Every turn-</gl><br>Deal <rd>6<i=holy></rd> and apply <rd>3<i=sanctify> 3</rd><i=burn> to a random hero.
+customStarryNightRare=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br><gl>-Every turn-</gl><br>Deal <rd>7<i=holy></rd> and apply <rd>4<i=sanctify> 4</rd><i=burn> to a random hero.
+
+customRoseGarden=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br><gl>-Combat start-</gl><br>Gain <bl>5</bl><i=thorns>
+customRoseGardenA=<gl>All monsters gain:</gl><br>Max HP <bl>+20</bl><br><gl>-Combat start-</gl><br>Gain <bl>9</bl><i=thorns>
+customRoseGardenB=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Gain <bl>12</bl><i=thorns>
+customRoseGardenRare=<gl>All monsters gain:</gl><br>Max HP <bl>+30</bl><br><gl>-Combat start-</gl><br>Gain <bl>16</bl><i=thorns>
+
+customBombLottery=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br><gl>-Every round-</gl><br>Shuffle <crd=bomb,1> into a random hero's deck.
+customBombLotteryA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><gl>-Every round-</gl><br>Shuffle <crd=bomb,1> into a random hero's deck.
+customBombLotteryB=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br><gl>-Every round-</gl><br>Shuffle <crd=bomb,1> into a random hero's deck.
+customBombLotteryRare=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><gl>-Every round-</gl><br>Shuffle <crd=bomb,1> into a random hero's deck.
+
+customAshySky=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>All resistances <bl>+5%</bl><br><gl>-Every round-</gl><br>Add <crd=ashstorm,1> to a random monster.
+customAshySkyA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>All resistances <bl>+10%</bl><br><gl>-Every round-</gl><br>Add <crd=ashstorm,1> to a random monster.
+customAshySkyB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br>All resistances <bl>+15%</bl><br><gl>-Every round-</gl><br>Add <crd=ashstorm,1> to a random monster.
+customAshySkyRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br>All resistances <bl>+20%</bl><br><gl>-Every round-</gl><br>Add <crd=ashstorm,1> to a random monster.
+
+customSnowfall=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br><gl>-Combat start-</gl><br>Place <crd=coldhands,1> at the top of each hero's deck and apply <rd>5<i=chill>
+customSnowfallA=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Place <crd=coldhands,1> at the top of each hero's deck and apply <rd>8<i=chill>
+customSnowfallB=<gl>All monsters gain:</gl><br>Max HP <bl>+35</bl><br><gl>-Combat start-</gl><br>Place <crd=coldhands,1> at the top of each hero's deck and apply <rd>10<i=chill>
+customSnowfallRare=<gl>All monsters gain:</gl><br>Max HP <bl>+45</bl><br><gl>-Combat start-</gl><br>Place <crd=coldhands,1> at the top of each hero's deck and apply <rd>12<i=chill>
+
+customMeatFeast=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><gl>-Every round-</gl><br>Add <crd=premiummeato,1>, <crd=meato,1> or <crd=spoiledmeato,1> to all monsters.
+
+customMeatBag=<act>[First turn]</act><br>Shuffle <crd=premiummeat,1>, <crd=meat,1> or <crd=spoiledmeat,1> into your deck.
+customMeatBagA=Max HP <bl>+3</bl><br><act>[First turn]</act><br>Shuffle <crd=premiummeat,1>, <crd=meat,1> or <crd=spoiledmeat,1> into your deck.
+customMeatBagB=Max HP <bl>+6</bl><br><act>[First turn]</act><br>Shuffle <crd=premiummeat,1>, <crd=meat,1> or <crd=spoiledmeat,1> into your deck.
+
+customForestAllies=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=forestallya,1>, <crd=forestallyb,1> or <crd=forestallyc,1> to all monsters.
+
+customLavaBursts=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br><gl>-Every turn-</gl><br>Deal <rd>5<i=fire></rd> and apply <rd>2<i=burn></rd> to a random hero.
+
+customColdFront=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br><gl>-Every turn-</gl><br>Deal <rd>5<i=cold></rd> and apply <rd>2<i=chill></rd> to a random hero.
+
+customLonelyBlob=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br><gl>-Combat start-</gl><br>Add a random <i=card><color=#5E3016>Blob</color> to a random monster.
+customLonelyBlobA=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add a random <i=card><color=#5E3016>Blob</color> to a random monster.
+customLonelyBlobB=<gl>All monsters gain:</gl><br>Max HP <bl>+35</bl><br><gl>-Combat start-</gl><br>Add a random <i=card><color=#5E3016>Blob</color> to a random monster.
+customLonelyBlobRare=<gl>All monsters gain:</gl><br>Max HP <bl>+45</bl><br><gl>-Combat start-</gl><br>Add a random <i=card><color=#5E3016>Blob</color> to a random monster.
+
+customColorfulPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+15</bl><br><gl>-Combat start-</gl><br>Add a random <i=card><color=#5E3016>Blob</color> to all monsters.
+customColorfulPuddleA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add a random <i=card><color=#5E3016>Blob</color> to all monsters.
+customColorfulPuddleB=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>Max HP <bl>+35</bl><br><gl>-Combat start-</gl><br>Add a random <i=card><color=#5E3016>Blob</color> to all monsters.
+customColorfulPuddleRare=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br>Max HP <bl>+45</bl><br><gl>-Combat start-</gl><br>Add a random <i=card><color=#5E3016>Blob</color> to all monsters.
+
+customBloodPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=bloodblob,1> to all monsters.
+
+customChaosPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=chaosblob,1> to all monsters.
+
+customDarkPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=darkblob,1> to all monsters.
+
+customElectricPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=electricblob,1> to all monsters.
+
+customHolyPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=holyblob,1> to all monsters.
+
+customIcyPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=icyblob,1> to all monsters.
+
+customLavaPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=lavablob,1> to all monsters.
+
+customMetalPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=metalblob,1> to all monsters.
+
+customToxicPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=toxicblob,1> to all monsters.
+
+customWaterPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=waterblob,1> to all monsters.
+
+customGainPerHero=Gain {0} per hero.
+customGainPerHeroAnd=Gain {0} and {1} per hero.
+itemEveryRoundRound=Every Round
+menuLog=Combat Log
+youMustSelectHero=You must select the following hero:<br><color=#FFC555>{0}</color>
+townTutorial=Town tutorial
+townTutorialStep0=Go inside the Magic forge and buy a "{0}" card for {1}.
+townTutorialStep1=Go to the Altar and upgrade the "{0}" card for {1}.
+townTutorialStep2=Go inside the Armory and buy a "{0}" for {1}.
+tutorialTownNeedComplete=You need to complete the Town Tutorial
+tutorialTownCraftTitle=Craft cards
+tutorialTownCraft=Once a card has been unlocked by looting it, you will be able to craft it for your heroes.<line-height=160%><br></line-height><color=#FFC555>Craft the "{0}" card with {1}</color>.
+tutorialTownCraftDoneTitle=Craft cards
+tutorialTownCraftDone=You will unlock new cards during your adventures. Now go to the Altar for the next tutorial step.
+tutorialTownUpgradeTitle=Transform cards
+tutorialTownUpgrade=Paying an amount of shards, you will be able to upgrade your cards into more powerful versions.<line-height=160%><br></line-height><color=#FFC555>Upgrade the card "{0}" from {1}</color>.
+tutorialTownUpgradeDoneTitle=Transform cards
+tutorialTownUpgradeDone=Bear in mind that the cost of upgrading a card will be based on the rarity of the card. Now go to the Armory to finish the town tutorial.
+tutorialTownLootTitle=Buy items
+tutorialTownLoot=In the towns and shops scattered around the world, you can buy items for your heroes that will improve their stats and performance.<line-height=160%><br></line-height><color=#FFC555>Buy the "{0}" with {1}</color>.
+tutorialTownLootDoneTitle=Buy items
+tutorialTownLootDone=Congratulations! You have finished the town tutorial and are ready to begin your adventure!
+terrainCondition=Terrain condition
+terrainConditionDesc=A special type of terrain where heroes start combat with different conditions:
+heavyRain=Heavy Rain
+extremeHeat=Extreme Heat
+freezingCold=Freezing Cold
+holyGround=Holy Ground
+graveyard=Graveyard
+poisonousAir=Poisonous Air
+frozenSewers=The Frozen Sewers
+blackForge=The Black Forge
+wolfWars=The Wolf Wars
+wolfWarsIntro=Several years after marrying the King of Senenthia, Queen Amelia initiated a campaign to strengthen ties and welcome all the different races of the kingdom under one banner.<br><br>Most of the races, always harassed and hunted by werewolves, accepted the proposal with hope. However, Chieftain Gorio wanted to continue ruling the northeastern part of the forest and claimed the right to hunt freely for his werewolves.<br><br>After months of talks between Queen Amelia and Chieftain Gorio, the latter broke off the negotiations. Gorio declared that his werewolves would not be tamed and that anyone who entered the forest would be his prey.<br><br>Moved by the plea of all the races of the kingdom and hoping to protect them, Queen Amelia decided to launch an offensive to overthrow Gorio.
+bandit=Bandit
+food=Food
+roadmapHomeText=<tit>Welcome, everyone!</tit>We have just released version 1.1 of the game, with a lot of free content such as two new sub-zones, new items, and new features like the combat log.<br><br>Also, we have released our first story DLC, The Wolf Wars, which includes a new hero, skins, etc. We hope you like it!<br><br><tit>What's next?</tit>We'll work on the heropedia with a little twist. And we will focus on the first big DLC, a big zone for acts 2 and 3 full of new enemies, items, events, and new heroes!
+requiredEvent=You need to complete the event "{0}"
+
+challengeHydra=Dangerous Waters
+icydeluge=Icy Deluge
+icydelugeDesc=Wet charges +1. Wet also increases the Cold damage taken by 1 per charge.
+
+cardbackDangerousWaters=rptd_challengeHydra
+cardbackFloorIsLava=rptd_challengeIgnidoh
+cardbackForestAwakens=rptd_challengeYlmer
+cardbackFrozenToTheBone=rptd_challengeFaeborg
+cardbackGreenBlood=rptd_challengeTulah
+cardbackPitchBlack=rptd_challengeNhir
+cardbackThreateningHowls=rptd_challengeYogger
+cardbackWildChampions=rptd_challengeMinotaur
+
+////////////////////////// new no enviado /////
+dlcAcronymForCharSelection=DLC
+
+cardbackTitle0=Character
+cardbackTitle1=General
+cardbackTitle2=Others
+
+customHeavenlyArmaments=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br>Immune to <i=sanctify><br><gl>-Every round-</gl><br>Gain <bl>2</bl><i=bless><bl>2</bl><i=regeneration><bl>2</bl><i=vitality><bl>1</bl><i=fast>
+customHeavenlyArmamentsA=<gl>All monsters gain:</gl><br>Max HP <bl>+30</bl><br>Immune to <i=sanctify><br><gl>-Every round-</gl><br>Gain <bl>3</bl><i=bless><bl>3</bl><i=regeneration><bl>2</bl><i=vitality><bl>1</bl><i=fast>
+customHeavenlyArmamentsB=<gl>All monsters gain:</gl><br>Max HP <bl>+45</bl><br>Immune to <i=sanctify><br><gl>-Every round-</gl><br>Gain <bl>4</bl><i=bless><bl>3</bl><i=regeneration><bl>3</bl><i=vitality><bl>2</bl><i=fast>
+customHeavenlyArmamentsRare=<gl>All monsters gain:</gl><br>Max HP <bl>+60</bl><br>Immune to <i=sanctify><br><gl>-Every round-</gl><br>Gain <bl>4</bl><i=bless><bl>4</bl><i=regeneration><bl>3</bl><i=vitality><bl>2</bl><i=fast>
+
+itemRecoverLowestHPHero=lowest HP hero recovers {0} HP
+
+customButchersTable=Max HP <bl>+10</bl><br><gl>[Every turn]</gl><br>Put <crd=premiummeat,1>, <crd=meat,1> or <crd=spoiledmeat,1> into your hand.
+customButchersTableRare=Max HP <bl>+20</bl><br><gl>[Every turn]</gl><br>Put <crd=premiummeat,1>, <crd=meat,1> or <crd=bloodsausage,1> into your hand.
+
+customMainperkFortify1c=Fortify on heroes loses all charges at the end of the round and also grants 10 Block per removed charge.
+requiredDLCandQuest=You need to own the DLC <nobr>"<color=#FFF>{0}</color>"</nobr> and complete an event
+characterSkin=Character Skin
+playerDontHaveDLC=This player doesn't have the DLC <nobr>"<color=#FFF>{0}</color>"</nobr>
+enableKeysOption=Activate keyboard shortcuts in combat//Show key shortcuts in combat.
+enableKeysOptionDes=Shortcut numbers will also be shown during combat//This option will also be activated if you use any shortcut key during combat.
+
+consoleDraw=<color=#AAA>Draws cards ({0})</color> {1} // 0 is the number of cards and 1 is a list of auras
+consoleCardToHand={0} <color=#AAA>puts into hand</color> // {0} is character name
+consoleCardToTopDeck={0} <color=#AAA>places into top deck</color> // {0} is character name
+consoleCardToBottomDeck={0} <color=#AAA>places into bottom deck</color> // {0} is character name
+consoleCardToRandomDeck={0} <color=#AAA>shuffles into deck</color> // {0} is character name
+consoleCardToDiscard={0} <color=#AAA>discards</color>
+consoleCardToVanish={0} <color=#AAA>moves to vanish</color> // {0} is character name
+consoleCardModification={0} <color=#AAA>modifies card</color> // {0} is character name
+consoleCorruptionActivated=Corruption activated
+consoleItemActivated=Item activated
+consoleTraitActivated=Trait activated
+consoleCharacterCasted={0} <color=#AAA>casted</color> // {0} is character name
+consoleBeginTurn=<b>{0}</b> <link={1}><color=#B7789E><u>Begin turn</u></color></link> // {0} is character name
+consoleEndTurn=<b>{0}</b> <link={1}><color=#B7789E><u>End turn</u></color></link> // {0} is character name
+consoleCombatStatus=Combat status
+
+yoggerPet1=Who do you think I am? Magnus?
+yoggerPet2=How dare you! I turn you into minced meat!
