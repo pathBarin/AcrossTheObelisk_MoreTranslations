@@ -16,7 +16,6 @@ namespace MoreTranslations
     {
         private static Dictionary<string, Dictionary<string, string>> TextStrings;
         private static Dictionary<string, Dictionary<string, string>> TextKeynotes;
-
         private static TMP_Dropdown languagesDropdown = null;
         private static string selectedLanguage = null;
         private static List<String> languages = new List<String>();
