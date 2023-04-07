@@ -4,7 +4,11 @@ With this mod you can easily create custom translations for the game without hav
 
 **How to install?**
 
-This mod requires the [BepInEx](https://docs.bepinex.dev) plugin.
+This mod requires the [BepInEx AcrossTheObelisk](https://across-the-obelisk.thunderstore.io/package/BepInEx/BepInExPack_AcrossTheObelisk/) plugin.
+
+* Install from [Thunderstore](https://across-the-obelisk.thunderstore.io/) Mod Manager
+
+    or
 
 * Download the folder **MoreTranslations_DontTouchFranky** from this repository and place it in the **BepInEx/plugins** folder.
 
