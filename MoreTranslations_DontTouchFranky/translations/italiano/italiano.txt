@@ -276,44 +276,46 @@ lastRunsRewardsDes=Ogni gioco premiera' la tua performance con oro e sfere.<br><
 lastRunsRewardsStack=Puoi impilare fino a 3 casse.
 communityRewards=Premi della comunita'
 expiresInHoursMinutes=Scade tra {0} ora(e) {1} minuto(i)
-expiresInMinutes=Expires in {0} minute(s)
-divinationCards=Zingarian cart
-divinationCardsButtonDes=Pay gold to the beautiful Zingara and get a divination round.
-divinationCardsDes=If you have enough money, the Zingara will grant you a divination card round.<br><br>In a multiplayer game, everyone will benefit from this divination round.<br><br>The higher the cost of a divination round, the higher the chance to obtain better cards.
-divinationT0=Fast Divination
-divinationT1=Basic Divination
-divinationT2=Advanced Divination
-divinationT3=Premium Divination
-divinationT4=Supreme Divination
-divinationRoundJoin={0} just paid for a round of Card Divination. Press the button to join when you're ready.
-divinationRoundExists=There's already a Card Divination round in process.
-divinationRoundLaunch=Loading Card Divination round...
-sell=Sell
-buyItems=Armory
-buyItemsButtonDes=Buy equipment for your heroes.
-deckPile=Deck of cards
-discardPile=Discard pile
-pressWhenReady=Press the button when you are ready.
-cardsNum=Cards: {0}
-youCanDiscardUpTo=You can discard up to: {0} cards
-youCanVanishUpTo=You can vanish up to: {0} cards
-youCanAdd=You can add: 1 card
-youCanAddPlural=You can add: {0} cards
+
+expiresInMinutes=Scade tra {0} minuto(i)
+divinationCards=Carte di Divinazione Zingare
+divinationCardsButtonDes=Paga oro alla bellissima Zingara e ottieni una sessione di carte di divinazione.
+divinationCardsDes=Se hai abbastanza soldi, la Zingara ti concederà una sessione di carte di divinazione.<br><br>In un gioco multiplayer, tutti beneficeranno di questa sessione di divinazione.<br><br> Più alto è il costo della sessione, maggiore sarà la possibilità di ottenere carte migliori.
+divinationT0=Divinazione Veloce
+divinationT1=Divinazione Base
+divinationT2=Divinazione Avanzata
+divinationT3=Divinazione Premium
+divinationT4=Divinazione Suprema
+divinationRoundJoin={0} ha appena pagato per una sessione di Carte di Divinazione. Premi il pulsante per partecipare quando sei pronto.
+divinationRoundExists=C'è già una sessione di Carte di Divinazione in corso.
+divinationRoundLaunch=Caricamento della sessione di Carte di Divinazione...
+sell=Vendi
+buyItems=Armeria
+buyItemsButtonDes=Compra equipaggiamento per i tuoi eroi.
+deckPile=Mazzo di carte
+discardPile=Pila degli scarti
+pressWhenReady=Premi il pulsante quando sei pronto.
+cardsNum=Carte: {0}
+youCanDiscardUpTo=Puoi scartare fino a: {0} carte
+youCanVanishUpTo=Puoi far sparire fino a: {0} carte
+youCanAdd=Puoi aggiungere: 1 carta
+youCanAddPlural=Puoi aggiungere: {0} carte
 #########
-######### performance bonus
+######### bonus di prestazione
 #########
 roundNumber=Round {0}
-excellent=Excellent
-good=Good
-poor=Poor
-satisfactory=Satisfactory
-underwhelming=Underwhelming
-dreadful=Dreadful
-great=Great
-performanceBonus=Performance bonus
-combatPerformance=Combat Performance
-combatPerformanceDes=Kill your enemies fast and use less rounds in order to get better rewards. Each round counts...
-dreadfulNoReward=Your combat performance was dreadful, hence you are not getting any card rewards.
+excellent=Eccellente
+good=Ottimo
+poor=Scarso
+satisfactory=Soddisfacente
+underwhelming=Deludente
+dreadful=Terribile
+great=Grande
+performanceBonus=Bonus di prestazione
+combatPerformance=Prestazioni in combattimento
+combatPerformanceDes=Uccidi i tuoi nemici velocemente e usa meno round per ottenere migliori ricompense. Ogni round conta...
+dreadfulNoReward=Le tue prestazioni in combattimento sono state terribili, quindi non otterrai alcuna ricompensa in carte.
+
 #########
 ######### ricompense
 #########
