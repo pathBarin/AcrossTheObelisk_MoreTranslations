@@ -107,29 +107,64 @@ namespace MoreTranslations
 
         static void GetTranslationLanguages()
         {
-            // Recupero tutte le cartelle nella cartella translations
-            string path = "BepInEx/plugins/MoreTranslations_DontTouchFranky/translations";
-            if (!Directory.Exists(path))
+            string thisPath = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+
+            // Recupero tutte le cartelle nella cartella translations da questo plugin
+            string path = thisPath + "/translations";
+            if (Directory.Exists(path))
             {
-                Debug.LogError("MoreTranslations: translations folder not found!");
+                string[] foldersArray = Directory.GetDirectories(path);
+
+                List<string> folderNames = new List<string>();
+                for (int i = 0; i < foldersArray.Length; i++)
+                {
+                    String nomeCartella = Path.GetFileName(foldersArray[i]);
+                    if (nomeCartella[0] == '_')
+                    {
+                        continue;
+                    }
+                    folderNames.Add(Path.GetFileName(foldersArray[i]));
+                }
+
+                // Aggiungo le lingue al dizionario
+                foreach (String language in folderNames)
+                {
+                    languages.Add(language);
+                }
                 return;
             }
 
-            string[] foldersArray = Directory.GetDirectories(path);
+            // Se non esiste potrebbe essere che r2modman ha spacchettato tutte le cartelle in un unica cartella (dove si trova il plugin)
+            // Recupero tutti i file di testo
+            string[] filesArray = Directory.GetFiles(thisPath, "*.txt", SearchOption.AllDirectories);
+            /*en_cardsfluff.txt
+            en.txt
+            en_auracurse.txt
+            en_cards.txt
+            italiano_traits.txt
+            italiano.txt
+            italiano_auracurse.txt
+            italiano_cards.txt
+            italiano_cardsfluff.txt
+            */
 
-            List<string> folderNames = new List<string>();
-            for (int i = 0; i < foldersArray.Length; i++)
+            // Creo una lista di lingue
+            List<string> languagesTmp = new List<string>();
+            foreach (String file in filesArray)
             {
-                String nomeCartella = Path.GetFileName(foldersArray[i]);
-                if (nomeCartella[0] == '_')
+                String nomeFile = Path.GetFileName(file);
+                String[] nomeFileSplit = nomeFile.Split('_');
+
+                String lingua = nomeFileSplit[0];
+                lingua = lingua.Replace(".txt", "");
+                if (!languagesTmp.Contains(lingua))
                 {
-                    continue;
+                    languagesTmp.Add(lingua);
                 }
-                folderNames.Add(Path.GetFileName(foldersArray[i]));
             }
 
             // Aggiungo le lingue al dizionario
-            foreach (String language in folderNames)
+            foreach (String language in languagesTmp)
             {
                 languages.Add(language);
             }
@@ -189,68 +224,80 @@ namespace MoreTranslations
         {
             if (selectedLanguage != "")
             {
+                // Controllo se la cartella translations esiste, altrimenti potrebbe essere the r2modman ha spacchettato tutte le cartelle in un unica cartella (dove si trova il plugin)
+                string thisPath = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+                string translationsPath = thisPath + "/translations";
+                if (!Directory.Exists(translationsPath))
+                {
+                    translationsPath = thisPath;
+                }
+                else
+                {
+                    translationsPath += "/" + selectedLanguage;
+                }
+
                 string path = "";
                 string[] lines = null;
                 type = type.ToLower();
                 switch (type)
                 {
                     case "":
-                        path = "BepInEx/plugins/MoreTranslations_DontTouchFranky/translations/" + selectedLanguage + "/" + selectedLanguage + ".txt";
+                        path = translationsPath + "/" + selectedLanguage + ".txt";
                         if (File.Exists(path))
                             lines = File.ReadAllLines(path);
                         break;
                     case "keynotes":
-                        path = "BepInEx/plugins/MoreTranslations_DontTouchFranky/translations/" + selectedLanguage + "/" + selectedLanguage + "_keynotes.txt";
+                        path = translationsPath + "/" + selectedLanguage + "_keynotes.txt";
                         if (File.Exists(path))
                             lines = File.ReadAllLines(path);
                         break;
                     case "traits":
-                        path = "BepInEx/plugins/MoreTranslations_DontTouchFranky/translations/" + selectedLanguage + "/" + selectedLanguage + "_traits.txt";
+                        path = translationsPath + "/" + selectedLanguage + "_traits.txt";
                         if (File.Exists(path))
                             lines = File.ReadAllLines(path);
                         break;
                     case "auracurse":
-                        path = "BepInEx/plugins/MoreTranslations_DontTouchFranky/translations/" + selectedLanguage + "/" + selectedLanguage + "_auracurse.txt";
+                        path = translationsPath + "/" + selectedLanguage + "_auracurse.txt";
                         if (File.Exists(path))
                             lines = File.ReadAllLines(path);
                         break;
                     case "events":
-                        path = "BepInEx/plugins/MoreTranslations_DontTouchFranky/translations/" + selectedLanguage + "/" + selectedLanguage + "_events.txt";
+                        path = translationsPath + "/" + selectedLanguage + "_events.txt";
                         if (File.Exists(path))
                             lines = File.ReadAllLines(path);
                         break;
                     case "nodes":
-                        path = "BepInEx/plugins/MoreTranslations_DontTouchFranky/translations/" + selectedLanguage + "/" + selectedLanguage + "_nodes.txt";
+                        path = translationsPath + "/" + selectedLanguage + "_nodes.txt";
                         if (File.Exists(path))
                             lines = File.ReadAllLines(path);
                         break;
                     case "cards":
-                        path = "BepInEx/plugins/MoreTranslations_DontTouchFranky/translations/" + selectedLanguage + "/" + selectedLanguage + "_cards.txt";
+                        path = translationsPath + "/" + selectedLanguage + "_cards.txt";
                         if (File.Exists(path))
                             lines = File.ReadAllLines(path);
                         break;
                     case "fluff":
-                        path = "BepInEx/plugins/MoreTranslations_DontTouchFranky/translations/" + selectedLanguage + "/" + selectedLanguage + "_cardsfluff.txt";
+                        path = translationsPath + "/" + selectedLanguage + "_cardsfluff.txt";
                         if (File.Exists(path))
                             lines = File.ReadAllLines(path);
                         break;
                     case "class":
-                        path = "BepInEx/plugins/MoreTranslations_DontTouchFranky/translations/" + selectedLanguage + "/" + selectedLanguage + "_class.txt";
+                        path = translationsPath + "/" + selectedLanguage + "_class.txt";
                         if (File.Exists(path))
                             lines = File.ReadAllLines(path);
                         break;
                     case "monsters":
-                        path = "BepInEx/plugins/MoreTranslations_DontTouchFranky/translations/" + selectedLanguage + "/" + selectedLanguage + "_monsters.txt";
+                        path = translationsPath + "/" + selectedLanguage + "_monsters.txt";
                         if (File.Exists(path))
                             lines = File.ReadAllLines(path);
                         break;
                     case "requirements":
-                        path = "BepInEx/plugins/MoreTranslations_DontTouchFranky/translations/" + selectedLanguage + "/" + selectedLanguage + "_requirements.txt";
+                        path = translationsPath + "/" + selectedLanguage + "_requirements.txt";
                         if (File.Exists(path))
                             lines = File.ReadAllLines(path);
                         break;
                     case "tips":
-                        path = "BepInEx/plugins/MoreTranslations_DontTouchFranky/translations/" + selectedLanguage + "/" + selectedLanguage + "_tips.txt";
+                        path = translationsPath + "/" + selectedLanguage + "_tips.txt";
                         if (File.Exists(path))
                             lines = File.ReadAllLines(path);
                         break;

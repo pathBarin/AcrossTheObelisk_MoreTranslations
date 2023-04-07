@@ -12,6 +12,8 @@ This mod requires the [BepInEx AcrossTheObelisk](https://across-the-obelisk.thun
 
 * Download the folder **MoreTranslations_DontTouchFranky** from this repository and place it in the **BepInEx/plugins** folder.
 
+> **Note:** If you install this mod with r2modman, the 'translations' folder may be deleted and every file inside it will be moved in the main folder. The mod will still work and you can create new translations directly in the main folder just by adding .txt files with the name of the language you want to translate.
+
 
 **How to use?**
 
