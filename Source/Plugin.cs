@@ -8,6 +8,7 @@ using BepInEx.Logging;
 using HarmonyLib;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Scripting;
 
 namespace MoreTranslations
 {
@@ -19,6 +20,7 @@ namespace MoreTranslations
         private static TMP_Dropdown languagesDropdown = null;
         private static string selectedLanguage = null;
         private static List<String> languages = new List<String>();
+        private static List<String> tips = new List<String>();
 
         private void Awake()
         {
@@ -135,18 +137,9 @@ namespace MoreTranslations
             }
 
             // Se non esiste potrebbe essere che r2modman ha spacchettato tutte le cartelle in un unica cartella (dove si trova il plugin)
+
             // Recupero tutti i file di testo
             string[] filesArray = Directory.GetFiles(thisPath, "*.txt", SearchOption.AllDirectories);
-            /*en_cardsfluff.txt
-            en.txt
-            en_auracurse.txt
-            en_cards.txt
-            italiano_traits.txt
-            italiano.txt
-            italiano_auracurse.txt
-            italiano_cards.txt
-            italiano_cardsfluff.txt
-            */
 
             // Creo una lista di lingue
             List<string> languagesTmp = new List<string>();
@@ -218,6 +211,15 @@ namespace MoreTranslations
             return true;
         }
 
+        [HarmonyPatch(typeof(Texts), "LoadTranslationText"), HarmonyPostfix]
+        static void LoadTranslationTextPostfix(string type)
+        {
+            if (tips.Count > 0)
+            {
+                Texts.Instance.TipsList.Clear();
+                Texts.Instance.TipsList.AddRange(tips);
+            }
+        }
 
         [HarmonyPatch(typeof(Texts), "LoadTranslationText"), HarmonyPrefix]
         static void LoadTranslationTextPrefix(string type)
@@ -363,6 +365,11 @@ namespace MoreTranslations
                                     TextStrings[selectedLanguage][stringBuilder1.ToString()] = strArray[1];
                                 else
                                     TextStrings[selectedLanguage].Add(stringBuilder1.ToString(), strArray[1]);
+
+                                if (type == "tips")
+                                {
+                                    tips.Add(strArray[1]);
+                                }
 
                                 bool flag = true;
                                 if (type == "")
