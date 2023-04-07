@@ -1,7 +1,7 @@
 c_anthemofhope_name=Inno della Speranza
 c_badaugury_name=Cattivo Augurio
 c_baptism_name=Battesimo
-c_barriera_name=Barriera
+c_barrier_name=Barriera
 c_benediction_name=Benedizione
 c_bindingheal_name=Guarigione vincolante
 c_blackhole_name=Buco Nero
