@@ -29,7 +29,7 @@ maximumAbb=Max.
 sold=Venduto/a
 stats=Statistiche
 perks=Bonus
-skin=Pelli
+skin=Skin
 rank=Grado
 cardback=Retro carte
 combatStats=Statistiche di combattimento
@@ -276,7 +276,6 @@ lastRunsRewardsDes=Ogni gioco premiera' la tua performance con oro e sfere.<br><
 lastRunsRewardsStack=Puoi impilare fino a 3 casse.
 communityRewards=Premi della comunita'
 expiresInHoursMinutes=Scade tra {0} ora(e) {1} minuto(i)
-
 expiresInMinutes=Scade tra {0} minuto(i)
 divinationCards=Carte di Divinazione Zingare
 divinationCardsButtonDes=Paga oro alla bellissima Zingara e ottieni una sessione di carte di divinazione.
@@ -297,7 +296,7 @@ discardPile=Pila degli scarti
 pressWhenReady=Premi il pulsante quando sei pronto.
 cardsNum=Carte: {0}
 youCanDiscardUpTo=Puoi scartare fino a: {0} carte
-youCanVanishUpTo=Puoi far sparire fino a: {0} carte
+youCanVanishUpTo=Puoi bruciare fino a: {0} carte
 youCanAdd=Puoi aggiungere: 1 carta
 youCanAddPlural=Puoi aggiungere: {0} carte
 #########
@@ -315,7 +314,6 @@ performanceBonus=Bonus di prestazione
 combatPerformance=Prestazioni in combattimento
 combatPerformanceDes=Uccidi i tuoi nemici velocemente e usa meno round per ottenere migliori ricompense. Ogni round conta...
 dreadfulNoReward=Le tue prestazioni in combattimento sono state terribili, quindi non otterrai alcuna ricompensa in carte.
-
 #########
 ######### ricompense
 #########
@@ -402,7 +400,7 @@ raceAction=Corsa
 ######### Azioni evento
 #########
 restAction=Riposa
-buryAction=Sepellisci
+buryAction=Seppellisci
 digAction=Scava
 breakAction=Rompi
 betAction=Scommetti
@@ -512,14 +510,14 @@ tutorialTownRewards=Mentre sei in citta', puoi richiedere i premi ottenuti nei g
 tutorialCardsRewardTitle=Carte bloccate
 tutorialCardsReward=Durante le tue avventure, scoprirai nuove carte dopo ogni combattimento. Tutte le carte mostrate saranno sbloccate. Ricorda: sarai in grado di creare solo le carte sbloccate.
 tutorialCharactersTitle=Seleziona la tua squadra.
-tutorialCharacters=Sblocca nuovi personaggi completando missioni durante le tue avventure. Le missioni dei personaggi sono contrassegnate da questa icona  <size=+.5><sprite name=questBegin></size>.
+tutorialCharacters=Sblocca nuovi personaggi completando missioni durante le tue avventure. Le missioni dei personaggi sono contrassegnate da questa icona <size=+.5><sprite name=questBegin></size>.
 tutorialPerksTitle=Vantaggi dei personaggi
 tutorialPerks=Alla fine di un'avventura, tutti i personaggi del tuo gruppo otterranno punti esperienza (ogni livello di rango ti assegnera' punti vantaggio). Puoi spendere questi punti per migliorare i tuoi personaggi.
 tutorialTownCraftTitle=Creazione di carte
 tutorialTownCraft=In ogni citta', potrai creare le carte che hai precedentemente sbloccato per tutti i tuoi eroi. Alcune restrizioni si applicheranno in base ai tuoi aggiornamenti della citta'.
 watchingTutorial=[Attendere prego]<br>Un altro giocatore sta guardando un tutorial.
 castNPCTitle=Carte mostro
-castNPC=Le carte che i mostri stanno per lanciare sono nascoste per impostazione predefinita. L'effetto "sight"  <sprite name=sight> rivelera' queste carte, consentendoti di pianificare i tuoi movimenti in anticipo.
+castNPC=Le carte che i mostri stanno per lanciare sono nascoste per impostazione predefinita. L'effetto "sight" <sprite name=sight> rivelera' queste carte, consentendoti di pianificare i tuoi movimenti in anticipo.
 levelUp=Salire di livello!
 cantLevelUp=Puoi salire di livello solo mentre sei in citta' o sulla schermata della mappa.
 cantGiveGoldDivination=Non puoi dare oro o frammenti mentre c'e' una divinazione in sospeso.
@@ -649,8 +647,8 @@ cardsReduceCurse=Riduci il numero di cariche della maledizione del {0}%
 cardsCast=Lancia la carta {0}
 cardsRepeat=Ripeti {0}
 cardsRepeatUpTo=Ripeti fino a {0}
-cardsRepeatChain=Collega {0}
-cardsRepeatJump=Salta {0}
+cardsRepeatChain=Rimbalza {0} volte
+cardsRepeatJump=Rimbalza {0}
 cardsIgnoreBlock=Ignora il blocco
 cardsTransformInto=Trasforma <nobr>{0} in {1}</nobr>
 cardsTransformIntoAnd=Trasforma <nobr>{0} in {1} e {2}</nobr>
@@ -814,11 +812,11 @@ customLowSelf=-Un ricordo vergognoso che qualcosa non e' andato come previsto-
 customSuccess=-Contro ogni previsione, hai sfidato il destino e hai vinto-
 customTombstone=-R.I.P.-
 
-customSurpriseBox=<size=-.2><color=#3A3A3A>[Inizio combattimento]</color><br></size>Ottieni uno di questi:<br><bl>2</bl><i=veloce>, <bl>2</bl><i=potente>, <bl>2</bl><i=benedizione>,<br><rd>2</rd><i=lento>, <rd>2</rd><i=vulnerabilita'>, <rd>2</rd><i=segno>
-customSurpriseBoxRare=<size=-.2><color=#3A3A3A>[Inizio combattimento]</color><br></size>Ottieni uno di questi:<br><bl>4</bl><i=veloce>, <bl>4</bl><i=potente>, <bl>4</bl><i=benedizione>,<br><rd>4</rd><i=lento>, <rd>4</rd><i=vulnerabilita'>, <rd>4</rd><i=segno>
+customSurpriseBox=<size=-.2><color=#3A3A3A>[Inizio combattimento]</color><br></size>Ottieni uno di questi:<br><bl>2</bl><i=fast>, <bl>2</bl><i=powerful>, <bl>2</bl><i=bless>,<br><rd>2</rd><i=slow>, <rd>2</rd><i=vulnerable>, <rd>2</rd><i=mark>
+customSurpriseBoxRare=<size=-.2><color=#3A3A3A>[Inizio combattimento]</color><br></size>Ottieni uno di questi:<br><bl>4</bl><i=fast>, <bl>4</bl><i=powerful>, <bl>4</bl><i=bless>,<br><rd>4</rd><i=slow>, <rd>4</rd><i=vulnerable>, <rd>4</rd><i=mark>
 
-customSurpriseGiftBox=<size=-.2><color=#3A3A3A>[Inizio combattimento]</color><br></size>Tutti i personaggi guadagnano uno di questi:<br><bl>2</bl><i=veloce>, <bl>2</bl><i=potente>, <bl>2</bl><i=benedizione>,<br><rd>2</rd><i=lento>, <rd>2</rd><i=vulnerabilita'>, <rd>2</rd><i=segno>
-customSurpriseGiftBoxRare=<size=-.2><color=#3A3A3A>[Inizio combattimento]</color><br></size>Tutti i personaggi guadagnano uno di questi:<br><bl>4</bl><i=veloce>, <bl>4</bl><i=potente>, <bl>4</bl><i=benedizione>,<br><rd>4</rd><i=lento>, <rd>4</rd><i=vulnerabilita'>, <rd>4</rd><i=segno>
+customSurpriseGiftBox=<size=-.2><color=#3A3A3A>[Inizio combattimento]</color><br></size>Tutti i personaggi guadagnano uno di questi:<br><bl>2</bl><i=fast>, <bl>2</bl><i=powerful>, <bl>2</bl><i=bless>,<br><rd>2</rd><i=slow>, <rd>2</rd><i=vulnerable>, <rd>2</rd><i=mark>
+customSurpriseGiftBoxRare=<size=-.2><color=#3A3A3A>[Inizio combattimento]</color><br></size>Tutti i personaggi guadagnano uno di questi:<br><bl>4</bl><i=fast>, <bl>4</bl><i=powerful>, <bl>4</bl><i=bless>,<br><rd>4</rd><i=slow>, <rd>4</rd><i=vulnerable>, <rd>4</rd><i=mark>
 
 Ecco la traduzione in italiano dei testi:
 
@@ -939,8 +937,6 @@ customThornProliferationA=<gl>Tutti i mostri ottengono:</gl><br>PV massimi <bl>+
 customThornProliferationB=<gl>Tutti i mostri ottengono:</gl><br>PV massimi <bl>+35</bl><br>Danno totale <bl>+3</bl><br><gl>Quando un eroe gioca una carta,</gl> un mostro casuale ottiene <rd>2</rd><i=thorns>
 customThornProliferationRare=<gl>Tutti i mostri ottengono:</gl><br>PV massimi <bl>+45</bl><br>Danno totale <bl>+4</bl><br><gl>Quando un eroe gioca una carta,</gl> un mostro casuale ottiene <rd>3</rd><i=thorns>
 
-Ecco la traduzione dei testi:
-
 innate=Innato
 vanish=Scomparire
 frail=Debole
@@ -953,19 +949,19 @@ dispel=Dissipare
 jump(bonus%)=Salto X (bonus%)
 overcharge=Sovraccaricare
 overchargeAcronym=OC
-purge=Pulire
+purge=Purgare
 repeat=Ripetere X
 repeatupto=Ripetere fino a X
 bless=Benedizione
 block=Bloccare
-buffer=Bufferizzare
+buffer=Buffare
 courage=Coraggio
 energize=Energizzare
 evasion=Evasione
 fast=Velocita'
 fortify=Fortificare
 fury=Furia
-haste=Velocezza
+haste=Rapidita'
 inspire=Ispirare
 insulate=Isolare
 invulnerable=Invulnerabile
@@ -993,7 +989,7 @@ paralyze=Paralisi
 insane=Pazzo
 mark=Marchiare
 poison=Veleno
-sanctify=Sanctificare
+sanctify=Santificare
 shackle=Imbrigliare
 sight=Vista
 silence=Silenzio
@@ -1116,10 +1112,10 @@ townUpgrade_4_6=<c>Divinazione avanzata</c> sbloccata nella citta' iniziale.
 
 townUpgrade_5_1=Sblocca la possibilita' di <c>riconfigurare gli oggetti</c> nell'armeria della citta'.
 townUpgrade_5_2=Il <c>costo degli oggetti</c> nell'armeria della citta' e' ridotto (15% in totale).
-townUpgrade_5_3=Aumentata la <c>rarezza</c> degli oggetti nell'armeria della citta'.
+townUpgrade_5_3=Aumentata la <c>rarita'</c> degli oggetti nell'armeria della citta'.
 townUpgrade_5_4=Il <c>costo di riconfigurazione degli oggetti</c> nell'armeria della citta' e' ridotto (50% in totale).
 townUpgrade_5_5=Il <c>costo degli oggetti</c> nell'armeria della citta' e' ridotto (30% in totale).
-townUpgrade_5_6=Aumentata la <c>rarezza</c> degli oggetti nell'armeria della citta'.
+townUpgrade_5_6=Aumentata la <c>rarita'</c> degli oggetti nell'armeria della citta'.
 
 townUpgrade_6_1=<c>Ritenzione valuta</c> alla fine del gioco aumentata (10% in totale).
 townUpgrade_6_2=Sblocca il <c>negoziato degli animali domestici</c> all'interno dell'armeria della citta'.
@@ -1128,7 +1124,7 @@ townUpgrade_6_4=Sblocca il <c>nodo del convoglio</c> fuori dalla citta' iniziale
 townUpgrade_6_5=<c>Ritenzione valuta</c> alla fine del gioco aumentata (30% in totale).
 townUpgrade_6_6=Sblocca la possibilita' di <c>vendere forniture</c> per oro e frammenti.
 
-townRequired=<color=#FFF>[Richiede]</color>  {0} forniture in piu' spese.
+townRequired=<color=#FFF>[Richiede]</color> {0} forniture in piu' spese.
 townAssignWarning=Vuoi acquistare questo potenziamento? <color=#AAAAAA>Questa azione non puo' essere annullata.</color>
 rerollButton=Rimescola {0}
 rerollButtonCostSP=Il costo per rimescolare aumenta ad ogni Atto. Gli oggetti gia' acquistati non verranno mostrati.
@@ -1265,7 +1261,6 @@ uncommon=Non comune
 rare=Rara
 epic=Epica
 mythic=Mitica
-
 eventCommon=Evento comune
 eventUncommon=Evento non comune
 eventRare=Evento raro
@@ -1277,10 +1272,10 @@ chooseWisely=Scegli saggiamente
 madnessHelp=<align=left><color=#FFF>Ogni livello di difficolta' della follia aggiunge nuovi modificatori che rendono il gioco piu' difficile nel complesso. Alcuni di questi sono spiegati piu' in dettaglio di seguito.</color><br><br><u>Esausto:</u> Quando usi una carta che fa girare il mazzo, subisci l'esaurimento, causando a qualsiasi carta che entra nella tua mano durante quel turno di costare energia aggiuntiva.<br><br><u>Infortuni gravi e mortali:</u> Gli infortuni che ricevi quando fallisci un evento vengono sostituiti da versioni piu' potenti.<br><br><u>Nessuna ricompensa per i forzieri:</u> I forzieri di ricompensa dei giochi precedenti non possono essere raccolti e l'oro / frammenti iniziali sono limitati. Con questo modificatore non otterrai forzieri di ricompensa alla fine di un gioco.<br><br><u>Lanci di eventi piu' difficili:</u> Il numero necessario per superare un lancio in un evento e' piu' difficile da ottenere, piu' alto o piu' basso a seconda dell'evento.</align>
 exhaust=<u>Esausto:</u> Quando usi una carta che fa girare il mazzo, subisci l'esaurimento, causando a qualsiasi carta che entra nella tua mano durante quel turno di costare energia aggiuntiva.
 madnessOptionsText=LISTA BONUS FOLLIA {0}
-replyProbability: Probabilita' di successo: {0}
+replyProbability= Probabilita' di successo: {0}
 masterSelected=Selezionato dal master del gioco
-notStack: Non si accumula
-notStackPlain: Le cariche non si accumulano
+notStack= Non si accumula
+notStackPlain= Le cariche non si accumulano
 searchCards=Cerca carte
 perksNotChallenge=I vantaggi e le migliorie di grado non sono disponibili nelle modalita' <color=#F1D2A9>Obelisk e Sfida settimanale</color>.
 rightClickCard=Fai clic destro <br><size=-.7>(piu' informazioni)
