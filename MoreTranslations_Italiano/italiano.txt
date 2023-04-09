@@ -990,7 +990,7 @@ insane=Pazzo
 mark=Marchiare
 poison=Veleno
 sanctify=Santificare
-shackle=Imbrigliare
+shackle=Intralciare
 sight=Vista
 silence=Silenzio
 slow=Lento
@@ -1089,11 +1089,11 @@ townUpgrade_1_4=<c>Carte rare</c> sbloccate per essere create nella citta' inizi
 townUpgrade_1_5=Il <c>costo di creazione</c> delle carte e' ridotto (30% in totale).
 townUpgrade_1_6=<c>Carte epiche</c> sbloccate per essere create nella seconda citta'.
 
-townUpgrade_2_1=Il <c>costo di trasformazione</c> delle carte e' ridotto (25% in totale).
+townUpgrade_2_1=Il <c>costo di trasmutazione</c> delle carte e' ridotto (25% in totale).
 townUpgrade_2_2=Il <c>costo di miglioramento</c> delle carte e' ridotto (15% in totale).
-townUpgrade_2_3=Il <c>costo di trasformazione</c> delle carte e' ridotto (50% in totale).
+townUpgrade_2_3=Il <c>costo di trasmutazione</c> delle carte e' ridotto (50% in totale).
 townUpgrade_2_4=Il <c>costo di miglioramento</c> delle carte e' ridotto (30% in totale).
-townUpgrade_2_5=La trasformazione delle carte e' <c>gratuita</c>.
+townUpgrade_2_5=La trasmutazione delle carte e' <c>gratuita</c>.
 townUpgrade_2_6=Il <c>costo di miglioramento</c> delle carte e' ridotto (50% in totale).
 
 townUpgrade_3_1=L'eliminazione delle carte nella citta' iniziale e' <c>gratuita</c>.
@@ -1110,7 +1110,7 @@ townUpgrade_4_4=<c>Divinazione avanzata</c> sbloccata nella seconda citta'.
 townUpgrade_4_5=Il costo delle <c>sessioni di divinazione</c> e' ridotto (40% in totale).
 townUpgrade_4_6=<c>Divinazione avanzata</c> sbloccata nella citta' iniziale.
 
-townUpgrade_5_1=Sblocca la possibilita' di <c>riconfigurare gli oggetti</c> nell'armeria della citta'.
+townUpgrade_5_1=Sblocca la possibilita' di <c>rifornire gli oggetti</c> nell'armeria della citta'.
 townUpgrade_5_2=Il <c>costo degli oggetti</c> nell'armeria della citta' e' ridotto (15% in totale).
 townUpgrade_5_3=Aumentata la <c>rarita'</c> degli oggetti nell'armeria della citta'.
 townUpgrade_5_4=Il <c>costo di riconfigurazione degli oggetti</c> nell'armeria della citta' e' ridotto (50% in totale).
@@ -1126,10 +1126,10 @@ townUpgrade_6_6=Sblocca la possibilita' di <c>vendere forniture</c> per oro e fr
 
 townRequired=<color=#FFF>[Richiede]</color> {0} forniture in piu' spese.
 townAssignWarning=Vuoi acquistare questo potenziamento? <color=#AAAAAA>Questa azione non puo' essere annullata.</color>
-rerollButton=Rimescola {0}
-rerollButtonCostSP=Il costo per rimescolare aumenta ad ogni Atto. Gli oggetti gia' acquistati non verranno mostrati.
-rerollButtonCostCoop=Il costo totale per rimescolare dipende dai personaggi che controlli e aumenta ad ogni Atto. Gli oggetti gia' acquistati non verranno mostrati.
-rerollLock=Disponibile solo una rimescolata in ogni citta', nel livello di base di Madness superiore a 3.
+rerollButton=Rifornisci {0}
+rerollButtonCostSP=Il costo per rifornire aumenta ad ogni Atto. Gli oggetti gia' acquistati non verranno mostrati.
+rerollButtonCostCoop=Il costo totale per rifornire dipende dai personaggi che controlli e aumenta ad ogni Atto. Gli oggetti gia' acquistati non verranno mostrati.
+rerollLock=Disponibile solo un rifornimento in ogni citta', nel livello di base di Madness superiore a 3.
 rerollWarning=(Solo una disponibile)
 helpDeck=Mazzo da pesca
 helpCasted=Carte lanciate

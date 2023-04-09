@@ -36,14 +36,14 @@ namespace MoreTranslations
             TextKeynotes = new Dictionary<string, Dictionary<string, string>>((IEqualityComparer<string>)StringComparer.OrdinalIgnoreCase);
             if (selectedLanguage != "")
             {
-                Debug.Log("MoreTranslations: " + selectedLanguage);
+                Debug.Log("MoreTranslations | Selected -> " + selectedLanguage);
 
                 TextStrings[selectedLanguage] = new Dictionary<string, string>();
                 TextKeynotes[selectedLanguage] = new Dictionary<string, string>();
             }
             else
             {
-                Debug.Log("MoreTranslations: Default");
+                Debug.Log("MoreTranslations | Selected -> Default");
             }
 
             CreateLanguageDropdown();
@@ -111,55 +111,44 @@ namespace MoreTranslations
         {
             string thisPath = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
 
-            // Recupero tutte le cartelle nella cartella translations da questo plugin
-            string path = thisPath + "/translations";
-            if (Directory.Exists(path))
+            // Cerco tra tutte le cartelle 
+            string pluginsPath = thisPath + "/../";
+            string[] folders = Directory.GetDirectories(pluginsPath);
+            foreach (string cartella in folders)
             {
-                string[] foldersArray = Directory.GetDirectories(path);
-
-                List<string> folderNames = new List<string>();
-                for (int i = 0; i < foldersArray.Length; i++)
+                // Check if moretranslations.txt exists in folder
+                string moretranslationsPath = cartella + "/moretranslations.txt";
+                if (File.Exists(moretranslationsPath))
                 {
-                    String nomeCartella = Path.GetFileName(foldersArray[i]);
-                    if (nomeCartella[0] == '_')
+                    string[] lines = File.ReadAllLines(moretranslationsPath);
+                    foreach (string line in lines)
                     {
-                        continue;
+                        // Check if line is a comment
+                        if (line.StartsWith("#"))
+                        {
+                            continue;
+                        }
+
+                        string language = line.Trim().ToLower();
+                        if (!languages.Contains(language))
+                        {
+                            languages.Add(language);
+                        }
                     }
-                    folderNames.Add(Path.GetFileName(foldersArray[i]));
-                }
-
-                // Aggiungo le lingue al dizionario
-                foreach (String language in folderNames)
-                {
-                    languages.Add(language);
-                }
-                return;
-            }
-
-            // Se non esiste potrebbe essere che r2modman ha spacchettato tutte le cartelle in un unica cartella (dove si trova il plugin)
-
-            // Recupero tutti i file di testo
-            string[] filesArray = Directory.GetFiles(thisPath, "*.txt", SearchOption.AllDirectories);
-
-            // Creo una lista di lingue
-            List<string> languagesTmp = new List<string>();
-            foreach (String file in filesArray)
-            {
-                String nomeFile = Path.GetFileName(file);
-                String[] nomeFileSplit = nomeFile.Split('_');
-
-                String lingua = nomeFileSplit[0];
-                lingua = lingua.Replace(".txt", "");
-                if (!languagesTmp.Contains(lingua))
-                {
-                    languagesTmp.Add(lingua);
                 }
             }
 
-            // Aggiungo le lingue al dizionario
-            foreach (String language in languagesTmp)
+            if (languages.Count > 0)
             {
-                languages.Add(language);
+                Debug.Log("MoreTranslations | Languages found:");
+                foreach (String lingua in languages)
+                {
+                    Debug.Log("MoreTranslations | - " + lingua);
+                }
+            }
+            else
+            {
+                Debug.LogWarning("MoreTranslations | No languages found. Please install a language pack to use this plugin.");
             }
         }
 
@@ -226,199 +215,220 @@ namespace MoreTranslations
         {
             if (selectedLanguage != "")
             {
-                // Controllo se la cartella translations esiste, altrimenti potrebbe essere the r2modman ha spacchettato tutte le cartelle in un unica cartella (dove si trova il plugin)
                 string thisPath = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
-                string translationsPath = thisPath + "/translations";
-                if (!Directory.Exists(translationsPath))
-                {
-                    translationsPath = thisPath;
-                }
-                else
-                {
-                    translationsPath += "/" + selectedLanguage;
-                }
 
-                string path = "";
-                string[] lines = null;
-                type = type.ToLower();
-                switch (type)
+                // Cerco tra tutte le cartelle 
+                string pluginsPath = thisPath + "/../";
+                string translationsPath = "";
+                string[] folders = Directory.GetDirectories(pluginsPath);
+                foreach (string cartella in folders)
                 {
-                    case "":
-                        path = translationsPath + "/" + selectedLanguage + ".txt";
-                        if (File.Exists(path))
-                            lines = File.ReadAllLines(path);
-                        break;
-                    case "keynotes":
-                        path = translationsPath + "/" + selectedLanguage + "_keynotes.txt";
-                        if (File.Exists(path))
-                            lines = File.ReadAllLines(path);
-                        break;
-                    case "traits":
-                        path = translationsPath + "/" + selectedLanguage + "_traits.txt";
-                        if (File.Exists(path))
-                            lines = File.ReadAllLines(path);
-                        break;
-                    case "auracurse":
-                        path = translationsPath + "/" + selectedLanguage + "_auracurse.txt";
-                        if (File.Exists(path))
-                            lines = File.ReadAllLines(path);
-                        break;
-                    case "events":
-                        path = translationsPath + "/" + selectedLanguage + "_events.txt";
-                        if (File.Exists(path))
-                            lines = File.ReadAllLines(path);
-                        break;
-                    case "nodes":
-                        path = translationsPath + "/" + selectedLanguage + "_nodes.txt";
-                        if (File.Exists(path))
-                            lines = File.ReadAllLines(path);
-                        break;
-                    case "cards":
-                        path = translationsPath + "/" + selectedLanguage + "_cards.txt";
-                        if (File.Exists(path))
-                            lines = File.ReadAllLines(path);
-                        break;
-                    case "fluff":
-                        path = translationsPath + "/" + selectedLanguage + "_cardsfluff.txt";
-                        if (File.Exists(path))
-                            lines = File.ReadAllLines(path);
-                        break;
-                    case "class":
-                        path = translationsPath + "/" + selectedLanguage + "_class.txt";
-                        if (File.Exists(path))
-                            lines = File.ReadAllLines(path);
-                        break;
-                    case "monsters":
-                        path = translationsPath + "/" + selectedLanguage + "_monsters.txt";
-                        if (File.Exists(path))
-                            lines = File.ReadAllLines(path);
-                        break;
-                    case "requirements":
-                        path = translationsPath + "/" + selectedLanguage + "_requirements.txt";
-                        if (File.Exists(path))
-                            lines = File.ReadAllLines(path);
-                        break;
-                    case "tips":
-                        path = translationsPath + "/" + selectedLanguage + "_tips.txt";
-                        if (File.Exists(path))
-                            lines = File.ReadAllLines(path);
-                        break;
-                }
-
-                if (lines != null)
-                {
-                    List<string> stringList = new List<string>(lines);
-
-                    int num = 0;
-                    StringBuilder stringBuilder1 = new StringBuilder();
-                    StringBuilder stringBuilder2 = new StringBuilder();
-
-                    for (int index = 0; index < stringList.Count; ++index)
+                    // Check if moretranslations.txt exists in folder
+                    string moretranslationsPath = cartella + "/moretranslations.txt";
+                    if (File.Exists(moretranslationsPath))
                     {
-                        string str2 = stringList[index];
-                        if (!(str2 == "") && str2[0] != '#')
+                        string[] linesTmp = File.ReadAllLines(moretranslationsPath);
+                        foreach (string line in linesTmp)
                         {
-                            string[] strArray = str2.Trim().Split(new char[1] { '=' }, 2);
-
-                            if (strArray != null && strArray.Length >= 2)
+                            // Check if line is a comment
+                            if (line.StartsWith("#"))
                             {
-                                strArray[0] = strArray[0].Trim().ToLower();
-                                strArray[1] = Functions.SplitString("//", strArray[1])[0].Trim();
-                                switch (type)
+                                continue;
+                            }
+
+                            string language = line.Trim().ToLower();
+                            if (language == selectedLanguage)
+                            {
+                                translationsPath = cartella + "/";
+                            }
+                        }
+                    }
+                }
+
+                if (translationsPath != "")
+                {
+                    string path = "";
+                    string[] lines = null;
+                    type = type.ToLower();
+                    switch (type)
+                    {
+                        case "":
+                            path = translationsPath + "/" + selectedLanguage + ".txt";
+                            if (File.Exists(path))
+                                lines = File.ReadAllLines(path);
+                            break;
+                        case "keynotes":
+                            path = translationsPath + "/" + selectedLanguage + "_keynotes.txt";
+                            if (File.Exists(path))
+                                lines = File.ReadAllLines(path);
+                            break;
+                        case "traits":
+                            path = translationsPath + "/" + selectedLanguage + "_traits.txt";
+                            if (File.Exists(path))
+                                lines = File.ReadAllLines(path);
+                            break;
+                        case "auracurse":
+                            path = translationsPath + "/" + selectedLanguage + "_auracurse.txt";
+                            if (File.Exists(path))
+                                lines = File.ReadAllLines(path);
+                            break;
+                        case "events":
+                            path = translationsPath + "/" + selectedLanguage + "_events.txt";
+                            if (File.Exists(path))
+                                lines = File.ReadAllLines(path);
+                            break;
+                        case "nodes":
+                            path = translationsPath + "/" + selectedLanguage + "_nodes.txt";
+                            if (File.Exists(path))
+                                lines = File.ReadAllLines(path);
+                            break;
+                        case "cards":
+                            path = translationsPath + "/" + selectedLanguage + "_cards.txt";
+                            if (File.Exists(path))
+                                lines = File.ReadAllLines(path);
+                            break;
+                        case "fluff":
+                            path = translationsPath + "/" + selectedLanguage + "_cardsfluff.txt";
+                            if (File.Exists(path))
+                                lines = File.ReadAllLines(path);
+                            break;
+                        case "class":
+                            path = translationsPath + "/" + selectedLanguage + "_class.txt";
+                            if (File.Exists(path))
+                                lines = File.ReadAllLines(path);
+                            break;
+                        case "monsters":
+                            path = translationsPath + "/" + selectedLanguage + "_monsters.txt";
+                            if (File.Exists(path))
+                                lines = File.ReadAllLines(path);
+                            break;
+                        case "requirements":
+                            path = translationsPath + "/" + selectedLanguage + "_requirements.txt";
+                            if (File.Exists(path))
+                                lines = File.ReadAllLines(path);
+                            break;
+                        case "tips":
+                            path = translationsPath + "/" + selectedLanguage + "_tips.txt";
+                            if (File.Exists(path))
+                                lines = File.ReadAllLines(path);
+                            break;
+                    }
+
+                    if (lines != null)
+                    {
+                        List<string> stringList = new List<string>(lines);
+
+                        int num = 0;
+                        StringBuilder stringBuilder1 = new StringBuilder();
+                        StringBuilder stringBuilder2 = new StringBuilder();
+
+                        for (int index = 0; index < stringList.Count; ++index)
+                        {
+                            string str2 = stringList[index];
+                            if (!(str2 == "") && str2[0] != '#')
+                            {
+                                string[] strArray = str2.Trim().Split(new char[1] { '=' }, 2);
+
+                                if (strArray != null && strArray.Length >= 2)
                                 {
-                                    case "keynotes":
-                                        stringBuilder1.Append("keynotes_");
-                                        break;
-                                    case "traits":
-                                        stringBuilder1.Append("traits_");
-                                        break;
-                                    case "auracurse":
-                                        stringBuilder1.Append("auracurse_");
-                                        break;
-                                    case "events":
-                                        stringBuilder1.Append("events_");
-                                        break;
-                                    case "nodes":
-                                        stringBuilder1.Append("nodes_");
-                                        break;
-                                    case "cards":
-                                    case "fluff":
-                                        stringBuilder1.Append("cards_");
-                                        break;
-                                    case "class":
-                                        stringBuilder1.Append("class_");
-                                        break;
-                                    case "monsters":
-                                        stringBuilder1.Append("monsters_");
-                                        break;
-                                    case "requirements":
-                                        stringBuilder1.Append("requirements_");
-                                        break;
-                                    case "tips":
-                                        stringBuilder1.Append("tips_");
-                                        break;
-                                }
-
-                                stringBuilder1.Append(strArray[0]);
-
-                                if (TextStrings[selectedLanguage].ContainsKey(stringBuilder1.ToString()))
-                                    TextStrings[selectedLanguage][stringBuilder1.ToString()] = strArray[1];
-                                else
-                                    TextStrings[selectedLanguage].Add(stringBuilder1.ToString(), strArray[1]);
-
-                                if (type == "tips")
-                                {
-                                    tips.Add(strArray[1]);
-                                }
-
-                                bool flag = true;
-                                if (type == "")
-                                {
-                                    if (strArray[1].StartsWith("rptd_", StringComparison.OrdinalIgnoreCase))
+                                    strArray[0] = strArray[0].Trim().ToLower();
+                                    strArray[1] = Functions.SplitString("//", strArray[1])[0].Trim();
+                                    switch (type)
                                     {
+                                        case "keynotes":
+                                            stringBuilder1.Append("keynotes_");
+                                            break;
+                                        case "traits":
+                                            stringBuilder1.Append("traits_");
+                                            break;
+                                        case "auracurse":
+                                            stringBuilder1.Append("auracurse_");
+                                            break;
+                                        case "events":
+                                            stringBuilder1.Append("events_");
+                                            break;
+                                        case "nodes":
+                                            stringBuilder1.Append("nodes_");
+                                            break;
+                                        case "cards":
+                                        case "fluff":
+                                            stringBuilder1.Append("cards_");
+                                            break;
+                                        case "class":
+                                            stringBuilder1.Append("class_");
+                                            break;
+                                        case "monsters":
+                                            stringBuilder1.Append("monsters_");
+                                            break;
+                                        case "requirements":
+                                            stringBuilder1.Append("requirements_");
+                                            break;
+                                        case "tips":
+                                            stringBuilder1.Append("tips_");
+                                            break;
+                                    }
+
+                                    stringBuilder1.Append(strArray[0]);
+
+                                    if (TextStrings[selectedLanguage].ContainsKey(stringBuilder1.ToString()))
+                                        TextStrings[selectedLanguage][stringBuilder1.ToString()] = strArray[1];
+                                    else
+                                        TextStrings[selectedLanguage].Add(stringBuilder1.ToString(), strArray[1]);
+
+                                    if (type == "tips")
+                                    {
+                                        tips.Add(strArray[1]);
+                                    }
+
+                                    bool flag = true;
+                                    if (type == "")
+                                    {
+                                        if (strArray[1].StartsWith("rptd_", StringComparison.OrdinalIgnoreCase))
+                                        {
+                                            stringBuilder2.Append(strArray[1].Substring(5).ToLower());
+                                            TextStrings[selectedLanguage][stringBuilder1.ToString()] = TextStrings[selectedLanguage][stringBuilder2.ToString()];
+                                            flag = false;
+                                            stringBuilder2.Clear();
+                                        }
+                                    }
+                                    else if (type == "events")
+                                    {
+                                        if (strArray[1].StartsWith("rptd_", StringComparison.OrdinalIgnoreCase))
+                                        {
+                                            stringBuilder2.Append("events_");
+                                            stringBuilder2.Append(strArray[1].Substring(5).ToLower());
+                                            TextStrings[selectedLanguage][stringBuilder1.ToString()] = TextStrings[selectedLanguage][stringBuilder2.ToString()];
+                                            flag = false;
+                                            stringBuilder2.Clear();
+                                        }
+                                    }
+                                    else if (type == "cards")
+                                    {
+                                        if (strArray[1].StartsWith("rptd_", StringComparison.OrdinalIgnoreCase))
+                                        {
+                                            stringBuilder2.Append("cards_");
+                                            stringBuilder2.Append(strArray[1].Substring(5).ToLower());
+                                            TextStrings[selectedLanguage][stringBuilder1.ToString()] = TextStrings[selectedLanguage][stringBuilder2.ToString()];
+                                            flag = false;
+                                            stringBuilder2.Clear();
+                                        }
+                                    }
+                                    else if (type == "monsters" && strArray[1].StartsWith("rptd_", StringComparison.OrdinalIgnoreCase))
+                                    {
+                                        stringBuilder2.Append("monsters_");
                                         stringBuilder2.Append(strArray[1].Substring(5).ToLower());
                                         TextStrings[selectedLanguage][stringBuilder1.ToString()] = TextStrings[selectedLanguage][stringBuilder2.ToString()];
                                         flag = false;
                                         stringBuilder2.Clear();
                                     }
-                                }
-                                else if (type == "events")
-                                {
-                                    if (strArray[1].StartsWith("rptd_", StringComparison.OrdinalIgnoreCase))
-                                    {
-                                        stringBuilder2.Append("events_");
-                                        stringBuilder2.Append(strArray[1].Substring(5).ToLower());
-                                        TextStrings[selectedLanguage][stringBuilder1.ToString()] = TextStrings[selectedLanguage][stringBuilder2.ToString()];
-                                        flag = false;
-                                        stringBuilder2.Clear();
-                                    }
-                                }
-                                else if (type == "cards")
-                                {
-                                    if (strArray[1].StartsWith("rptd_", StringComparison.OrdinalIgnoreCase))
-                                    {
-                                        stringBuilder2.Append("cards_");
-                                        stringBuilder2.Append(strArray[1].Substring(5).ToLower());
-                                        TextStrings[selectedLanguage][stringBuilder1.ToString()] = TextStrings[selectedLanguage][stringBuilder2.ToString()];
-                                        flag = false;
-                                        stringBuilder2.Clear();
-                                    }
-                                }
-                                else if (type == "monsters" && strArray[1].StartsWith("rptd_", StringComparison.OrdinalIgnoreCase))
-                                {
-                                    stringBuilder2.Append("monsters_");
-                                    stringBuilder2.Append(strArray[1].Substring(5).ToLower());
-                                    TextStrings[selectedLanguage][stringBuilder1.ToString()] = TextStrings[selectedLanguage][stringBuilder2.ToString()];
-                                    flag = false;
-                                    stringBuilder2.Clear();
-                                }
 
-                                if (flag)
-                                {
-                                    string str3 = Regex.Replace(Regex.Replace(strArray[1], "<(.*?)>", ""), "\\s+", " ");
-                                    num += str3.Split(' ').Length;
+                                    if (flag)
+                                    {
+                                        string str3 = Regex.Replace(Regex.Replace(strArray[1], "<(.*?)>", ""), "\\s+", " ");
+                                        num += str3.Split(' ').Length;
+                                    }
+                                    stringBuilder1.Clear();
                                 }
-                                stringBuilder1.Clear();
                             }
                         }
                     }

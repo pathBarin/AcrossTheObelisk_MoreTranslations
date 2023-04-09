@@ -2,7 +2,7 @@
 
 With this mod you can easily create custom translations for the game without having to edit the game files.
 
-**How to install?**
+**How to install the mod?**
 
 This mod requires the [BepInEx AcrossTheObelisk](https://across-the-obelisk.thunderstore.io/package/BepInEx/BepInExPack_AcrossTheObelisk/) plugin.
 
@@ -12,30 +12,44 @@ This mod requires the [BepInEx AcrossTheObelisk](https://across-the-obelisk.thun
 
 * Download the folder **MoreTranslations_DontTouchFranky** from this repository and place it in the **BepInEx/plugins** folder.
 
-> **Note:** If you install this mod with r2modman, the 'translations' folder may be deleted and every file inside it will be moved in the main folder. The mod will still work and you can create new translations directly in the main folder just by adding .txt files with the name of the language you want to translate.
+**How to install a new language?**
 
+You can install a new language by downloading the translation files from [Thunderstore](https://across-the-obelisk.thunderstore.io/) or **manually** from this repository.
 
-**How to use?**
+If you plan to do it **manually**, you just need to place the folder of the language inside the plugins folder.
+
+**How do i change language?**
 
 * To change the language, go to the game settings (you'll see a new language dropdown) and select the desired language.
+
+    If the mod can't find the translation for the selected language, it will use the default language selected in the main language dropdown.
 
 **How to create a new translation?**
 
 1. Create a new folder that has the name of the language to be translated.
-    es: `english` for English
 
-2. Copy all the .txt translation files from the game folder to the new folder.
+    es: `MoreTranslations_English` for English
+
+2. Copy all the .txt translation files inside the folder you just created.
 
 3. Edit the file names to match the language you want to translate. 
+
     es: `english.txt` for English Default File, `english_cards.txt` for English Cards File
 
 4. Edit the files with the desired translations.
 
+5. Create `moretranslations.txt` file inside the folder and write the name of the language you want to translate.
+
+    es: `English` for English
+
+6. Place the created folder inside the plugins folder.
+
+7. Done!
+
+
 > **Note:** The files must be in the same format as the original files.
 >
-> **Leave the tags as they are, do not change them.**
->
-> **Do not change the structure and do not rename the folders inside the plugin.**
+> **Leave the tags of the game texts as they are, do not change them.**
 
 
 
