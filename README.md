@@ -2,7 +2,7 @@
 
 With this mod you can easily create custom translations for the game without having to edit the game files.
 
-**How to install the mod?**
+## How to install the mod?
 
 This mod requires the [BepInEx AcrossTheObelisk](https://across-the-obelisk.thunderstore.io/package/BepInEx/BepInExPack_AcrossTheObelisk/) plugin.
 
@@ -12,19 +12,21 @@ This mod requires the [BepInEx AcrossTheObelisk](https://across-the-obelisk.thun
 
 * Download the folder **MoreTranslations_DontTouchFranky** from this repository and place it in the **BepInEx/plugins** folder.
 
-**How to install a new language?**
+## How to install a new language?
 
 You can install a new language by downloading the translation files from [Thunderstore](https://across-the-obelisk.thunderstore.io/) or **manually** from this repository.
 
 If you plan to do it **manually**, you just need to place the folder of the language inside the plugins folder.
 
-**How do i change language?**
+## How do i change language?
 
 * To change the language, go to the game settings (you'll see a new language dropdown) and select the desired language.
 
     If the mod can't find the translation for the selected language, it will use the default language selected in the main language dropdown.
 
-**How to create a new translation?**
+## How to create a new translation?
+
+> A complete example of a language pack can be found in the [MoreTranslations_English](https://github.com/donttouchfranky/AcrossTheObelisk_MoreTranslations/tree/main/MoreTranslations_English) folder.
 
 1. Create a new folder that has the name of the language to be translated.
 
@@ -53,12 +55,12 @@ If you plan to do it **manually**, you just need to place the folder of the lang
 
 
 
-**How to contribute?**
+## How to contribute?
 
 If you want to contribute to the project, you can do it by translating the game into your language or by correcting the translations of the existing languages.
 
-**Available Translations**
+## Available Translations
 
 > Every translation is made by the community and is not official. You may find some errors in the translations. If you find any errors, please report them.
 
-* <img src="https://www.worldometers.info/img/flags/it-flag.gif" alt= “Italiano” height="20px"> &ensp; **Italiano : <span style="color:green">90%</span>**
+* <img src="https://www.worldometers.info/img/flags/it-flag.gif" alt= “Italiano” height="20px"> &ensp; [Italiano](https://github.com/donttouchfranky/AcrossTheObelisk_MoreTranslations/tree/main/MoreTranslations_Italiano) **: <span style="color:green">95%</span>**
