@@ -23,5 +23,5 @@ tip21=Il combattimento e' troppo lento per te? Puoi attivare la modalita' 'Veloc
 tip22=Tieni sempre d'occhio <icon=thorns>. Subirai danni se attacchi un mostro protetto da questo effetto.
 tip23=Gli elementi dei mostri sono un problema per il tuo party?<br><icon=insulate> aumentera' le tue resistenze agli elementi.
 tip24=Vuoi liberarti di quell'annoiativo effetto <icon=burn>?<br><icon=wet> e' un modo veloce per rimuoverlo completamente.
-tip25=Vuoi giochi piu' veloci o una modalita' piu' casuale? Gioca all'Obelisk Challenge!
+tip25=Vuoi Partite piu' veloci o una modalita' piu' casuale? Gioca all'Obelisk Challenge!
 tip26=Quando un eroe equipaggia lo stesso oggetto due volte, l'oggetto si trasformera' nella sua versione corrotta.
