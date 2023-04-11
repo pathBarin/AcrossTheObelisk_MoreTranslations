@@ -97,7 +97,7 @@ c_vampirictouch_name=Tocco Vampirico
 c_vilegas_name=Gas Vile
 c_vilelance_name=Lancia Vile
 c_vitalize_name=Vitalizza
-c_yinyangbolt_name=Busto Yin Yang
+c_yinyangbolt_name=Colpo dello Yin Yang
 
 
 c_arenachampion_name=Campione dell'Arena
@@ -1473,7 +1473,7 @@ c_titanfall_name=Caduta del Titano
 c_tormentofthorns_name=Tormento di Spine
 c_transfusion_name=Trasfusione
 c_warpaint_name=Vernice di Guerra
-c_whirlwind_name=Tromba d'aria
+c_whirlwind_name=Turbine
 c_wreckingball_name=Palla da demolizione
 c_acidrain_name=Pioggia Acida
 c_acrobaticstrikem_name=Colpo acrobatico
