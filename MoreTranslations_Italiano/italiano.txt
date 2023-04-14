@@ -1,5 +1,5 @@
-gameExpired=Questa versione Alpha e' scaduta.<br>Grazie per aver provato Across the Obelisk.
-notAvailable=**Funzionalita' <b>non disponibile</b> in questa versione EA.
+gameExpired=Questa versione Alpha è scaduta.<br>Grazie per aver provato Across the Obelisk.
+notAvailable=**Funzionalità <b>non disponibile</b> in questa versione EA.
 accept=Accetta
 cancel=Annulla
 select=Seleziona
@@ -21,9 +21,9 @@ fail=Fallimento
 failCritical=Fallimento critico
 immune=Immune
 health=Salute
-speed=Velocita'
+speed=Velocità
 energy=Energia
-rarity=Rarita'
+rarity=Rarità
 cardsTier=Livello carte
 maximumAbb=Max.
 sold=Venduto/a
@@ -56,7 +56,7 @@ resistance=Resistenza
 resistances=Resistenze
 resistancesAndBonus=Resistenze e bonus
 activeEffects=Effetti attivi
-immunities=Immunita'
+immunities=Immunità
 chargeBonus=Bonus di Aura/Maledizione
 remove=Rimuovi
 corrupt=Corrompi
@@ -80,7 +80,7 @@ playersReady=Giocatori pronti
 waitingForPlayers=In attesa di giocatori
 wantToQuitGame=Vuoi abbandonare il gioco?
 wantToRemoveSave=Vuoi eliminare questo gioco salvato?
-wantToRemoveSavePermanent=Sara' eliminato permanentemente.
+wantToRemoveSavePermanent=Sarà eliminato permanentemente.
 saveAvailable=[Disponibile]
 back=Indietro
 backMainMenu=<size=+10><< Indietro</size><br>Menu principale
@@ -98,22 +98,22 @@ mainMenuCreateNewGame=Crea un nuovo gioco
 mainMenuClickUseThis=Clicca qui per usare questa slot
 mainMenuDelete=Elimina
 mainMenuSaveDescription=Scegli uno slot per salvare il gioco (o carica un gioco salvato in precedenza).
-mainMenuGameModeChoose=Scegli una modalita' di gioco.
+mainMenuGameModeChoose=Scegli una modalità di gioco.
 mainMenuAdventureDescription=<color=#FFD98F>Scopri la storia di Senenthia.</color><br><br>Scopri nuovi personaggi, sblocca carte e combatte contro boss malvagi in questa avventura roguelite.
-mainMenuObeliskDescription=<color=#FFD98F>Un'avventura roguelike totalmente casuale.</color><br><br>Ogni gioco sara' diverso mentre ti sposti attraverso il vuoto cercando di raggiungere l'Obelisco.
-mainMenuWeeklyDescription=<color=#FFD98F>Competi contro altri giocatori.</color><br><br>Ogni settimana, una nuova serie di regole e personaggi fissi ti aspetta. Vedi chi riesce a ottenere il punteggio piu' alto.
-modeAdventure=Modalita' avventura
+mainMenuObeliskDescription=<color=#FFD98F>Un'avventura roguelike totalmente casuale.</color><br><br>Ogni gioco sarà diverso mentre ti sposti attraverso il vuoto cercando di raggiungere l'Obelisco.
+mainMenuWeeklyDescription=<color=#FFD98F>Competi contro altri giocatori.</color><br><br>Ogni settimana, una nuova serie di regole e personaggi fissi ti aspetta. Vedi chi riesce a ottenere il punteggio più alto.
+modeAdventure=Modalità avventura
 modeObelisk=Sfida dell'Obelisco
 modeWeekly=Sfida settimanale
 obeliskNeedCharacter=Hai bisogno di un personaggio con grado 3
 joinMultiplayer=Entra in un gioco multiplayer
-abortMultiplayer=Un giocatore si e' disconnesso. Il gioco verra' chiuso. Puoi creare un nuovo gioco e riprendere dal punto di salvataggio precedente.
-abortSave=C'e' stato un errore nel salvataggio del gioco. Il gioco verra' chiuso per evitare ulteriori problemi. Puoi creare un nuovo gioco e riprendere dal punto di salvataggio precedente.
+abortMultiplayer=Un giocatore si è disconnesso. Il gioco verrà chiuso. Puoi creare un nuovo gioco e riprendere dal punto di salvataggio precedente.
+abortSave=C'è stato un errore nel salvataggio del gioco. Il gioco verrà chiuso per evitare ulteriori problemi. Puoi creare un nuovo gioco e riprendere dal punto di salvataggio precedente.
 enterText=Inserisci testo...
 waitingPlayers=In attesa di giocatori...
 exitRoom=Esci dalla stanza
 steamInvite=Invita amici di Steam
-roomFull=La stanza e' piena.
+roomFull=La stanza è piena.
 openSlot=[slot vuoto]
 roomId=ID della stanza
 master=Maestro
@@ -133,7 +133,7 @@ characterMenuCards=<sprite name=cards> Mazzo Eroe
 characterMenuLevel=<sprite name=experience> Livello & Tratti
 characterMenuItems=<sprite name=block> Equipaggiamento
 characterMenuStats=<sprite name=sheet> Scheda Personaggio
-characterMenuPerks=<sprite name=perk> Abilita'
+characterMenuPerks=<sprite name=perk> Abilità
 characterMenuCombatDraw=<sprite name=cards> Pila Pesca
 characterMenuCastedCards=<sprite name=cards> Carte Utilizzate
 characterMenuCombatDiscard=<sprite name=cardsdiscard> Pila Scarto
@@ -214,7 +214,7 @@ Healing_Spell=Magia di Guarigione
 Book=Libro
 Small_Weapon=Arma Piccola
 Song=Canzone Magica
-Skill=Abilita' Speciale
+Skill=Abilità Speciale
 Power=Potere
 Injury=Infortunio
 Attack=Attacco
@@ -229,7 +229,7 @@ enchantment=Incantamento
 enchantments=Incantesimi
 itemActivated=Attivato
 itemChargeUsed=Usata una carica
-itemsDescription=E' consentito solo un oggetto dello stesso tipo per ogni eroe. Fare attenzione quando si sta per equipaggiare un nuovo oggetto: quello vecchio verra' rimosso per sempre.
+itemsDescription=É consentito solo un oggetto dello stesso tipo per ogni eroe. Fare attenzione quando si sta per equipaggiare un nuovo oggetto: quello vecchio verrà rimosso per sempre.
 cardNotUnlockedPopup=<voffset=-2><size=26><sprite name=lock></size></voffset>Carta non sbloccata
 minDeckCards=Numero minimo di carte in un mazzo: <color=#FFFFFF><n></color>
 shopDiscount=Sconto
@@ -242,8 +242,8 @@ heroDrawPile=Pila Pesca di <hero>
 heroDiscardPile=Pila Scarto di <hero>
 heroCastedCards=Carte utilizzate di <hero>
 heroVanishedCards=Carte scomparse di <hero>
-town=Citta'
-townPlace=Citta' di {0}
+town=Città
+townPlace=Città di {0}
 townIntro=Prenditi il tuo tempo e gestisci i tuoi mazzi prima dell'avventura. Quando sei pronto premi "Pronto!".
 ready=Pronto!
 charReceive=<char> riceve
@@ -254,10 +254,10 @@ reaminingUses=Utilizzi rimanenti
 noMoreUses=Non sono consentiti altri utilizzi
 removeCards=Chiesa
 removeCardsButtonDes=Rimuovi carte dai tuoi mazzi
-removeCardsDes=E' possibile rimuovere le carte dal tuo mazzo solo se rispetti il numero minimo di carte richieste.
+removeCardsDes=É possibile rimuovere le carte dal tuo mazzo solo se rispetti il numero minimo di carte richieste.
 upgradeCards=Altare
-upgradeCardsButtonDes=Rarifica le tue carte e trasformale in versioni piu' potenti.
-upgradeCardsDes=Ogni carta ha diverse rarificazioni che sono piu' potenti della versione base.<br><br>Puoi offrire sfere per aggiornare una carta.<br><br>Inoltre, e' possibile trasformare una carta tra le sue versioni rarificate.<br><br><color=#FFC88F>Maggiore e' la rarita' della carta, maggiori sono i costi per migliorarla.</color>
+upgradeCardsButtonDes=Rarifica le tue carte e trasformale in versioni più potenti.
+upgradeCardsDes=Ogni carta ha diverse rarificazioni che sono più potenti della versione base.<br><br>Puoi offrire sfere per aggiornare una carta.<br><br>Inoltre, è possibile trasformare una carta tra le sue versioni rarificate.<br><br><color=#FFC88F>Maggiore è la rarità della carta, maggiori sono i costi per migliorarla.</color>
 reset=Reset
 upgradedCards=Rarificate
 upgradedCardsDes=Mostra le carte rarificate. Puoi rarificare le carte anche all'Altare.
@@ -267,19 +267,19 @@ affordableCards=Disponibili
 affordableCardsDes=Mostra solo le carte che puoi costruire con il tuo numero attuale di sfere.
 craftCards=Forgia Magica
 craftCardsButtonDes=Crea carte per i tuoi mazzi.
-craftRarityBlocked=Questa rarita' non e' consentita qui.
+craftRarityBlocked=Questa rarità non è consentita qui.
 craftMaxCards=Numero massimo di creazioni consentito per questa carta
 treasureClaimButtonDes=Premi qui per reclamare questa ricompensa.
 wantToClaimTreasure=Vuoi reclamare questo tesoro?
 lastRunsRewards=Ultimi premi ottenuti
-lastRunsRewardsDes=Ogni gioco premiera' la tua performance con oro e sfere.<br><br>Puoi reclamare fino a tre degli ultimi premi ogni volta che inizi un gioco.
+lastRunsRewardsDes=Ogni gioco premierà la tua performance con oro e sfere.<br><br>Puoi reclamare fino a tre degli ultimi premi ogni volta che inizi un gioco.
 lastRunsRewardsStack=Puoi impilare fino a 3 casse.
-communityRewards=Premi della comunita'
+communityRewards=Premi della comunità
 expiresInHoursMinutes=Scade tra {0} ora(e) {1} minuto(i)
 expiresInMinutes=Scade tra {0} minuto(i)
 divinationCards=Carte di Divinazione Zingare
 divinationCardsButtonDes=Paga oro alla bellissima Zingara e ottieni una sessione di carte di divinazione.
-divinationCardsDes=Se hai abbastanza soldi, la Zingara ti concederà una sessione di carte di divinazione.<br><br>In un gioco multiplayer, tutti beneficeranno di questa sessione di divinazione.<br><br> Piu' alto è il costo della sessione, maggiore sarà la possibilità di ottenere carte migliori.
+divinationCardsDes=Se hai abbastanza soldi, la Zingara ti concederà una sessione di carte di divinazione.<br><br>In un gioco multiplayer, tutti beneficeranno di questa sessione di divinazione.<br><br> Più alto è il costo della sessione, maggiore sarà la possibilità di ottenere carte migliori.
 divinationT0=Divinazione Veloce
 divinationT1=Divinazione Base
 divinationT2=Divinazione Avanzata
@@ -323,7 +323,7 @@ eventRewardsSubtitle=Scegli una carta o una pila di frammenti
 eventYouGet=Ottieni:
 divinationRoundRewards=Ricompense divinazione
 itemRewards=Ricompense oggetto
-itemRewardsSelection=Puoi scegliere uno degli oggetti oppure la seguente quantita' di oro:
+itemRewardsSelection=Puoi scegliere uno degli oggetti oppure la seguente quantità di oro:
 itemRewardsChosing=Scelta del personaggio:
 chooseCards=Scegli una di queste carte
 chooseDust=Scegli i frammenti
@@ -331,7 +331,7 @@ notEnoughGold=Non hai abbastanza oro/frammenti
 #########
 ######### completamento avventura
 #########
-finishRun=Ricompensa basata sulla prestazione della tua avventura. All'inizio di un nuovo gioco, potrai richiedere questa ricompensa mentre sei in citta'.
+finishRun=Ricompensa basata sulla prestazione della tua avventura. All'inizio di un nuovo gioco, potrai richiedere questa ricompensa mentre sei in città.
 questEndsIn=La tua missione termina tra
 actNumber=Atto {0}
 prologue=Prologo
@@ -366,9 +366,9 @@ higherOrEqual={0} o maggiore
 lowerThan=minore di
 lowerOrEqual={0} o minore
 rollCard={0} carta
-highest=piu' alta
-lowest=piu' bassa
-closest=la piu' vicina a
+highest=più alta
+lowest=più bassa
+closest=la più vicina a
 #########
 ######### azioni evento
 #########
@@ -384,7 +384,7 @@ runAction=Fuggi
 bribeAction=Corrompi
 threatenAction=Minaccia
 persuadeAction=Persuadi
-stealthAction=Furtivita'
+stealthAction=Furtività
 stealAction=Ruba
 sneakAwayAction=Scappa
 leaveAction=Lascia
@@ -443,7 +443,7 @@ chooseEnergyMax=Energia massima da assegnare:
 #########
 exitGameConfirm=Sei sicuro di voler uscire?
 exitGameConfirmLoss=Tutti i tuoi progressi andranno persi.
-exitGameConfirmSave=Il tuo progresso attuale verra' salvato.
+exitGameConfirmSave=Il tuo progresso attuale verrà salvato.
 exitGameRewards=Devi riscattare le tue ricompense prima di uscire dal gioco.
 exitGameEvent=Devi completare l'evento attivo prima di uscire dal gioco.
 exitRoomConfirm=Sei sicuro di voler uscire dalla stanza di gioco?
@@ -456,13 +456,13 @@ statusMP=Stato multiplayer
 statusConnecting=Connessione al server multiplayer in corso
 statusJoinedLobby=Entra nella lobby
 statusConnected=Connesso al server
-chatPlayerJoined=%p si e' unito al gioco.
+chatPlayerJoined=%p si è unito al gioco.
 chatPlayerLeft=%p ha lasciato il gioco.
-chatPlayerKicked=%p e' stato espulso dal gioco.
+chatPlayerKicked=%p è stato espulso dal gioco.
 masterKickedYou=Sei stato cacciato dal gioco.
 playersInGame=Giocatori in gioco:
 multiplayerDescription=Gioca con fino a 3 amici! Crea una partita o unisciti alla stanza di un altro giocatore. Scegli i tuoi eroi e inizia l'avventura.
-multiplayerSubDescription=* In una partita multiplayer, potrai selezionare solo gli eroi che hai sbloccato in precedenza. D'altra parte, lo sblocco degli eroi in una partita multiplayer ti permettera' di giocare con quegli eroi in qualsiasi modalita' disponibile.
+multiplayerSubDescription=* In una partita multiplayer, potrai selezionare solo gli eroi che hai sbloccato in precedenza. D'altra parte, lo sblocco degli eroi in una partita multiplayer ti permetterà di giocare con quegli eroi in qualsiasi modalità disponibile.
 availableRooms=Stanze disponibili
 chooseRoom=Scegli una stanza di gioco.
 createRoom=Crea una stanza di gioco.
@@ -484,50 +484,50 @@ lfgLobby=<color=#DB9D6A>Stai cercando persone con cui giocare in cooperativa?</c
 adventure=Avventura
 beginAdventure=Inizia l'avventura
 teamSelection=Selezione del team
-dragCharacters=Trascina i personaggi che vuoi utilizzare in questa partita.<br>Alcuni attacchi possono colpire solo le unita' frontali, posteriori o centrali.
+dragCharacters=Trascina i personaggi che vuoi utilizzare in questa partita.<br>Alcuni attacchi possono colpire solo le unità frontali, posteriori o centrali.
 heroselectionWeekly=Questi sono i personaggi che puoi controllare in questa Sfida.
 dragRecommended=* Classe consigliata per questa posizione
 positionFront=Frontale
 positionBack=Posteriore
-masterAssign=Il master del gioco deve assegnare un giocatore a ciascuno slot. Quando tutti i giocatori sono stati selezionati almeno una volta, il gioco sara' pronto per iniziare.
+masterAssign=Il master del gioco deve assegnare un giocatore a ciascuno slot. Quando tutti i giocatori sono stati selezionati almeno una volta, il gioco sarà pronto per iniziare.
 helpCharacterHealth=Punti vita del personaggio
-helpCharacterEnergy=Energia iniziale del personaggio e quantita' che verra' guadagnata all'inizio del loro turno
-helpCharacterSpeed=Velocita' del personaggio. Il personaggio con la velocita' piu' alta si muovera' per primo ogni round.
-tutorialTownTitle=Azioni in citta'
+helpCharacterEnergy=Energia iniziale del personaggio e quantità che verrà guadagnata all'inizio del loro turno
+helpCharacterSpeed=Velocità del personaggio. Il personaggio con la velocità più alta si muoverà per primo ogni round.
+tutorialTownTitle=Azioni in città
 tutorialTown=Puoi creare nuove carte per il tuo mazzo, potenziare qualsiasi carta che possiedi e acquistare equipaggiamento per i tuoi eroi. Potrai anche richiedere i premi delle partite precedenti.
-tutorialCombatSpeedTitle=Velocita' e ordine dei personaggi
-tutorialCombatSpeed=Tutti i personaggi hanno un valore di velocita' (che puo' essere modificato dalle carte, oggetti e tratti). Questo valore stabilisce chi si muove per primo. In caso di parita', l'EROE piu' vicino al centro avra' la priorita'.
+tutorialCombatSpeedTitle=Velocità e ordine dei personaggi
+tutorialCombatSpeed=Tutti i personaggi hanno un valore di velocità (che può essere modificato dalle carte, oggetti e tratti). Questo valore stabilisce chi si muove per primo. In caso di parità, l'EROE più vicino al centro avrà la priorità.
 tutorialFirstTurnEnergyTitle=Gestione dell'energia e delle carte
-tutorialFirstTurnEnergy=Puoi lanciare le carte fino a esaurimento dell'energia.<br><br>Quando termini un turno, l'energia non utilizzata verra' salvata per il prossimo turno di questo eroe.
+tutorialFirstTurnEnergy=Puoi lanciare le carte fino a esaurimento dell'energia.<br><br>Quando termini un turno, l'energia non utilizzata verrà salvata per il prossimo turno di questo eroe.
 tutorialCombatCardTargetTitle=Bersagli delle carte
-tutorialCombatCardTarget=Questa casella mostra i bersagli disponibili.<br><br>Se ci sono piu' bersagli per una carta, dovrai selezionare quale sara' colpito. Se ce n'e' solo uno, rilasciando la carta lo selezionerai automaticamente.
+tutorialCombatCardTarget=Questa casella mostra i bersagli disponibili.<br><br>Se ci sono più bersagli per una carta, dovrai selezionare quale sarà colpito. Se ce n'è solo uno, rilasciando la carta lo selezionerai automaticamente.
 tutorialCombatResistsTitle=Danno e resistenze
 tutorialCombatResists=Ci sono 9 diversi tipi di danno (e resistenze).<br><br>I valori di danno indicati su una carta verranno ridotti dal percentuale di resistenza del bersaglio.
 tutorialEventRollsTitle=Lanci di eventi
-tutorialEventRolls=Alcune opzioni ti costringeranno a lanciare per determinare il risultato dell'azione. Ogni personaggio utilizzera' le carte del proprio mazzo.
+tutorialEventRolls=Alcune opzioni ti costringeranno a lanciare per determinare il risultato dell'azione. Ogni personaggio utilizzerà le carte del proprio mazzo.
 tutorialTownRewardsTitle=Premi di fine gioco
-tutorialTownRewards=Mentre sei in citta', puoi richiedere i premi ottenuti nelle partite passate. Non aspettare troppo a lungo per richiedere questi premi: solo gli ultimi tre saranno conservati.
+tutorialTownRewards=Mentre sei in città, puoi richiedere i premi ottenuti nelle partite passate. Non aspettare troppo a lungo per richiedere questi premi: solo gli ultimi tre saranno conservati.
 tutorialCardsRewardTitle=Carte bloccate
 tutorialCardsReward=Durante le tue avventure, scoprirai nuove carte dopo ogni combattimento. Tutte le carte mostrate saranno sbloccate. Ricorda: sarai in grado di creare solo le carte sbloccate.
 tutorialCharactersTitle=Seleziona la tua squadra.
 tutorialCharacters=Sblocca nuovi personaggi completando missioni durante le tue avventure. Le missioni dei personaggi sono contrassegnate da questa icona <size=+.5><sprite name=questBegin></size>.
 tutorialPerksTitle=Vantaggi dei personaggi
-tutorialPerks=Alla fine di un'avventura, tutti i personaggi del tuo gruppo otterranno punti esperienza (ogni livello di rango ti assegnera' punti vantaggio). Puoi spendere questi punti per migliorare i tuoi personaggi.
+tutorialPerks=Alla fine di un'avventura, tutti i personaggi del tuo gruppo otterranno punti esperienza (ogni livello di rango ti assegnerà punti vantaggio). Puoi spendere questi punti per migliorare i tuoi personaggi.
 tutorialTownCraftTitle=Creazione di carte
-tutorialTownCraft=In ogni citta', potrai creare le carte che hai precedentemente sbloccato per tutti i tuoi eroi. Alcune restrizioni si applicheranno in base ai tuoi aggiornamenti della citta'.
+tutorialTownCraft=In ogni città, potrai creare le carte che hai precedentemente sbloccato per tutti i tuoi eroi. Alcune restrizioni si applicheranno in base ai tuoi aggiornamenti della città.
 watchingTutorial=[Attendere prego]<br>Un altro giocatore sta guardando un tutorial.
 castNPCTitle=Carte mostro
-castNPC=Le carte che i mostri stanno per lanciare sono nascoste per impostazione predefinita. L'effetto "sight" <sprite name=sight> rivelera' queste carte, consentendoti di pianificare i tuoi movimenti in anticipo.
+castNPC=Le carte che i mostri stanno per lanciare sono nascoste per impostazione predefinita. L'effetto "sight" <sprite name=sight> rivelerà queste carte, consentendoti di pianificare i tuoi movimenti in anticipo.
 levelUp=Salire di livello!
-cantLevelUp=Puoi salire di livello solo mentre sei in citta' o sulla schermata della mappa.
-cantGiveGoldDivination=Non puoi dare oro o frammenti mentre c'e' una divinazione in sospeso.
+cantLevelUp=Puoi salire di livello solo mentre sei in città o sulla schermata della mappa.
+cantGiveGoldDivination=Non puoi dare oro o frammenti mentre c'è una divinazione in sospeso.
 gameSeed=Seed del gioco
 gameSeedInput=Inserisci un nuovo seed di gioco.
 #########
 ######### CreateTextCards
 #########
 requireSkill=Richiede {0}
-priority=Priorita': {0}
+priority=Priorità: {0}
 global=Globale
 friends=Amici
 self=Se stesso
@@ -541,10 +541,10 @@ randomHero=Eroe casuale
 frontHero=Eroe anteriore
 backHero=Eroe posteriore
 middleHero=Eroe centrale
-slowestHero=Eroe piu' lento
-fastestHero=Eroe piu' veloce
-leastHPHero=Eroe con la vita piu' bassa
-mostHPHero=Eroe con la vita piu' alta
+slowestHero=Eroe più lento
+fastestHero=Eroe più veloce
+leastHPHero=Eroe con la vita più bassa
+mostHPHero=Eroe con la vita più alta
 otherHero=Altro eroe
 monster=Mostro
 allMonsters=Tutti i mostri
@@ -552,22 +552,22 @@ randomMonster=Mostro casuale
 frontMonster=Mostro anteriore
 backMonster=Mostro posteriore
 middleMonster=Mostro centrale
-slowestMonster=Mostro piu' lento
-fastestMonster=Mostro piu' veloce
-leastHPMonster=Mostro con la vita piu' bassa
-mostHPMonster=Mostro con la vita piu' alta
+slowestMonster=Mostro più lento
+fastestMonster=Mostro più veloce
+leastHPMonster=Mostro con la vita più bassa
+mostHPMonster=Mostro con la vita più alta
 priorityBack=Posteriore
 priorityMiddle=Eroi centrali
 priorityFront=Anteriore
 priorityAnyButBack=Qualsiasi tranne il posteriore
-priorityLessHealthPercent=Percentuale di vita piu' bassa
-priorityMoreHealthPercent=Percentuale di vita piu' alta
-priorityLessHealthFlat=Vita piu' bassa
-priorityMoreHealthFlat=Vita piu' alta
+priorityLessHealthPercent=Percentuale di vita più bassa
+priorityMoreHealthPercent=Percentuale di vita più alta
+priorityLessHealthFlat=Vita più bassa
+priorityMoreHealthFlat=Vita più alta
 priorityLessHealthAbsolute=Salute assoluta inferiore
 priorityMoreHealthAbsolute=Salute assoluta superiore
-priorityLessInitiative=Piu' lento
-priorityMoreInitiative=Piu' veloce
+priorityLessInitiative=Più lento
+priorityMoreInitiative=Più veloce
 damageType=Tipo di danno
 damageTypes=Tipi di danno
 aura=Aura
@@ -602,17 +602,17 @@ cardsLeft=Carte rimaste:
 combatEffects=Effetti di combattimento
 combatVictory=Vittoria!
 combatFail=La tua missione finisce qui...
-combatOnlyMasterCanResign=Solo il master del gioco puo' rinunciare.
-combatWantToRetry=<color=#BBB>A volte, prendere un approccio diverso e' la chiave del successo.</color><line-height=50><br></line-height>Vuoi riprovare il combattimento?
+combatOnlyMasterCanResign=Solo il master del gioco può rinunciare.
+combatWantToRetry=<color=#BBB>A volte, prendere un approccio diverso è la chiave del successo.</color><line-height=50><br></line-height>Vuoi riprovare il combattimento?
 combatWantToRetryClient=(In attesa che il master prenda una decisione.)
 combatWantToResign=<color=#f88>Vuoi rinunciare?</color>
-combatWantToResignEnd=La tua avventura finira' qui.
+combatWantToResignEnd=La tua avventura finirà qui.
 removeProgressQuestion=Vuoi davvero rimuovere tutti i tuoi progressi salvati?
 resetTutorialQuestion=Vuoi davvero ripristinare il tutorial?
 mapNodes=Nodi della mappa
 mapEntryPoint=Punto di ingresso
 mapLegend=Legenda della mappa
-mapLegendEvent=Evento (rarita')
+mapLegendEvent=Evento (rarità)
 mapLegendCard=Nodo carta
 mapLegendCrafter=Nodo artigiano
 mapLegendMapTransition=Transizione di mappa
@@ -655,14 +655,14 @@ cardsTransformIntoAnd=Trasforma <nobr>{0} in {1} e {2}</nobr>
 cardsXEqualsYourHand=(X equivale alla tua <nobr>mano {0}{1}</nobr>)
 cardsXEqualsYourDeck=(X equivale al tuo <nobr>mazzo {0}{1}</nobr>)
 cardsXEqualsYourDiscard=(X equivale al tuo <nobr>mazzo scarto {0}{1}</nobr>)
-cardsXEqualsYourVanish=(X equivale al tuo <nobr>mazzo scompare {0}{1}</nobr>)
+cardsXEqualsYourVanish=(X equivale al tuo <nobr>mazzo di carte scomparse {0}{1}</nobr>)
 cardsXEqualsYourHp=(X equivale alla tua vita {0})
 cardsXEqualsYour=(X equivale al tuo {0}{1})
 cardsXEqualsTarget=(X equivale all'obiettivo {0}{1})
 cardsXEqualsTargetHp=(X equivale alla vita dell'obiettivo {0})
 cardsXEqualsTargetDeck=(X equivale al <nobr>mazzo dell'obiettivo {0}{1}</nobr>)
 cardsXEqualsTargetDiscard=(X equivale al <nobr>mazzo scarto dell'obiettivo {0}{1}</nobr>)
-cardsXEqualsTargetVanish=(X equivale al <nobr>mazzo scompare dell'obiettivo {0}{1}</nobr>)
+cardsXEqualsTargetVanish=(X equivale al <nobr>mazzo di carte scomparse dell'obiettivo {0}{1}</nobr>)
 
 cardsShareYour=Dividi il tuo {0}
 cardsDoubleYour=Raddoppia il tuo {0}
@@ -735,7 +735,7 @@ missesThisTurn=Salta il turno
 itemMaxHp=HP massimi {0}
 itemAllResistances=Tutte le resistenze {0}
 itemXResistances={0} resistenza {1}
-itemSpeed=Velocita' {0}
+itemSpeed=Velocità {0}
 itemInitialEnergy=Energia iniziale {0}
 itemInitialCurrency=Oro e frammenti iniziali {0}
 itemCharges={0} cariche {1}
@@ -763,20 +763,20 @@ itemWhenEvade=Quando eviti
 itemWhenBlock=Quando blocchi
 itemHealDoneAction=Quando curi un eroe
 itemWhenHandEmpty=Se giochi una <sprite name=card>che lascia la tua mano vuota
-itemChanceToDispel={0} possibilita' di: <br> dissolvere {1}
+itemChanceToDispel={0} possibilità di: <br> dissolvere {1}
 itemEveryRound=Ogni turno
 itemEveryNRounds=Ogni {0} turni
-itemForEveryCharge=Per ogni {0} carica applicata, /// "rapidita'"
-itemApplyEnemies=Applica {0} a tutti i mostri/// "rapidita'"
-itemApplyHeroesFromMonster=Applica {0} a tutti gli eroi/// "rapidita'"
-itemApplyHeroes=Tutti gli eroi ottengono {0}/// "rapidita'"
-itemApplyRandomHero=Un eroe casuale ottiene {0}/// "rapidita'"
-itemApplyRandomEnemy=Applica {0} a un mostro casuale/// "rapidita'"
-itemApplyHighestFlatHpEnemy=Applica {0} al mostro con HP piu' alto/// "rapidita'"
-itemApplyLowestFlatHpEnemy=Applica {0} al mostro con HP piu' basso/// "rapidita'"
-itemApplyHighestFlatHpHero=Applica {0} all'eroe con HP piu' alto/// "rapidita'"
-itemApplyLowestFlatHpHero=Applica {0} all'eroe con HP piu' basso/// "rapidita'"
-itemApplyForEvery=Per ogni {0} cariche applicate, applica {1}/// "rapidita'"
+itemForEveryCharge=Per ogni {0} carica applicata, /// "rapidità"
+itemApplyEnemies=Applica {0} a tutti i mostri/// "rapidità"
+itemApplyHeroesFromMonster=Applica {0} a tutti gli eroi/// "rapidità"
+itemApplyHeroes=Tutti gli eroi ottengono {0}/// "rapidità"
+itemApplyRandomHero=Un eroe casuale ottiene {0}/// "rapidità"
+itemApplyRandomEnemy=Applica {0} a un mostro casuale/// "rapidità"
+itemApplyHighestFlatHpEnemy=Applica {0} al mostro con HP più alto/// "rapidità"
+itemApplyLowestFlatHpEnemy=Applica {0} al mostro con HP più basso/// "rapidità"
+itemApplyHighestFlatHpHero=Applica {0} all'eroe con HP più alto/// "rapidità"
+itemApplyLowestFlatHpHero=Applica {0} all'eroe con HP più basso/// "rapidità"
+itemApplyForEvery=Per ogni {0} cariche applicate, applica {1}/// "rapidità"
 
 itemApplyForEnergyUsed=Per ogni {0} utilizzati:
 itemWhenYouPlay=Quando giochi una carta {0}/// "Incantesimo di Gelo"
@@ -795,11 +795,11 @@ itemOncePerCombat=Una volta per combattimento
 itemTheNext=Il prossimo {0}{1}
 itemRecoverSelf=Recupera {0} HP
 itemRecoverLowestHPMonster=Il mostro con meno HP recupera {0} HP
-itemRecoverHeroes=Tutti i personaggi recuperano {0} HP/// Tutti i personaggi guadagnano "celerita'"
+itemRecoverHeroes=Tutti i personaggi recuperano {0} HP/// Tutti i personaggi guadagnano "celerità"
 itemReduce=Riduce il costo di {0} carte {1} casuali nella tua mano di {2}/// Riduce il costo di 1 carta "Canzone" casuale nella tua mano di 1
 itemReduceTurn=Riduce il costo di {0} carte {1} casuali nella tua mano di {2} fino a quando verranno scartate/// Riduce il costo di 1 carta "Canzone" casuale nella tua mano di 1 in questo turno
-itemReduceHighestTurn=Riduce il costo della carta {0} piu' costosa di {1} nella tua mano fino a quando verra' scartata/// Riduce il costo di 1 carta "Canzone" casuale nella tua mano di 1 in questo turno
-itemReduceHighestPermanent=Riduce il costo della carta {0} piu' costosa di {1} nella tua mano
+itemReduceHighestTurn=Riduce il costo della {0} carta più costosa {1} di {2} nella tua mano fino a quando verrà scartata/// Riduce il costo di 1 carta "Canzone" casuale nella tua mano di 1 in questo turno
+itemReduceHighestPermanent=Riduce il costo della carta {0} costosa di {1} nella tua mano di {2}
 itemDiscount={0} sconto extra nella Fucina Magica, negli altari e nei negozi di oggetti
 itemDieRetain=Quando muori, conserva ulteriori {0} oro e frammenti
 itemResurrectHP=Resuscita con {0} HP
@@ -808,7 +808,7 @@ customSORRare=Quando muori, resusciti con il 100% dei tuoi HP e distruggi il Rot
 customBurnedI=-Chi gioca con il fuoco, si brucia-
 customBrokenI=-La fretta porta solo errori-
 customVoidMemory=-Ricordi solo di aver dimenticato qualcosa-
-customLowSelf=-Un ricordo vergognoso che qualcosa non e' andato come previsto-
+customLowSelf=-Un ricordo vergognoso che qualcosa non è andato come previsto-
 customSuccess=-Contro ogni previsione, hai sfidato il destino e hai vinto-
 customTombstone=-R.I.P.-
 
@@ -825,10 +825,10 @@ customBurningBloodA=Trasforma <i=bleed> in <i=burn><br>Concede a <bl>X</bl><i=fu
 customBurningBloodB=Trasforma <i=bleed> in <i=burn>x0.5<br>Guadagna <bl>X</bl><i=fury><br><size=-.15><gl>(X corrisponde al tuo <i=bleed>x0.5)</gl></size>
 customBurningBloodRare=Trasforma <i=bleed> in <i=burn>x0.5<br>Guadagna <bl>X</bl><i=fury><br><size=-.15><gl>(X corrisponde al tuo <i=bleed>)</gl></size>
 
-customArmagedon=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br>Immunita' a <i=burn><i=crack><br><gl>-Ogni round-</gl><br>Aggiungi <crd=meteorite,1> a tutti i mostri.
-customArmagedonA=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br>Immunita' a <i=burn><i=crack><br><gl>-Ogni round-</gl><br>Aggiungi <crd=meteorite,1> a tutti i mostri.
-customArmagedonB=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+3</bl><br>Immunita' a <i=burn><i=crack><br><gl>-Ogni round-</gl><br>Aggiungi <crd=meteorite,1> a tutti i mostri.
-customArmagedonRare=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+4</bl><br>Immunita' a <i=burn><i=crack><br><gl>-Ogni round-</gl><br>Aggiungi <crd=meteorite,1> a tutti i mostri.
+customArmagedon=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br>Immunità a <i=burn><i=crack><br><gl>-Ogni round-</gl><br>Aggiungi <crd=meteorite,1> a tutti i mostri.
+customArmagedonA=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br>Immunità a <i=burn><i=crack><br><gl>-Ogni round-</gl><br>Aggiungi <crd=meteorite,1> a tutti i mostri.
+customArmagedonB=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+3</bl><br>Immunità a <i=burn><i=crack><br><gl>-Ogni round-</gl><br>Aggiungi <crd=meteorite,1> a tutti i mostri.
+customArmagedonRare=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+4</bl><br>Immunità a <i=burn><i=crack><br><gl>-Ogni round-</gl><br>Aggiungi <crd=meteorite,1> a tutti i mostri.
 
 customThunderstorm=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+1</bl><br><i=lightning> resistenza <bl>+15%</bl><br><gl>-Ogni round-</gl><br>Aggiungi <crd=storm,1> a un mostro casuale.
 customThunderstormA=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br><i=lightning> resistenza <bl>+20%</bl><br><gl>-Ogni round-</gl><br>Aggiungi <crd=storm,1> a un mostro casuale.
@@ -840,15 +840,15 @@ customWindsofAmnesiaA=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+25</bl>
 customWindsofAmnesiaB=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+35</bl><br><gl>-Ogni round-</gl><br>Aggiungi <crd=tabularasa,1> a un mostro casuale.</color>
 customWindsofAmnesiaRare=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+45</bl><br><gl>-Ogni round-</gl><br>Aggiungi <crd=tabularasa,1> a un mostro casuale.</color>
 
-customNoxiousParasites=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br>Immunita' a <i=poison><br><gl>-Ogni round-</gl><br>Mischia <crd=hatchcorrupt,1> in ogni mazzo degli eroi.
-customNoxiousParasitesA=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br>Immunita' a <i=poison><br><gl>-Ogni round-</gl><br>Mischia <crd=hatchcorrupt,1> in ogni mazzo degli eroi.
-customNoxiousParasitesB=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+3</bl><br>Immunita' a <i=poison><br><gl>-Ogni round-</gl><br>Mischia <crd=hatchcorrupt,1> in ogni mazzo degli eroi.
-customNoxiousParasitesRare=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+4</bl><br>Immunita' a <i=poison><br><gl>-Ogni round-</gl><br>Mischia <crd=hatchcorrupt,1> in ogni mazzo degli eroi.
+customNoxiousParasites=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br>Immunità a <i=poison><br><gl>-Ogni round-</gl><br>Mischia <crd=hatchcorrupt,1> in ogni mazzo degli eroi.
+customNoxiousParasitesA=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br>Immunità a <i=poison><br><gl>-Ogni round-</gl><br>Mischia <crd=hatchcorrupt,1> in ogni mazzo degli eroi.
+customNoxiousParasitesB=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+3</bl><br>Immunità a <i=poison><br><gl>-Ogni round-</gl><br>Mischia <crd=hatchcorrupt,1> in ogni mazzo degli eroi.
+customNoxiousParasitesRare=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+4</bl><br>Immunità a <i=poison><br><gl>-Ogni round-</gl><br>Mischia <crd=hatchcorrupt,1> in ogni mazzo degli eroi.
 
-customMelancholy=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+15</bl><br>Tutte le resistenze <bl>+10%</bl><br>Immunita' a <i=insane><br><gl>-Ogni round-</gl><br>Mischia <crd=sad,2> in ogni mazzo degli eroi.</color>
-customMelancholyA=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+25</bl><br>Tutte le resistenze <bl>+15%</bl><br>Immunita' a <i=insane><br><gl>-Ogni round-</gl><br>Mischia <crd=sad,2> in ogni mazzo degli eroi.</color>
-customMelancholyB=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+35</bl><br>Tutte le resistenze <bl>+20%</bl><br>Immunita' a <i=insane><br><gl>-Ogni round-</gl><br>Mischia <crd=sad,2> in ogni mazzo degli eroi.</color>
-customMelancholyRare=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+45</bl><br>Tutte le resistenze <bl>+25%</bl><br>Immunita' a <i=insane><br><gl>-Ogni round-</gl><br>Mischia <crd=sad,2> in ogni mazzo degli eroi.</color>
+customMelancholy=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+15</bl><br>Tutte le resistenze <bl>+10%</bl><br>Immunità a <i=insane><br><gl>-Ogni round-</gl><br>Mischia <crd=sad,2> in ogni mazzo degli eroi.</color>
+customMelancholyA=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+25</bl><br>Tutte le resistenze <bl>+15%</bl><br>Immunità a <i=insane><br><gl>-Ogni round-</gl><br>Mischia <crd=sad,2> in ogni mazzo degli eroi.</color>
+customMelancholyB=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+35</bl><br>Tutte le resistenze <bl>+20%</bl><br>Immunità a <i=insane><br><gl>-Ogni round-</gl><br>Mischia <crd=sad,2> in ogni mazzo degli eroi.</color>
+customMelancholyRare=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+45</bl><br>Tutte le resistenze <bl>+25%</bl><br>Immunità a <i=insane><br><gl>-Ogni round-</gl><br>Mischia <crd=sad,2> in ogni mazzo degli eroi.</color>
 
 customFungalOutbreak=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+1</bl><br><i=mind> resistenza <bl>+15%</bl><br><gl>-Ogni round-</gl><br>Metti <crd=magicmushroom,1> in cima al mazzo di un eroe casuale.
 customFungalOutbreakA=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br><i=mind> resistenza <bl>+20%</bl><br><gl>-Ogni round-</gl><br>Metti <crd=magicmushroom,1> in cima al mazzo di un eroe casuale.
@@ -860,10 +860,10 @@ customEmpowerA=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl>
 customEmpowerB=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br><gl>-Ogni round-</gl><br>Guadagna <bl>4</bl><i=powerful>
 customEmpowerRare=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+3</bl><br><gl>-Ogni round-</gl><br>Guadagna <bl>4</bl><i=powerful>
 
-customPoisonFields=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br>Immunita' a <i=poison><br><gl>-Ogni round-</gl><br>Tutti gli eroi subiscono <rd>3<rd><i=poison>
-customPoisonFieldsA=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br>Immunita' a <i=poison><br><gl>-Ogni round-</gl><br>Tutti gli eroi subiscono <rd>5<rd><i=poison>
-customPoisonFieldsB=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+3</bl><br>Immunita' a <i=poison><br><gl>-Ogni round-</gl><br>Tutti gli eroi subiscono <rd>7<rd><i=poison>
-customPoisonFieldsRare=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+4</bl><br>Immunita' a <i=poison><br><gl>-Ogni round-</gl><br>Tutti gli eroi subiscono <rd>9<rd><i=poison>
+customPoisonFields=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br>Immunità a <i=poison><br><gl>-Ogni round-</gl><br>Tutti gli eroi subiscono <rd>3<rd><i=poison>
+customPoisonFieldsA=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br>Immunità a <i=poison><br><gl>-Ogni round-</gl><br>Tutti gli eroi subiscono <rd>5<rd><i=poison>
+customPoisonFieldsB=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+3</bl><br>Immunità a <i=poison><br><gl>-Ogni round-</gl><br>Tutti gli eroi subiscono <rd>7<rd><i=poison>
+customPoisonFieldsRare=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+4</bl><br>Immunità a <i=poison><br><gl>-Ogni round-</gl><br>Tutti gli eroi subiscono <rd>9<rd><i=poison>
 
 customPacifism=<gl>Tutti i mostri guadagnano:</gl><br><i=slashing><i=blunt><i=piercing><br>Resistenze <bl>+15%</bl><br><gl>-Ogni due round-</gl><br>Tutti gli eroi subiscono <rd>1</rd><i=disarm></size>
 customPacifismA=<gl>Tutti i mostri guadagnano:</gl><br><i=slashing><i=blunt><i=piercing><br>Resistenze <bl>+20%</bl><br><gl>-Ogni due round-</gl><br>Tutti gli eroi subiscono <rd>1</rd><i=disarm></size>
@@ -882,10 +882,10 @@ customVigorousA=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+45</bl><br>Tu
 customVigorousB=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+60</bl><br>Tutto il danno <bl>+2</bl>
 customVigorousRare=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+75</bl><br>Tutto il danno <bl>+2</bl>
 
-customUpwind=<gl>Tutti i mostri guadagnano:</gl><br>Velocita' <bl>+3</bl><br>Tutte le resistenze <bl>+5%</bl><br><gl>-Inizio combattimento-</gl><br>Tutti gli eroi subiscono <bl>2</bl><i=slow>
-customUpwindA=<gl>Tutti i mostri guadagnano:</gl><br>Velocita' <bl>+3</bl><br>Tutte le resistenze <bl>+10%</bl><br><gl>-Inizio combattimento-</gl><br>Tutti gli eroi subiscono <bl>3</bl><i=slow>
-customUpwindB=<gl>Tutti i mostri guadagnano:</gl><br>Velocita' <bl>+4</bl><br>Tutte le resistenze <bl>+15%</bl><br><gl>-Inizio combattimento-</gl><br>Tutti gli eroi subiscono <bl>3</bl><i=slow>
-customUpwindRare=<gl>Tutti i mostri guadagnano:</gl><br>Velocita' <bl>+5</bl><br>Tutte le resistenze <bl>+20%</bl><br><gl>-Inizio combattimento-</gl><br>Tutti gli eroi subiscono <bl>4</bl><i=slow>
+customUpwind=<gl>Tutti i mostri guadagnano:</gl><br>Velocità <bl>+3</bl><br>Tutte le resistenze <bl>+5%</bl><br><gl>-Inizio combattimento-</gl><br>Tutti gli eroi subiscono <bl>2</bl><i=slow>
+customUpwindA=<gl>Tutti i mostri guadagnano:</gl><br>Velocità <bl>+3</bl><br>Tutte le resistenze <bl>+10%</bl><br><gl>-Inizio combattimento-</gl><br>Tutti gli eroi subiscono <bl>3</bl><i=slow>
+customUpwindB=<gl>Tutti i mostri guadagnano:</gl><br>Velocità <bl>+4</bl><br>Tutte le resistenze <bl>+15%</bl><br><gl>-Inizio combattimento-</gl><br>Tutti gli eroi subiscono <bl>3</bl><i=slow>
+customUpwindRare=<gl>Tutti i mostri guadagnano:</gl><br>Velocità <bl>+5</bl><br>Tutte le resistenze <bl>+20%</bl><br><gl>-Inizio combattimento-</gl><br>Tutti gli eroi subiscono <bl>4</bl><i=slow>
 
 customSacredGround=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+1</bl><br><i=holy> resistenza <bl>+15%</bl><br><gl>-Inizio combattimento-</gl><br>Tutti gli eroi subiscono <bl>7</bl><i=sanctify>
 customSacredGroundA=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br><i=holy> resistenza <bl>+20%</bl><br><gl>-Inizio combattimento-</gl><br>Tutti gli eroi subiscono <bl>11</bl><i=sanctify>
@@ -902,35 +902,35 @@ customBacklashA=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl
 customBacklashB=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+3</bl><br>Tutte le resistenze <bl>+15%</bl><br><gl>Quando un eroe gioca una "Magia",</gl> subisce <rd>4</rd><i=dark> <rd>3</rd><i=insane>
 customBacklashRare=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+4</bl><br>Tutte le resistenze <bl>+20%</bl><br><gl>Quando un eroe gioca una "Magia",</gl> subisce <rd>5</rd><i=dark> <rd>3</rd><i=insane>
 
-customSubZero=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br>Immunita' a <i=chill><i=slow><br><gl>-Ogni due round-</gl><br>Aggiungi <crd=freezecorruption,1> a tutti i mostri.
-customSubZeroA=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br>Immunita' a <i=chill><i=slow><br><gl>-Ogni due round-</gl><br>Aggiungi <crd=freezecorruption,1> a tutti i mostri.
-customSubZeroB=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+3</bl><br>Immunita' a <i=chill><i=slow><br><gl>-Ogni due round-</gl><br>Aggiungi <crd=freezecorruption,1> a tutti i mostri.
-customSubZeroRare=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+4</bl><br>Immunita' a <i=chill><i=slow><br><gl>-Ogni due round-</gl><br>Aggiungi <crd=freezecorruption,1> a tutti i mostri.
+customSubZero=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br>Immunità a <i=chill><i=slow><br><gl>-Ogni due round-</gl><br>Aggiungi <crd=freezecorruption,1> a tutti i mostri.
+customSubZeroA=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br>Immunità a <i=chill><i=slow><br><gl>-Ogni due round-</gl><br>Aggiungi <crd=freezecorruption,1> a tutti i mostri.
+customSubZeroB=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+3</bl><br>Immunità a <i=chill><i=slow><br><gl>-Ogni due round-</gl><br>Aggiungi <crd=freezecorruption,1> a tutti i mostri.
+customSubZeroRare=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+4</bl><br>Immunità a <i=chill><i=slow><br><gl>-Ogni due round-</gl><br>Aggiungi <crd=freezecorruption,1> a tutti i mostri.
 
-customRevenge=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br>Immunita' a <i=bleed><br><gl>Quando un eroe gioca un "Attacco",</gl> tutti i mostri guadagnano <bl>3</bl><i=fury>
-customRevengeA=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br>Immunita' a <i=bleed><br><gl>Quando un eroe gioca un "Attacco",</gl> tutti i mostri guadagnano <bl>4</bl><i=fury>
-customRevengeB=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+3</bl><br>Immunita' al<i=bleed><br><gl>Quando un eroe gioca una carta "Attacco",</gl> tutti i mostri ottengono <bl>5</bl><i=fury>
-customRevengeRare=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+4</bl><br>Immunita' al<i=bleed><br><gl>Quando un eroe gioca una carta "Attacco",</gl> tutti i mostri ottengono <bl>6</bl><i=fury>
+customRevenge=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br>Immunità a <i=bleed><br><gl>Quando un eroe gioca un "Attacco",</gl> tutti i mostri guadagnano <bl>3</bl><i=fury>
+customRevengeA=<gl>Tutti i mostri guadagnano:</gl><br>Tutto il danno <bl>+2</bl><br>Immunità a <i=bleed><br><gl>Quando un eroe gioca un "Attacco",</gl> tutti i mostri guadagnano <bl>4</bl><i=fury>
+customRevengeB=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+3</bl><br>Immunità al<i=bleed><br><gl>Quando un eroe gioca una carta "Attacco",</gl> tutti i mostri ottengono <bl>5</bl><i=fury>
+customRevengeRare=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+4</bl><br>Immunità al<i=bleed><br><gl>Quando un eroe gioca una carta "Attacco",</gl> tutti i mostri ottengono <bl>6</bl><i=fury>
 
 customBurningWeapons=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+1</bl><br><i=fire> resistenza <bl>+15%</bl><br><gl>Quando un mostro infligge danno,</gl> applica <rd>1</rd><i=burn>
 customBurningWeaponsA=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+2</bl><br><i=fire> resistenza <bl>+20%</bl><br><gl>Quando un mostro infligge danno,</gl> applica <rd>2</rd><i=burn>
 customBurningWeaponsB=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+2</bl><br><i=fire> resistenza <bl>+25%</bl><br><gl>Quando un mostro infligge danno,</gl> applica <rd>3</rd><i=burn>
 customBurningWeaponsRare=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+3</bl><br><i=fire> resistenza <bl>+30%</bl><br><gl>Quando un mostro infligge danno,</gl> applica <rd>4</rd><i=burn>
 
-customPutrefaction=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+2</bl><br>Immunita' a<i=dark><i=decay><br><gl>Quando un mostro infligge danno,</gl> applica <rd>2</rd><i=dark><rd>1</rd><i=decay>
-customPutrefactionA=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+2</bl><br>Immunita' a<i=dark><i=decay><br><gl>Quando un mostro infligge danno,</gl> applica <rd>3</rd><i=dark><rd>1</rd><i=decay>
-customPutrefactionB=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+3</bl><br>Immunita' a<i=dark><i=decay><br><gl>Quando un mostro infligge danno,</gl> applica <rd>3</rd><i=dark><rd>2</rd><i=decay>
-customPutrefactionRare=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+4</bl><br>Immunita' a<i=dark><i=decay><br><gl>Quando un mostro infligge danno,</gl> applica <rd>4</rd><i=dark><rd>2</rd><i=decay>
+customPutrefaction=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+2</bl><br>Immunità a<i=dark><i=decay><br><gl>Quando un mostro infligge danno,</gl> applica <rd>2</rd><i=dark><rd>1</rd><i=decay>
+customPutrefactionA=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+2</bl><br>Immunità a<i=dark><i=decay><br><gl>Quando un mostro infligge danno,</gl> applica <rd>3</rd><i=dark><rd>1</rd><i=decay>
+customPutrefactionB=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+3</bl><br>Immunità a<i=dark><i=decay><br><gl>Quando un mostro infligge danno,</gl> applica <rd>3</rd><i=dark><rd>2</rd><i=decay>
+customPutrefactionRare=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+4</bl><br>Immunità a<i=dark><i=decay><br><gl>Quando un mostro infligge danno,</gl> applica <rd>4</rd><i=dark><rd>2</rd><i=decay>
 
 customHexproof=<gl>Tutti i mostri ottengono:</gl><br>PV massimi <bl>+15</bl><br>Danno totale <bl>+2</bl><br><gl>-Ogni turno-</gl><br>Ottieni <bl>5</bl><i=buffer>
 customHexproofA=<gl>Tutti i mostri ottengono:</gl><br>PV massimi <bl>+20</bl><br>Danno totale <bl>+2</bl><br><gl>-Ogni turno-</gl><br>Ottieni <bl>6</bl><i=buffer>
 customHexproofB=<gl>Tutti i mostri ottengono:</gl><br>PV massimi <bl>+25</bl><br>Danno totale <bl>+3</bl><br><gl>-Ogni turno-</gl><br>Ottieni <bl>7</bl><i=buffer>
 customHexproofRare=<gl>Tutti i mostri ottengono:</gl><br>PV massimi <bl>+30</bl><br>Danno totale <bl>+4</bl><br><gl>-Ogni turno-</gl><br>Ottieni <bl>8</bl><i=buffer>
 
-customHeavyWeaponry=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+3</bl><br>Immunita' a<i=vulnerable><br><gl>Quando un mostro infligge danno,</gl> applica <rd>1</rd><i=vulnerable><rd>1</rd><i=slow>
-customHeavyWeaponryA=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+4</bl><br>Immunita' a<i=vulnerable><br><gl>Quando un mostro infligge danno,</gl> applica <rd>2</rd><i=vulnerable><rd>1</rd><i=slow>
-customHeavyWeaponryB=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+4</bl><br>Immunita' a<i=vulnerable><br><gl>Quando un mostro infligge danno,</gl> applica <rd>2</rd><i=vulnerable><rd>2</rd><i=slow>
-customHeavyWeaponryRare=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+5</bl><br>Immunita' a<i=vulnerable><br><gl>Quando un mostro infligge danno,</gl> applica <rd>2</rd><i=vulnerable><rd>2</rd><i=slow>
+customHeavyWeaponry=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+3</bl><br>Immunità a<i=vulnerable><br><gl>Quando un mostro infligge danno,</gl> applica <rd>1</rd><i=vulnerable><rd>1</rd><i=slow>
+customHeavyWeaponryA=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+4</bl><br>Immunità a<i=vulnerable><br><gl>Quando un mostro infligge danno,</gl> applica <rd>2</rd><i=vulnerable><rd>1</rd><i=slow>
+customHeavyWeaponryB=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+4</bl><br>Immunità a<i=vulnerable><br><gl>Quando un mostro infligge danno,</gl> applica <rd>2</rd><i=vulnerable><rd>2</rd><i=slow>
+customHeavyWeaponryRare=<gl>Tutti i mostri ottengono:</gl><br>Danno totale <bl>+5</bl><br>Immunità a<i=vulnerable><br><gl>Quando un mostro infligge danno,</gl> applica <rd>2</rd><i=vulnerable><rd>2</rd><i=slow>
 
 customThornProliferation=<gl>Tutti i mostri ottengono:</gl><br>PV massimi <bl>+15</bl><br>Danno totale <bl>+2</bl><br><gl>Quando un eroe gioca una carta,</gl> un mostro casuale ottiene <rd>1</rd><i=thorns>
 customThornProliferationA=<gl>Tutti i mostri ottengono:</gl><br>PV massimi <bl>+25</bl><br>Danno totale <bl>+2</bl><br><gl>Quando un eroe gioca una carta,</gl> un mostro casuale ottiene <rd>2</rd><i=thorns>
@@ -958,10 +958,10 @@ buffer=Buffare
 courage=Coraggio
 energize=Energizzare
 evasion=Evasione
-fast=Velocita'
+fast=Velocità
 fortify=Fortificare
 fury=Furia
-haste=Rapidita'
+haste=Rapidità
 inspire=Ispirare
 insulate=Isolare
 invulnerable=Invulnerabile
@@ -971,10 +971,10 @@ reinforce=Rinforzare
 sharp=Affilato
 shield=Scudo
 stanza=Stanza
-stealth=Furtivita'
+stealth=Furtività
 taunt=Provocare
 thorns=Spine
-vitality=Vitalita'
+vitality=Vitalità
 bleed=Sanguinamento
 burn=Bruciatura
 chill=Raffreddore
@@ -1018,8 +1018,8 @@ challengeEnergy=Costo energetico medio
 rankProgress=Grado {0}
 rankTier=Livello {0}
 rankPointsAvailable=<sprite name=perk>Punti disponibili
-rankPointsHowto=Un perk e' un tipo diverso di bonus che puoi assegnare ai tuoi eroi. Riceverai punti perk da distribuire alla fine delle tue avventure.
-rankPointsHighest=Il numero di punti perk disponibili per i tuoi personaggi dipende dal livello di grado del tuo <color=#F1D2A9>personaggio piu' alto</color>. (1 punto per ogni livello e un massimo di 36 punti)
+rankPointsHowto=Un perk è un tipo diverso di bonus che puoi assegnare ai tuoi eroi. Riceverai punti perk da distribuire alla fine delle tue avventure.
+rankPointsHighest=Il numero di punti perk disponibili per i tuoi personaggi dipende dal livello di grado del tuo <color=#F1D2A9>personaggio più alto</color>. (1 punto per ogni livello e un massimo di 36 punti)
 rankPerkPoints={0} Punti perk
 rankPerkPointsGain=Puoi assegnare i punti perk ai tuoi eroi quando inizi una nuova partita.
 rankPerkPress=Premi per assegnare il perk
@@ -1035,15 +1035,15 @@ rankDescription7=Nuova skin
 rankDescription8=Carta iniziale (giallo)
 rankDescription9=Nuova retro della carta
 rankDescription10=Carte talento (giallo)
-rankLevelDescrition=Ogni personaggio guadagnera' punti dopo un'avventura. Con ogni nuovo grado, il personaggio sblocca nuove funzionalita'.
+rankLevelDescrition=Ogni personaggio guadagnerà punti dopo un'avventura. Con ogni nuovo grado, il personaggio sblocca nuove funzionalità.
 cantModifyPerkMP=Non puoi modificare i punti perk durante una partita salvata.
 perkNone=Questo personaggio non ha alcun perk attivo per questa partita.
 perkAuraDescription=Cariche che applichi {0}
 skinRequiredRankLevel=Per utilizzare questa skin, il tuo personaggio deve essere:<br> Livello di grado {0}
-requiredAdventureComplete=Devi completare la modalita' Avventura.
-requiredAdventureLevel=Devi completare la modalita' Avventura nel livello Madness {0}.
-requiredObeliskComplete=Devi completare la modalita' Sfida Obelisco.
-requiredObeliskLevel=Devi completare la modalita' Sfida Obelisco nel livello Madness {0}.
+requiredAdventureComplete=Devi completare la modalità Avventura.
+requiredAdventureLevel=Devi completare la modalità Avventura nel livello Madness {0}.
+requiredObeliskComplete=Devi completare la modalità Sfida Obelisco.
+requiredObeliskLevel=Devi completare la modalità Sfida Obelisco nel livello Madness {0}.
 
 senenthia=Regno di Senenthia
 velkarath=Le Montagne di Velkarath
@@ -1051,85 +1051,85 @@ aquarfall=La Palude di Aquarfall
 theHatch=Il Nido
 spiderLair=Tana del Ragno
 theVoid=Il Vuoto
-act0Intro=Come e' successo, chiedete? Tutto e' cominciato durante il sedicesimo compleanno della principessa. Tutti erano nel cortile, in attesa ansiosa di lei. Sarebbe stata introdotta nell'Accademia degli Stregoni, un onore riservato a coloro che mostrano attitudine (e lei ne aveva davvero uno).<br><br>All'improvviso, un'esplosione scoppio' nella camera della principessa, seguita da una raffica di energia che si diffuse attraverso il regno di Senenthia. Le guardie reali esplorarono ogni angolo del castello, ma non trovarono alcun segno di lei o del signor Hanshek, il mago di corte e consigliere del re.<br><br>Anche se il re invio' soldati in tutto il regno, nessuno di loro torno'. L'ultima cosa che senti' fu che la sua traccia era stata persa nel profondo della Vecchia Foresta, vicino all'antico obelisco che era stato dormiente per secoli... fino ad ora.<br><br>Disperato, il re proclamo' un decreto reale e annuncio' che avrebbe premiato chiunque avesse riportato la principessa a casa sana e salva. La notizia si diffuse rapidamente nel regno. Molti gruppi di avventurieri si prepararono ad avventurarsi nella foresta e a investigare sull'obelisco per trovare la principessa.<br><br>Questa e' la storia di uno di quei gruppi.
-act1Intro=Il gruppo attraverso' l'obelisco e, in un istante, si ritrovo' altrove, lontano dalla foresta di Senenthia.<br><br>Uno dei misteri dell'obelisco fu rivelato: nell'antichita', l'obelisco era stato usato come mezzo di trasporto, poiche' raggiungere questa terra per strada avrebbe richiesto mesi.<br><br>Il gruppo cerco' segni che la principessa e il signor Hanshek avessero passato da questo luogo... ma senza fortuna. Non sembrava che nessuno fosse stato li' da molto tempo.<br><br>Fortunatamente, all'orizzonte videro che c'era un altro obelisco, che sembrava anche esso attivo. La loro unica speranza ora era raggiungerlo e tentare la fortuna con una nuova destinazione.
-act2Intro=Il gruppo attraverso' il suo secondo obelisco. All'arrivo, cercarono segni che la principessa o il signor Hanshek fossero stati li'. Questa volta trovarono due paia di impronte che portavano via dall'area di arrivo, e sembravano essere solo di pochi giorni fa.<br><br>Il gruppo era finalmente sulla buona strada per inseguirli, anche se non sapeva davvero dove stava andando.<br><br>Mentre il gruppo guardava verso l'orizzonte, vide un altro obelisco. In quel momento, l'obelisco brillo' intensamente, allo stesso modo in cui avevano fatto gli altri due obelischi quando leggevano le rune.<br><br>Si resero conto che in quel momento il signor Hanshek e la principessa avevano appena attraversato l'obelisco, e se fossero stati abbastanza veloci, sarebbero stati in grado di prenderli.
+act0Intro=Come è successo, chiedete? Tutto è cominciato durante il sedicesimo compleanno della principessa. Tutti erano nel cortile, in attesa ansiosa di lei. Sarebbe stata introdotta nell'Accademia degli Stregoni, un onore riservato a coloro che mostrano attitudine (e lei ne aveva davvero uno).<br><br>All'improvviso, un'esplosione scoppiò nella camera della principessa, seguita da una raffica di energia che si diffuse attraverso il regno di Senenthia. Le guardie reali esplorarono ogni angolo del castello, ma non trovarono alcun segno di lei o del signor Hanshek, il mago di corte e consigliere del re.<br><br>Anche se il re inviò soldati in tutto il regno, nessuno di loro tornò. L'ultima cosa che sentì fu che la sua traccia era stata persa nel profondo della Vecchia Foresta, vicino all'antico obelisco che era stato dormiente per secoli... fino ad ora.<br><br>Disperato, il re proclamò un decreto reale e annunciò che avrebbe premiato chiunque avesse riportato la principessa a casa sana e salva. La notizia si diffuse rapidamente nel regno. Molti gruppi di avventurieri si prepararono ad avventurarsi nella foresta e a investigare sull'obelisco per trovare la principessa.<br><br>Questa è la storia di uno di quei gruppi.
+act1Intro=Il gruppo attraversò l'obelisco e, in un istante, si ritrovò altrove, lontano dalla foresta di Senenthia.<br><br>Uno dei misteri dell'obelisco fu rivelato: nell'antichità, l'obelisco era stato usato come mezzo di trasporto, poichè raggiungere questa terra per strada avrebbe richiesto mesi.<br><br>Il gruppo cercò segni che la principessa e il signor Hanshek avessero passato da questo luogo... ma senza fortuna. Non sembrava che nessuno fosse stato lì da molto tempo.<br><br>Fortunatamente, all'orizzonte videro che c'era un altro obelisco, che sembrava anche esso attivo. La loro unica speranza ora era raggiungerlo e tentare la fortuna con una nuova destinazione.
+act2Intro=Il gruppo attraversò il suo secondo obelisco. All'arrivo, cercarono segni che la principessa o il signor Hanshek fossero stati lì. Questa volta trovarono due paia di impronte che portavano via dall'area di arrivo, e sembravano essere solo di pochi giorni fa.<br><br>Il gruppo era finalmente sulla buona strada per inseguirli, anche se non sapeva davvero dove stava andando.<br><br>Mentre il gruppo guardava verso l'orizzonte, vide un altro obelisco. In quel momento, l'obelisco brillò intensamente, allo stesso modo in cui avevano fatto gli altri due obelischi quando leggevano le rune.<br><br>Si resero conto che in quel momento il signor Hanshek e la principessa avevano appena attraversato l'obelisco, e se fossero stati abbastanza veloci, sarebbero stati in grado di prenderli.
 act3Intro=Atto 4 Intro (lavoro in corso)
-actEndGame=Congratulazioni! Hai completato il gioco con difficolta' normale.<br><br>Hai sbloccato i livelli di follia. Ora sarai in grado di aumentare la difficolta' del gioco e adattarlo alle tue preferenze, come avere nemici casuali in ogni combattimento.<br><br>Inoltre, nei livelli di follia compaiono nuovi oggetti corrotti. Questi oggetti sono versioni molto piu' potenti degli oggetti normali. Ogni livello di difficolta' aumenta la probabilita' di questi oggetti e carte corrotte che compaiono.<br><br>Speriamo che ti sia divertito con il gioco. C'e' ancora molto da venire! Cordiali saluti, Adam, Javier e Juanjo.
+actEndGame=Congratulazioni! Hai completato il gioco con difficoltà normale.<br><br>Hai sbloccato i livelli di follia. Ora sarai in grado di aumentare la difficoltà del gioco e adattarlo alle tue preferenze, come avere nemici casuali in ogni combattimento.<br><br>Inoltre, nei livelli di follia compaiono nuovi oggetti corrotti. Questi oggetti sono versioni molto più potenti degli oggetti normali. Ogni livello di difficoltà aumenta la probabilità di questi oggetti e carte corrotte che compaiono.<br><br>Speriamo che ti sia divertito con il gioco. C'è ancora molto da venire! Cordiali saluti, Adam, Javier e Juanjo.
 goldDescription=Oro: Usato per acquistare equipaggiamento, rimuovere carte e completare obiettivi in alcuni eventi
 dustDescription=Schegge: Usate per creare e trasmutare carte
-supplyDescription=Forniture: Usate per migliorare gli edifici di una citta' e i suoi servizi<br>(Max. 500)
+supplyDescription=Forniture: Usate per migliorare gli edifici di una città e i suoi servizi<br>(Max. 500)
 corruptionReward=Ricompensa di Corruzione
-corruptionAltarUpgrade=Il gruppo avra' accesso a un <color=#E0A44E>altare di aggiornamento</color>.
-corruptionGainGold=Il gruppo guadagnera'<br><sprite name=gold> {0}  <sprite name=dust> {1} 
-corruptionGainGold2=Il gruppo guadagnera'<br><sprite name=gold> {0}  <sprite name=dust> {1}  <sprite name=supply> {2}
-corruptionRemoveCard=Ogni eroe potra' <color=#E0A44E>rimuovere una carta</color> gratuitamente dal mazzo.
-corruptionRemoveCard2=Ogni eroe potra' <color=#E0A44E>rimuovere due carte</color> gratuitamente dal mazzo.
-corruptionRareShop=Il gruppo avra' accesso a un <color=#E0A44E>negozio di equipaggiamento raro</color>.
-corruptionRareShopDiscount=Il gruppo avra' accesso a un <color=#E0A44E>negozio di equipaggiamento raro</color> (con uno sconto del 30%).
-corruptionRandomCardUpgrade=Una carta base casuale <color=#E0A44E>sara' potenziata</color> per ogni eroe.
+corruptionAltarUpgrade=Il gruppo avrà accesso a un <color=#E0A44E>altare di aggiornamento</color>.
+corruptionGainGold=Il gruppo guadagnerà<br><sprite name=gold> {0}  <sprite name=dust> {1} 
+corruptionGainGold2=Il gruppo guadagnerà<br><sprite name=gold> {0}  <sprite name=dust> {1}  <sprite name=supply> {2}
+corruptionRemoveCard=Ogni eroe potrà <color=#E0A44E>rimuovere una carta</color> gratuitamente dal mazzo.
+corruptionRemoveCard2=Ogni eroe potrà <color=#E0A44E>rimuovere due carte</color> gratuitamente dal mazzo.
+corruptionRareShop=Il gruppo avrà accesso a un <color=#E0A44E>negozio di equipaggiamento raro</color>.
+corruptionRareShopDiscount=Il gruppo avrà accesso a un <color=#E0A44E>negozio di equipaggiamento raro</color> (con uno sconto del 30%).
+corruptionRandomCardUpgrade=Una carta base casuale <color=#E0A44E>sarà potenziata</color> per ogni eroe.
 corruptionHeal20=Il gruppo si <color=#34FF46>cura del 30%</color> del loro HP massimo alla fine del combattimento.
-corruptionHeroFreeCard={0} ricevera' la carta <color={1}>"{2}"</color> gratuitamente.
-corruptionFreeCardUpgrade=Ogni eroe ricevera' un <color=#E0A44E>aggiornamento di carta gratuito</color>.
-corruptionExoticShop=Il gruppo avra' accesso a un <color=#E0A44E>negozio di equipaggiamento esotico</color>.
-corruptionExoticShopDiscount=Il gruppo avra' accesso a un <color=#E0A44E>negozio di equipaggiamento esotico</color> (con uno sconto del 30%).
-corruptionIncreasedQuality=Aumenta la <color=#E0A44E>qualita' e quantita' delle ricompense di carte</color> alla fine del combattimento.
+corruptionHeroFreeCard={0} riceverà la carta <color={1}>"{2}"</color> gratuitamente.
+corruptionFreeCardUpgrade=Ogni eroe riceverà un <color=#E0A44E>aggiornamento di carta gratuito</color>.
+corruptionExoticShop=Il gruppo avrà accesso a un <color=#E0A44E>negozio di equipaggiamento esotico</color>.
+corruptionExoticShopDiscount=Il gruppo avrà accesso a un <color=#E0A44E>negozio di equipaggiamento esotico</color> (con uno sconto del 30%).
+corruptionIncreasedQuality=Aumenta la <color=#E0A44E>qualità e quantità delle ricompense di carte</color> alla fine del combattimento.
 corruptionRewardScore=(punteggio: +{0})
 corruptionTitle=<sprite name=corruption>Corruzione dell'Obelisco
-corruptionDesc=L'influenza dell'Obelisco sta corrompendo i mostri in questa zona. Puoi scegliere di combatterli sotto gli effetti della corruzione per aumentare la difficolta' e ottenere ricompense aggiuntive.
+corruptionDesc=L'influenza dell'Obelisco sta corrompendo i mostri in questa zona. Puoi scegliere di combatterli sotto gli effetti della corruzione per aumentare la difficoltà e ottenere ricompense aggiuntive.
 corruptionAccept=Accettare la sfida?
 corruptionChoose=Scegli una di queste ricompense
 corruptionSelect=Prima di accettare la sfida, devi selezionare una ricompensa.
-townUpgrades=<sprite name=supply> Aggiornamenti della citta'
+townUpgrades=<sprite name=supply> Aggiornamenti della città
 
-townUpgrade_1_1=Il numero di <c>carte comuni</c> disponibili per la creazione e' aumentato a 2.
-townUpgrade_1_2=Il <c>costo di creazione</c> delle carte e' ridotto (15% in totale).
-townUpgrade_1_3=Il numero di <c>carte non comuni</c> disponibili per la creazione e' aumentato a 2.
-townUpgrade_1_4=<c>Carte rare</c> sbloccate per essere create nella citta' iniziale.
-townUpgrade_1_5=Il <c>costo di creazione</c> delle carte e' ridotto (30% in totale).
-townUpgrade_1_6=<c>Carte epiche</c> sbloccate per essere create nella seconda citta'.
+townUpgrade_1_1=Il numero di <c>carte comuni</c> disponibili per la creazione è aumentato a 2.
+townUpgrade_1_2=Il <c>costo di creazione</c> delle carte è ridotto (15% in totale).
+townUpgrade_1_3=Il numero di <c>carte non comuni</c> disponibili per la creazione è aumentato a 2.
+townUpgrade_1_4=<c>Carte rare</c> sbloccate per essere create nella città iniziale.
+townUpgrade_1_5=Il <c>costo di creazione</c> delle carte è ridotto (30% in totale).
+townUpgrade_1_6=<c>Carte epiche</c> sbloccate per essere create nella seconda città.
 
-townUpgrade_2_1=Il <c>costo di trasmutazione</c> delle carte e' ridotto (25% in totale).
-townUpgrade_2_2=Il <c>costo di miglioramento</c> delle carte e' ridotto (15% in totale).
-townUpgrade_2_3=Il <c>costo di trasmutazione</c> delle carte e' ridotto (50% in totale).
-townUpgrade_2_4=Il <c>costo di miglioramento</c> delle carte e' ridotto (30% in totale).
-townUpgrade_2_5=La trasmutazione delle carte e' <c>gratuita</c>.
-townUpgrade_2_6=Il <c>costo di miglioramento</c> delle carte e' ridotto (50% in totale).
+townUpgrade_2_1=Il <c>costo di trasmutazione</c> delle carte è ridotto (25% in totale).
+townUpgrade_2_2=Il <c>costo di miglioramento</c> delle carte è ridotto (15% in totale).
+townUpgrade_2_3=Il <c>costo di trasmutazione</c> delle carte è ridotto (50% in totale).
+townUpgrade_2_4=Il <c>costo di miglioramento</c> delle carte è ridotto (30% in totale).
+townUpgrade_2_5=La trasmutazione delle carte è <c>gratuita</c>.
+townUpgrade_2_6=Il <c>costo di miglioramento</c> delle carte è ridotto (50% in totale).
 
-townUpgrade_3_1=L'eliminazione delle carte nella citta' iniziale e' <c>gratuita</c>.
-townUpgrade_3_2=Il costo di <c>cura delle ferite</c> e' ridotto (15% in totale).
-townUpgrade_3_3=Il costo di <c>eliminazione delle carte</c> e' ridotto (25% in totale).
-townUpgrade_3_4=Il costo di <c>cura delle ferite</c> e' ridotto (30% in totale).
-townUpgrade_3_5=Il costo di <c>eliminazione delle carte</c> e' ridotto (50% in totale).
-townUpgrade_3_6=L'eliminazione delle carte nella seconda citta' e' <c>gratuita</c>.
+townUpgrade_3_1=L'eliminazione delle carte nella città iniziale è <c>gratuita</c>.
+townUpgrade_3_2=Il costo di <c>cura delle ferite</c> è ridotto (15% in totale).
+townUpgrade_3_3=Il costo di <c>eliminazione delle carte</c> è ridotto (25% in totale).
+townUpgrade_3_4=Il costo di <c>cura delle ferite</c> è ridotto (30% in totale).
+townUpgrade_3_5=Il costo di <c>eliminazione delle carte</c> è ridotto (50% in totale).
+townUpgrade_3_6=L'eliminazione delle carte nella seconda città è <c>gratuita</c>.
 
-townUpgrade_4_1=Il costo delle <c>sessioni di divinazione</c> e' ridotto (10% in totale).
-townUpgrade_4_2=<c>Divinazione base</c> sbloccata nella citta' iniziale.
-townUpgrade_4_3=Il costo delle <c>sessioni di divinazione</c> e' ridotto (25% in totale).
-townUpgrade_4_4=<c>Divinazione avanzata</c> sbloccata nella seconda citta'.
-townUpgrade_4_5=Il costo delle <c>sessioni di divinazione</c> e' ridotto (40% in totale).
-townUpgrade_4_6=<c>Divinazione avanzata</c> sbloccata nella citta' iniziale.
+townUpgrade_4_1=Il costo delle <c>sessioni di divinazione</c> è ridotto (10% in totale).
+townUpgrade_4_2=<c>Divinazione base</c> sbloccata nella città iniziale.
+townUpgrade_4_3=Il costo delle <c>sessioni di divinazione</c> è ridotto (25% in totale).
+townUpgrade_4_4=<c>Divinazione avanzata</c> sbloccata nella seconda città.
+townUpgrade_4_5=Il costo delle <c>sessioni di divinazione</c> è ridotto (40% in totale).
+townUpgrade_4_6=<c>Divinazione avanzata</c> sbloccata nella città iniziale.
 
-townUpgrade_5_1=Sblocca la possibilita' di <c>rifornire gli oggetti</c> nell'armeria della citta'.
-townUpgrade_5_2=Il <c>costo degli oggetti</c> nell'armeria della citta' e' ridotto (15% in totale).
-townUpgrade_5_3=Aumentata la <c>rarita'</c> degli oggetti nell'armeria della citta'.
-townUpgrade_5_4=Il <c>costo per il rifornimento degli oggetti</c> nell'armeria della citta' e' ridotto (50% in totale).
-townUpgrade_5_5=Il <c>costo degli oggetti</c> nell'armeria della citta' e' ridotto (30% in totale).
-townUpgrade_5_6=Aumentata la <c>rarita'</c> degli oggetti nell'armeria della citta'.
+townUpgrade_5_1=Sblocca la possibilità di <c>rifornire gli oggetti</c> nell'armeria della città.
+townUpgrade_5_2=Il <c>costo degli oggetti</c> nell'armeria della città è ridotto (15% in totale).
+townUpgrade_5_3=Aumentata la <c>rarità</c> degli oggetti nell'armeria della città.
+townUpgrade_5_4=Il <c>costo per il rifornimento degli oggetti</c> nell'armeria della città è ridotto (50% in totale).
+townUpgrade_5_5=Il <c>costo degli oggetti</c> nell'armeria della città è ridotto (30% in totale).
+townUpgrade_5_6=Aumentata la <c>rarità</c> degli oggetti nell'armeria della città.
 
 townUpgrade_6_1=<c>Ritenzione valuta</c> alla fine del gioco aumentata (10% in totale).
-townUpgrade_6_2=Sblocca il <c>negoziato degli animali domestici</c> all'interno dell'armeria della citta'.
+townUpgrade_6_2=Sblocca il <c>negoziato degli animali domestici</c> all'interno dell'armeria della città.
 townUpgrade_6_3=<c>Ritenzione valuta</c> alla fine del gioco aumentata (20% in totale).
-townUpgrade_6_4=Sblocca il <c>nodo del convoglio</c> fuori dalla citta' iniziale.
+townUpgrade_6_4=Sblocca il <c>nodo del convoglio</c> fuori dalla città iniziale.
 townUpgrade_6_5=<c>Ritenzione valuta</c> alla fine del gioco aumentata (30% in totale).
-townUpgrade_6_6=Sblocca la possibilita' di <c>vendere forniture</c> per oro e frammenti.
+townUpgrade_6_6=Sblocca la possibilità di <c>vendere forniture</c> per oro e frammenti.
 
-townRequired=<color=#FFF>[Richiede]</color> {0} forniture in piu' spese.
-townAssignWarning=Vuoi acquistare questo potenziamento? <color=#AAAAAA>Questa azione non puo' essere annullata.</color>
+townRequired=<color=#FFF>[Richiede]</color> {0} forniture in più spese.
+townAssignWarning=Vuoi acquistare questo potenziamento? <color=#AAAAAA>Questa azione non può essere annullata.</color>
 rerollButton=Rifornisci {0}
-rerollButtonCostSP=Il costo per rifornire aumenta ad ogni Atto. Gli oggetti gia' acquistati non verranno mostrati.
-rerollButtonCostCoop=Il costo totale per rifornire dipende dai personaggi che controlli e aumenta ad ogni Atto. Gli oggetti gia' acquistati non verranno mostrati.
-rerollLock=Disponibile solo un rifornimento in ogni citta', nel livello di base di Madness superiore a 3.
+rerollButtonCostSP=Il costo per rifornire aumenta ad ogni Atto. Gli oggetti già acquistati non verranno mostrati.
+rerollButtonCostCoop=Il costo totale per rifornire dipende dai personaggi che controlli e aumenta ad ogni Atto. Gli oggetti già acquistati non verranno mostrati.
+rerollLock=Disponibile solo un rifornimento in ogni città, nel livello di base di Madness superiore a 3.
 rerollWarning=(Solo una disponibile)
 helpDeck=Mazzo da pesca
 helpCasted=Carte lanciate
@@ -1144,27 +1144,27 @@ cardsNum=({0} carte)
 savedDecks=Mazzi salvati
 savedDeckDeleteConfirm=Vuoi eliminare questo mazzo?
 craftDeck=Crea mazzo
-craftWillCost=Creare questo mazzo costera':
+craftWillCost=Creare questo mazzo costerà:
 craftCant=Non puoi creare questo mazzo.
 craftDeckNeed=Per creare un mazzo salvato, dovrai avere tutte le carte disponibili nella Fucina Magica.<br><br>Se il tuo mazzo attuale ha una <color=#FFF>Blessure, Beneficio, Carta Speciale o Corrotta</color>, <color=#F00>non sarai in grado</color> di salvare/caricare.
 conflictPlayerChooses={0} sceglie
 conflictPlayerWins={0} vince
-ngDescription=Modalita' di gioco piu' difficile pensata per Eroi di alto rango e citta' potenziate. In questa modalita', le carte corrotte cadono piu' frequentemente.
+ngDescription=Modalità di gioco più difficile pensata per Eroi di alto rango e città potenziate. In questa modalità, le carte corrotte cadono più frequentemente.
 needSteam=Devi essere connesso a Steam per giocare Across the Obelisk.
-desyncError=<b><color=#f88>Opps, qualcosa e' andato storto!</color></b><br><size=-6>Il gioco e' fuori sincronia tra i giocatori. Per evitare di peggiorare il problema, il combattimento verra' riavviato.</size>
+desyncError=<b><color=#f88>Opps, qualcosa è andato storto!</color></b><br><size=-6>Il gioco è fuori sincronia tra i giocatori. Per evitare di peggiorare il problema, il combattimento verrà riavviato.</size>
 reloadForced=<color=#FFD78F>Vuoi ricaricare il combattimento?</color><br><size=-6>Se vuoi ricaricare il combattimento a causa di un bug o di una mancata sincronizzazione, unisciti al nostro Discord e segnalalo in modo che possiamo risolverlo!</size>
 comingSoon=In arrivo
-onlyMasterCorruption=Solo il master del gioco puo' accettare una corruzione e le sue ricompense.
-onlyMasterButton=Solo il master puo' premere il pulsante.
+onlyMasterCorruption=Solo il master del gioco può accettare una corruzione e le sue ricompense.
+onlyMasterButton=Solo il master può premere il pulsante.
 easy=Facile
 average=Medio
 hard=Difficile
 extreme=Estremo
 corruption=Corruzione
-versionMismatch=Il gioco non puo' iniziare. Le versioni del gioco sono diverse.
-selectSupplyAmount=Seleziona la quantita' di forniture che vuoi vendere.
-selectGiveGold=Seleziona la quantita' di oro che vuoi dare a questo giocatore.
-selectGiveShards=Seleziona la quantita' di frammenti che vuoi dare a questo giocatore.
+versionMismatch=Il gioco non può iniziare. Le versioni del gioco sono diverse.
+selectSupplyAmount=Seleziona la quantità di forniture che vuoi vendere.
+selectGiveGold=Seleziona la quantità di oro che vuoi dare a questo giocatore.
+selectGiveShards=Seleziona la quantità di frammenti che vuoi dare a questo giocatore.
 giveGold=Dai oro
 giveShards=Dai frammenti
 giveGoldShards=Dai oro e frammenti
@@ -1175,19 +1175,19 @@ screenResolution=Risoluzione schermo
 fullScreen=A schermo intero
 vsync=VSync
 resetTutorial=Resetta tutorial
-resetTutorialDes=Questo ti permettera' di rivedere le descrizioni del tutorial.
+resetTutorialDes=Questo ti permetterà di rivedere le descrizioni del tutorial.
 resetSavedData=Resetta dati account
-resetSavedDataDes=AVVISO: Attivare questa opzione rimuovera' tutti i tuoi progressi dell'account, i giochi salvati, le carte sbloccate, ecc.
+resetSavedDataDes=AVVISO: Attivare questa opzione rimuoverà tutti i tuoi progressi dell'account, i giochi salvati, le carte sbloccate, ecc.
 masterVolume=Volume principale
 musicVolume=Volume musica
 effectsVolume=Volume effetti
 ambienceVolume=Volume ambiente
 backgroundMute=Muto in background
-backgroundMuteDes=Disabilita il suono quando il gioco non e' in primo piano.
-fastMode=Modalita' veloce
-fastModeDes=La velocita' del combattimento e' aumentata.
+backgroundMuteDes=Disabilita il suono quando il gioco non è in primo piano.
+fastMode=Modalità veloce
+fastModeDes=La velocità del combattimento è aumentata.
 autoEnd=Fine automatica
-autoEndDes=Se non hai nessuna carta disponibile da lanciare, il gioco passera' il tuo turno.
+autoEndDes=Se non hai nessuna carta disponibile da lanciare, il gioco passerà il tuo turno.
 showEffects=Mostra effetti
 showEffectsDes=Mostra gli effetti delle carte e dei personaggi durante il combattimento.
 extendedDescriptions=Descrizioni estese
@@ -1197,38 +1197,38 @@ acBackgroundDes=Mostra uno sfondo dietro le icone degli effetti di stato del per
 restartCombatOption=Riavvia il combattimento alla sconfitta
 restartCombatOptionDes=Mostra un'opzione per riavviare il combattimento alla sconfitta.
 enableShakeOption=Abilita lo scuotimento dello schermo
-enableShakeOptionDes=Lo schermo si scuotera' quando avverranno danni elevati durante il combattimento.
+enableShakeOptionDes=Lo schermo si scuoterà quando avverranno danni elevati durante il combattimento.
 currentScore=Punteggio attuale
 synchronizing=[Sincronizzazione]
-madnessChallengeSelect=Seleziona il livello di Madness che vuoi per il prossimo gioco (ogni livello sara' anche modificato da quelli precedenti).
-madnessChallengeBeat=Battere la Sfida dell'Obelisco in un livello di Madness ti dara' accesso al successivo.
+madnessChallengeSelect=Seleziona il livello di Madness che vuoi per il prossimo gioco (ogni livello sarà anche modificato da quelli precedenti).
+madnessChallengeBeat=Battere la Sfida dell'Obelisco in un livello di Madness ti darà accesso al successivo.
 madness=Madness
 madnessNumber=Madness {0}
 
-madnessTitle=Selezione difficolta' Madness
-madnessDescription=Seleziona la difficolta' Madness che vuoi per il gioco. Inoltre, puoi attivare diversi corrottori che modificheranno il gioco e aumenteranno il livello di Madness.
-madnessBasicInfo=Questo e' il livello di difficolta' base del gioco. Completa l'avventura per sbloccare livelli e corrottori aggiuntivi.<br><br>Per poter selezionare una nuova difficolta', devi completare quella precedente, sia che giochi da solo che in modalita' cooperativa.
-madnessBasic=<i=taunt> I mostri sono piu' forti e le loro abilita' sono state migliorate.
+madnessTitle=Selezione difficoltà Madness
+madnessDescription=Seleziona la difficoltà Madness che vuoi per il gioco. Inoltre, puoi attivare diversi corrottori che modificheranno il gioco e aumenteranno il livello di Madness.
+madnessBasicInfo=Questo è il livello di difficoltà base del gioco. Completa l'avventura per sbloccare livelli e corrottori aggiuntivi.<br><br>Per poter selezionare una nuova difficoltà, devi completare quella precedente, sia che giochi da solo che in modalità cooperativa.
+madnessBasic=<i=taunt> I mostri sono più forti e le loro abilità sono state migliorate.
 madnessObeliskLevel5=<sprite name=perk> Le carte di partenza, gli oggetti di partenza e gli incantesimi dei personaggi sono migliorati a blu.<br><sprite name=energy> Tutti i personaggi hanno +1 energia di partenza.
 madnessObeliskLevel8=<sprite name=perk> Le carte di partenza, gli oggetti di partenza e gli incantesimi dei personaggi sono migliorati a giallo.<br><sprite name=energy> Tutti i personaggi hanno +1 energia di partenza.<br><sprite name=dice> Seme casuale.
 madnessPerAct=<color=#AAA><size=-.5>(per atto, rispettivamente)</size></color>
 madnessExhaust=<i=vanish> Esaurimento
 madnessSeriousInjuries=<i=bleed> Lesioni serie
-madnessSeriousInjuriesDesc=Le carte Lesione sono piu' forti.
+madnessSeriousInjuriesDesc=Le carte Lesione sono più forti.
 madnessDeadlyInjuries=<i=bleed> Lesioni mortali
 madnessDeadlyInjuriesDesc=Le carte Lesione sono mortali.
 madnessNoChest=<i=nodeShop> Nessuna ricompensa cassa, {0} oro/schegge per personaggio.
 madnessMonsterHp=<i=heart> HP massimi del mostro: {0} {1}.
-madnessMonsterSpeed=<i=fast> Velocita' del mostro: {0} {1}.
+madnessMonsterSpeed=<i=fast> Velocità del mostro: {0} {1}.
 madnessMonsterDamageTaken=<i=mitigate> Danno subito dal mostro: {0} {1}.
 madnessMonsterDamageDone=<i=slashing> Danno inflitto dal mostro: {0} {1}.
-madnessHeroSpeed=<i=slow> Velocita' del personaggio: {0}.
+madnessHeroSpeed=<i=slow> Velocità del personaggio: {0}.
 madnessHeroEnergy=<i=energy> Energia di partenza del personaggio: {0}.
 madnessInfrequent=<i=cards> Riduzione delle carte non comuni disponibili di 1.
-madnessDisabledCards=<i=nodeUpgrade> Carte rare disabilitate nella citta' di partenza. Carte epiche disabilitate nella seconda citta'.
+madnessDisabledCards=<i=nodeUpgrade> Carte rare disabilitate nella città di partenza. Carte epiche disabilitate nella seconda città.
 madnessRandomSeed=<i=dice> Seme casuale forzato.
-madnessHarderEvents=<i=events> Lancio eventi piu' difficili.
-madnessReroll=<i=jewelry> Rilanci degli oggetti dell'armeria della citta' limitati a 1.
+madnessHarderEvents=<i=events> Lancio eventi più difficili.
+madnessReroll=<i=jewelry> Rilanci degli oggetti dell'armeria della città limitati a 1.
 madnessDoubledeath=<i=weak> Quando un personaggio muore, riceve due "Porta della Morte".
 madnessNoSupplyExchange=<i=supply> Scambio di rifornimenti non disponibile.
 madnessCorruptor0=<i=doom> Imminente rovina.
@@ -1236,17 +1236,17 @@ madnessCorruptor0Help=In combattimento, quando il bonus di prestazione raggiunge
 madnessCorruptor1=<i=decay> Decadenza.
 madnessCorruptor1Help=Tutti i personaggi hanno -3 al danno curativo e -25% alla guarigione ricevuta.
 madnessCorruptor2=<i=bless> Potere limitato.
-madnessCorruptor2Help=Aure/Maledizioni hanno un massimo di cariche:<line-height=120%><br></line-height>(50) Benedizione, Marchio, Rigenerazione, Affilatura, Furtivita', Vitalita', Bagnato<line-height=120%><br></line-height>(100) Crepa, Furia, Pazzia, Santificazione, Vista<line-height=120%><br></line-height>(200) Sanguinamento, Bruciatura, Freddo, Veleno, Scudo, Scintilla, Spine<line-height=120%><br></line-height>(400) Blocco.
+madnessCorruptor2Help=Aure/Maledizioni hanno un massimo di cariche:<line-height=120%><br></line-height>(50) Benedizione, Marchio, Rigenerazione, Affilatura, Furtività, Vitalità, Bagnato<line-height=120%><br></line-height>(100) Crepa, Furia, Pazzia, Santificazione, Vista<line-height=120%><br></line-height>(200) Sanguinamento, Bruciatura, Freddo, Veleno, Scudo, Scintilla, Spine<line-height=120%><br></line-height>(400) Blocco.
 madnessCorruptor3=<i=insulate> Mostri resistenti.
 madnessCorruptor3Help=Tutti i mostri guadagnano un ulteriore +15% a tutte le resistenze.
-madnessCorruptor4=<i=gold> Poverta'.
-madnessCorruptor4Help=L'acquisizione di oro e schegge e' ridotta del 50%. Gli oggetti con sconti extra non sono disponibili.
+madnessCorruptor4=<i=gold> Povertà.
+madnessCorruptor4Help=L'acquisizione di oro e schegge è ridotta del 50%. Gli oggetti con sconti extra non sono disponibili.
 madnessCorruptor5=<i=powerful> Mostri sovraccaricati.
 madnessCorruptor5Help=Tutte le carte dei mostri hanno +1 alle cariche delle loro aure o maledizioni.
 madnessCorruptor6=<i=dice> Incontri casuali.
-madnessCorruptor6Help=Gli incontri non legati ad eventi sono generati casualmente. In ogni incontro casuale, appare un mostro "Campione" con un'immunita' assegnata casualmente.
+madnessCorruptor6Help=Gli incontri non legati ad eventi sono generati casualmente. In ogni incontro casuale, appare un mostro "Campione" con un'immunità assegnata casualmente.
 madnessCorruptor7=<i=bossIcon> Disperazione.
-madnessCorruptor7Help=I nemici hanno le carte e gli incantesimi piu' potenti a loro disposizione.<line-height=120%><br></line-height>Questo corrottore aumenta considerevolmente la difficolta'.
+madnessCorruptor7Help=I nemici hanno le carte e gli incantesimi più potenti a loro disposizione.<line-height=120%><br></line-height>Questo corrottore aumenta considerevolmente la difficoltà.
 championMonster=Mostro campione
 help=Aiuto
 madnessCorruptors=Corrottori disponibili
@@ -1267,30 +1267,30 @@ eventRare=Evento raro
 eventEpic=Evento epico
 eventMythic=Evento mitico
 eventCharacter=Evento personaggio
-cardPlayerDescription=Anche le decisioni piu' piccole forgianno il tuo destino. Presta attenzione: <color=#C59559>dopo che queste carte sono state mescolate</color>, dovrai sceglierne una.
+cardPlayerDescription=Anche le decisioni più piccole forgianno il tuo destino. Presta attenzione: <color=#C59559>dopo che queste carte sono state mescolate</color>, dovrai sceglierne una.
 chooseWisely=Scegli saggiamente
-madnessHelp=<align=left><color=#FFF>Ogni livello di difficolta' della follia aggiunge nuovi modificatori che rendono il gioco piu' difficile nel complesso. Alcuni di questi sono spiegati piu' in dettaglio di seguito.</color><br><br><u>Esausto:</u> Quando usi una carta che fa girare il mazzo, subisci l'esaurimento, causando a qualsiasi carta che entra nella tua mano durante quel turno di costare energia aggiuntiva.<br><br><u>Infortuni gravi e mortali:</u> Gli infortuni che ricevi quando fallisci un evento vengono sostituiti da versioni piu' potenti.<br><br><u>Nessuna ricompensa per i forzieri:</u> I forzieri di ricompensa dei giochi precedenti non possono essere raccolti e l'oro / frammenti iniziali sono limitati. Con questo modificatore non otterrai forzieri di ricompensa alla fine di un gioco.<br><br><u>Lanci di eventi piu' difficili:</u> Il numero necessario per superare un lancio in un evento e' piu' difficile da ottenere, piu' alto o piu' basso a seconda dell'evento.</align>
+madnessHelp=<align=left><color=#FFF>Ogni livello di difficoltà della follia aggiunge nuovi modificatori che rendono il gioco più difficile nel complesso. Alcuni di questi sono spiegati più in dettaglio di seguito.</color><br><br><u>Esausto:</u> Quando usi una carta che fa girare il mazzo, subisci l'esaurimento, causando a qualsiasi carta che entra nella tua mano durante quel turno di costare energia aggiuntiva.<br><br><u>Infortuni gravi e mortali:</u> Gli infortuni che ricevi quando fallisci un evento vengono sostituiti da versioni più potenti.<br><br><u>Nessuna ricompensa per i forzieri:</u> I forzieri di ricompensa dei giochi precedenti non possono essere raccolti e l'oro / frammenti iniziali sono limitati. Con questo modificatore non otterrai forzieri di ricompensa alla fine di un gioco.<br><br><u>Lanci di eventi più difficili:</u> Il numero necessario per superare un lancio in un evento è più difficile da ottenere, più alto o più basso a seconda dell'evento.</align>
 exhaust=<u>Esausto:</u> Quando usi una carta che fa girare il mazzo, subisci l'esaurimento, causando a qualsiasi carta che entra nella tua mano durante quel turno di costare energia aggiuntiva.
 madnessOptionsText=LISTA BONUS FOLLIA {0}
-replyProbability= Probabilita' di successo: {0}
+replyProbability= Probabilità di successo: {0}
 masterSelected=Selezionato dal master del gioco
 notStack= Non si accumula
 notStackPlain= Le cariche non si accumulano
 searchCards=Cerca carte
-perksNotChallenge=I vantaggi e le migliorie di grado non sono disponibili nelle modalita' <color=#F1D2A9>Obelisk e Sfida settimanale</color>.
-rightClickCard=Fai clic destro <br><size=-.7>(piu' informazioni)
+perksNotChallenge=I vantaggi e le migliorie di grado non sono disponibili nelle modalità <color=#F1D2A9>Obelisk e Sfida settimanale</color>.
+rightClickCard=Fai clic destro <br><size=-.7>(più informazioni)
 traitAddCard=Aggiungi una copia della carta "{0}" al tuo mazzo
 addCardInstructions=Scegli le carte da aggiungere
 lowerObelisk=Obelisco inferiore
 upperObelisk=Obelisco superiore
 finalObelisk=Obelisco finale
-notOriginalPlayers=I giocatori attuali non sono gli stessi giocatori che hanno creato il gioco, pertanto, <color=#F3404E>il punteggio finale non verra' riflettuto</color> nei punteggi.
-basicDifficulty=Difficolta' di base
-basicDifficultyDesc=Questa e' la difficolta' di base di questa modalita' di gioco.
+notOriginalPlayers=I giocatori attuali non sono gli stessi giocatori che hanno creato il gioco, pertanto, <color=#F3404E>il punteggio finale non verrà riflettuto</color> nei punteggi.
+basicDifficulty=Difficoltà di base
+basicDifficultyDesc=Questa è la difficoltà di base di questa modalità di gioco.
 dangerousMonsters=Mostri pericolosi
 dangerousMonstersDesc=Danno dei mostri inflitto: +3
 decadence=Decadenza
-decadenceDesc=Tutti gli eroi hanno -3 di cura effettuata, <nobr>-25%</nobr> di cura ricevuta e Vitalita' cura solo il 50% dell'HP massimo guadagnato.
+decadenceDesc=Tutti gli eroi hanno -3 di cura effettuata, <nobr>-25%</nobr> di cura ricevuta e Vitalità cura solo il 50% dell'HP massimo guadagnato.
 doubleBoons=Boon doppi
 doubleBoonsDesc=Quando ricevi un boon, ne ricevi una copia aggiuntiva.
 doubleInjuries=Infortunio doppio
@@ -1302,28 +1302,28 @@ energizedHeroesDesc=Energia iniziale dell'eroe: +1
 exhaustion=Sfinimento
 exhaustionDesc=Quando usi una carta che fa girare il mazzo, subisci l'esaurimento.
 fastHeroes=Eroi veloci
-fastHeroesDesc=Velocita' dell'eroe: +1
+fastHeroesDesc=Velocità dell'eroe: +1
 fastMonsters=Mostri veloci
-fastMonstersDesc=Velocita' del mostro: +1
+fastMonstersDesc=Velocità del mostro: +1
 gargantuanMonsters=Mostri giganteschi
 gargantuanMonstersDesc=Massimo HP del mostro: +50%
 hardcoreBosses=Boss hardcore
-hardcoreBossesDesc=I boss sono piu' difficili e le loro abilita' sono state migliorate.
+hardcoreBossesDesc=I boss sono più difficili e le loro abilità sono state migliorate.
 impedingDoom=Imminente rovina
 impedingDoomDesc=Tutti gli eroi subiscono 2 "Doom" quando la performance raggiunge il livello deludente.
 ironcladMonsters=Mostri corazzati
 ironcladMonstersDesc=Danno del mostro subito: -3
 lucky=Fortunato
-luckyDesc=I lanci di eventi sono piu' facili.
-ludicrousSpeed=Velocita' assurda
-ludicrousSpeedDesc=Velocita' del mostro: +3
-moreChampions=Piu' campioni
-moreChampionsDesc=Appaiono piu' campioni sulla mappa.
+luckyDesc=I lanci di eventi sono più facili.
+ludicrousSpeed=Velocità assurda
+ludicrousSpeedDesc=Velocità del mostro: +3
+moreChampions=Più campioni
+moreChampionsDesc=Appaiono più campioni sulla mappa.
 overchargedMonsters=Mostri sovraccaricati
 overchargedMonstersDesc=Tutte le carte dei mostri hanno +1 alle loro cariche.
-poverty=Poverta'
+poverty=Povertà
 povertyDesc=L'acquisizione di oro e frammenti viene ridotta del 30%.
-prosperity=Prosperita'
+prosperity=Prosperità
 prosperityDesc=L'acquisizione di oro e frammenti viene aumentata del 50%.
 punyMonsters=Mostri deboli
 punyMonstersDesc=Massimo HP del mostro: -25%
@@ -1333,19 +1333,19 @@ reinforcedMonstersDesc=Resistenze del mostro alla tagliente / contundente / perf
 resistantMonsters=Mostri Resistenti
 resistantMonstersDesc=Tutte le resistenze dei mostri: +15%
 restrictedPower=Potere Limitato
-restrictedPowerDesc=Le auras e le maledizioni hanno un limite massimo di stack.
+restrictedPowerDesc=Le auree e le maledizioni hanno un limite massimo di stack.
 slowHeroes=Eroi Lenti
-slowHeroesDesc=Velocita' Eroe: -1
+slowHeroesDesc=Velocità Eroe: -1
 slowMonsters=Mostri Lenti
-slowMonstersDesc=Velocita' Mostro: -1
+slowMonstersDesc=Velocità Mostro: -1
 smartHeroes=Eroi Intelligenti
 smartHeroesDesc=Esperienza guadagnata aumentata del 50%.
 spiritualMonsters=Mostri Spirituali
 spiritualMonstersDesc=Resistenze Mostro Sacro/Ombra/Mente: +10%
-tougherMonsters=Mostri Piu' Forti
-tougherMonstersDesc=I mostri sono piu' forti e le loro abilita' sono state migliorate.
+tougherMonsters=Mostri Più Forti
+tougherMonstersDesc=I mostri sono più forti e le loro abilità sono state migliorate.
 unlucky=Sfortunato
-unluckyDesc=Tiri degli eventi piu' difficili.
+unluckyDesc=Tiri degli eventi più difficili.
 vigorousMonsters=Mostri Vigorosi
 vigorousMonstersDesc=HP Massimi Mostro: +25%
 vulnerableMonsters=Mostri Vulnerabili
@@ -1357,14 +1357,14 @@ incompatible=Incompatibile con questa versione
 weeklyModifiers=Modificatori Settimanali
 weeklyModifiersStyled=<size=+.2><size=+.3><color=#FFF>Settimanali</color></size><br> Modificatori</size>
 openCharacterStats=<sprite name=sheet> Apri statistiche personaggio
-corruptionSacrifyDust=Paga {0} schegge aggiuntive per +{1}% di possibilita'
-corruptionSacrifySpeed=Sacrifica {0} Velocita' per un'ulteriore possibilita' del +{1}%
-corruptionSacrifyHealth=Sacrifica {0} Punti Vita Massimi per un'ulteriore possibilita' del +{1}%
-corruptionSacrifyResistance=Sacrifica {0} punti in tutte le resistenze per un'ulteriore possibilita' del +{1}%
+corruptionSacrifyDust=Paga {0} schegge aggiuntive per +{1}% di possibilità
+corruptionSacrifySpeed=Sacrifica {0} Velocità per un'ulteriore possibilità del +{1}%
+corruptionSacrifyHealth=Sacrifica {0} Punti Vita Massimi per un'ulteriore possibilità del +{1}%
+corruptionSacrifyResistance=Sacrifica {0} punti in tutte le resistenze per un'ulteriore possibilità del +{1}%
 cardCorruptionTitle=Corruzione Carta
-cardCorruptionDesc=Puoi corrompere una carta a tua scelta e trasformarla nella versione piu' potente.<br><br>Tuttavia, non e' un compito facile e fallire danneggera' la carta invece.<br><br>Puoi anche aumentare la possibilita' di successo con dei sacrifici.
-cardCorruptionChance=Possibilita'
-deathScreenTitle={0} e' stato schiacciato!
+cardCorruptionDesc=Puoi corrompere una carta a tua scelta e trasformarla nella versione più potente.<br><br>Tuttavia, non è un compito facile e fallire danneggerà la carta invece.<br><br>Puoi anche aumentare la possibilità di successo con dei sacrifici.
+cardCorruptionChance=Possibilità
+deathScreenTitle={0} è stato schiacciato!
 deathScreenBody=Se la tua squadra sopravvive, ti risusciterai con il {0}% della tua vita totale, ma ricorda che nulla arriva senza un prezzo e porterai questo stigmate per il resto della tua vita.
 crusader=crociato
 devotee=devoto
@@ -1447,142 +1447,142 @@ followTheLeaderDesc=Sceglierai automaticamente le stesse opzioni del master del 
 magnusPet1=Smettila di accarezzarmi... Devo mantenere la mia reputazione!
 magnusPet2=...Grrr... Mmm... Puoi farlo di nuovo?
 conflictTitle=<sprite name=cardrandom>Risoluzione dei conflitti
-conflictDescription=Quando c'e' un disaccordo tra i giocatori, e' necessario un tiro di risoluzione del conflitto per decidere chi vince. In caso di pareggio multiplo (3), il vincitore verra' scelto a caso.
-conflictButton0=Carta piu' bassa
-conflictButton1=Carta piu' vicina a 2
-conflictButton2=Carta piu' alta
+conflictDescription=Quando c'è un disaccordo tra i giocatori, è necessario un tiro di risoluzione del conflitto per decidere chi vince. In caso di pareggio multiplo (3), il vincitore verrà scelto a caso.
+conflictButton0=Carta più bassa
+conflictButton1=Carta più vicina a 2
+conflictButton2=Carta più alta
 noEnergy=Nessuna energia
 physical=Fisico
 elemental=Elementale
 mystical=Mistico
-confirmPerks=Conferma l'assegnazione delle abilita' speciali
-cardsStealAuras=Ruba {0} auras
+confirmPerks=Conferma l'assegnazione delle abilità speciali
+cardsStealAuras=Ruba {0} aura
 steal=Rubare
 previousRequired=Nodo precedente richiesto
 usedPoints=Punti usati {0}
 export=Esporta
 import=Importa
-pressForCopyPaste=Condividi il codice per questa configurazione di abilita' speciali
+pressForCopyPaste=Condividi il codice per questa configurazione di abilità speciali
 pressForImportTree=Scrivi o incolla il codice di importazione
-importPerkTreeNotPoints=Non hai abbastanza punti abilita' totali ({0}) per importare questa configurazione di abilita' speciali.
-invalidImportTalentTreeCode=Questo codice non e' valido per importare una configurazione di abilita' speciali.
-importedTree=Configurazione di abilita' speciali importata
-wantOverwritePerks=Vuoi caricare questo slot e sovrascrivere la tua configurazione di abilita' speciali?
-loadThisPerkConf=Carica questa configurazione di abilita' speciali ({0} punti usati)
-wantExitPerks=Hai modifiche non salvate. Vuoi chiudere la finestra delle abilita' speciali? 
+importPerkTreeNotPoints=Non hai abbastanza punti abilità totali ({0}) per importare questa configurazione di abilità speciali.
+invalidImportTalentTreeCode=Questo codice non è valido per importare una configurazione di abilità speciali.
+importedTree=Configurazione di abilità speciali importata
+wantOverwritePerks=Vuoi caricare questo slot e sovrascrivere la tua configurazione di abilità speciali?
+loadThisPerkConf=Carica questa configurazione di abilità speciali ({0} punti usati)
+wantExitPerks=Hai modifiche non salvate. Vuoi chiudere la finestra delle abilità speciali? 
 itemInitialCurrencySingle=Oro iniziale {0}
 itemInitialShardsSingle=Frammenti iniziali {0}
 default=Predefinito
-perkTreeDescription=Puoi modificare le tue abilita' speciali prima dell'inizio del gioco e nella prima citta' (con alcune restrizioni).<br><br>Puoi anche salvare e caricare diverse configurazioni di abilita' speciali prima dell'inizio del gioco.
+perkTreeDescription=Puoi modificare le tue abilità speciali prima dell'inizio del gioco e nella prima città (con alcune restrizioni).<br><br>Puoi anche salvare e caricare diverse configurazioni di abilità speciali prima dell'inizio del gioco.
 saveSlots=Slot di salvataggio
 inputConfigSaveName=Inserisci il nome per questa configurazione
 
 savedConfigDeleteConfirm=Vuoi eliminare questa configurazione?
 savedConfigCant=I posti di salvataggio possono essere utilizzati solo prima dell'inizio del gioco.
-perkBarDescription=Tutti i tuoi eroi guadagneranno punti abilita' giocando il gioco.
-chooseOnePerk=Scegli <u>una</u> delle seguenti abilita'.
+perkBarDescription=Tutti i tuoi eroi guadagneranno punti abilità giocando il gioco.
+chooseOnePerk=Scegli <u>una</u> delle seguenti abilità.
 slashing=Taglio /// deve avere la stessa traduzione di "slash"
 customMainperkPoison2b=Il veleno sui nemici riduce anche la resistenza all'Ombra dello 0,3% per carica.
-customMainperkPoison2c=Il veleno sui nemici infligge il 50% di danni in piu' ma perde tutte le cariche alla fine del turno.
+customMainperkPoison2c=Il veleno sui nemici infligge il 50% di danni in più ma perde tutte le cariche alla fine del turno.
 customMainperkDark2b=L'ombra su questo eroe esplode a 38 cariche.
-customMainperkDark2c=L'esplosione d'ombra sui nemici infligge il 35% di danni in piu'.
+customMainperkDark2c=L'esplosione d'ombra sui nemici infligge il 35% di danni in più.
 customMainperkDark2d=Le cariche d'ombra sui nemici esplodono anche alla fine del turno.
 customMainperkThorns1a=Le spine sui eroi non perdono cariche quando vengono colpiti.
 customMainperkThorns1b=Le spine su questo eroe invece infliggono danni Sacri.
-customMainperkThorns1c=Le spine su questo eroe applicano il 50% delle sue cariche come Veleno all'attaccante, anziche' infliggere danni.
+customMainperkThorns1c=Le spine su questo eroe applicano il 50% delle sue cariche come Veleno all'attaccante, anzichè infliggere danni.
 customMainperkSanctify2b=La santificazione sui nemici riduce la resistenza Sacra di 1,5% per carica.
 customMainperkSanctify2c=Quando questo eroe colpisce un mostro con la santificazione, infligge anche il 25% delle cariche di santificazione del bersaglio come danni Sacri.
 customMainperkChill2b=Il gelo sui nemici riduce anche la resistenza Contundente dello 0,3% per carica.
-customMainperkChill2c=Il gelo sui nemici invece riduce la Velocita' di 1 ogni 4 cariche.
-customMainperkChill2d=Il gelo su questo eroe invece riduce la Velocita' di 1 ogni 8 cariche e concede anche 1 Rinforzo ogni 14 cariche alla fine del turno.
-customMainperkBurn2b=La combustione su questo eroe aumenta anche la Velocita' di 1 ogni 8 cariche e invece riduce la resistenza al Fuoco dello 0,3% per carica.
+customMainperkChill2c=Il gelo sui nemici invece riduce la Velocità di 1 ogni 4 cariche.
+customMainperkChill2d=Il gelo su questo eroe invece riduce la Velocità di 1 ogni 8 cariche e concede anche 1 Rinforzo ogni 14 cariche alla fine del turno.
+customMainperkBurn2b=La combustione su questo eroe aumenta anche la Velocità di 1 ogni 8 cariche e invece riduce la resistenza al Fuoco dello 0,3% per carica.
 customMainperkBurn2c=La combustione infligge danni Freddi.
-customMainperkVulnerable0b=Le cariche massime di Vulnerabilita' sui nemici aumentano a 12 e vengono ridotte di 1 alla fine del turno.
-customMainperkVulnerable0c=La vulnerabilita' sui nemici riduce solo le resistenze al Taglio, al Pungiglione e al Contundente, ma la riduzione aumenta dell'8% per carica.
-customMainperkDecay1b=Il decadimento sui nemici invece diminuisce la guarigione ricevuta del 75% e non puo' essere dissolto a meno che non sia specificato.
+customMainperkVulnerable0b=Le cariche massime di Vulnerabilità sui nemici aumentano a 12 e vengono ridotte di 1 alla fine del turno.
+customMainperkVulnerable0c=La vulnerabilità sui nemici riduce solo le resistenze al Taglio, al Pungiglione e al Contundente, ma la riduzione aumenta dell'8% per carica.
+customMainperkDecay1b=Il decadimento sui nemici invece diminuisce la guarigione ricevuta del 75% e non può essere dissolto a meno che non sia specificato.
 customMainperkDecay1c=Il decadimento sui nemici riduce anche la resistenza all'Ombra dell'8% per carica.
 customMainperkTaunt1b=La provocazione su questo eroe aumenta anche le resistenze al Taglio, al Pungiglione e al Contundente del 10% per carica.
 customMainperkTaunt1c=La provocazione su questo eroe aumenta anche le resistenze al Fuoco, al Freddo e al Fulmine del 10% per carica.
 customMainperkTaunt1d=La provocazione su questo eroe aumenta anche le resistenze Sacre, all'Ombra e alla Mente del 10% per carica.
-customMainperkBless1a=La benedizione su questo eroe aumenta i danni inflitti di 1,5 per carica ma non aumenta piu' la guarigione ricevuta.
+customMainperkBless1a=La benedizione su questo eroe aumenta i danni inflitti di 1,5 per carica ma non aumenta più la guarigione ricevuta.
 customMainperkBless1b=La benedizione su questo eroe aumenta anche la guarigione effettuata dell'1% per carica.
 customMainperkBless1c=La benedizione sugli eroi aumenta anche la resistenza Sacra dello 0,5% per carica e non perde cariche alla fine del turno.
-customMainperkVitality1a=La vitalita' su questo eroe invece aumenta l'HP massimo di 8 per carica.
-customMainperkVitality1b=Quando questo eroe guadagna Vitalita', rimuove il Sanguinamento.
-customMainperkVitality1c=La vitalita' sugli eroi aumenta anche la resistenza alla Mente dello 0,5% per carica e non perde cariche all'inizio del turno.
+customMainperkVitality1a=La vitalità su questo eroe invece aumenta l'HP massimo di 8 per carica.
+customMainperkVitality1b=Quando questo eroe guadagna Vitalità, rimuove il Sanguinamento.
+customMainperkVitality1c=La vitalità sugli eroi aumenta anche la resistenza alla Mente dello 0,5% per carica e non perde cariche all'inizio del turno.
 customMainperkRegeneration1a=La rigenerazione su questo eroe guarisce anche gli eroi vicini.
 customMainperkRegeneration1b=La rigenerazione sugli eroi aumenta anche la guarigione ricevuta dell'1% per carica.
 customMainperkRegeneration1c=La rigenerazione sugli eroi aumenta anche la resistenza all'Ombra dello 0,5% per carica e non perde cariche all'inizio del turno.
 customMainperkPowerful1b=Le cariche massime di Potente su questo eroe aumentano a 12. Le cariche vengono ridotte di 1 alla fine del turno.
 customMainperkPowerful1c=La potenza su questo eroe aumenta i danni e la guarigione effettuati del 10% per carica e perde tutte le cariche alla fine del turno.
-customMainperkEnergy2a=Quando questo eroe gioca una carta che costa 6 Energia o piu', rimborsa 1 Energia.
+customMainperkEnergy2a=Quando questo eroe gioca una carta che costa 6 Energia o più, rimborsa 1 Energia.
 customMainperkEnergy2b=Al secondo round, questo eroe guadagna 1 Energia all'inizio del turno.
 customMainperkEnergy2c=Al quarto round, questo eroe guadagna 2 Energia all'inizio del turno.
-customMainperkMark1a=Questo eroe e' immune al Marchio.
+customMainperkMark1a=Questo eroe è immune al Marchio.
 customMainperkMark1b=Il marchio sui nemici non perde cariche quando impedisce lo Stealth e alla fine del turno.
 customMainperkMark1c=Il marchio sui nemici riduce anche la resistenza al Taglio dello 0,3% per carica.
-customMainperkSight1b=La vista sui nemici rimuove anche lo Stealth quando applicata e non puo' essere dissolta a meno che non sia specificato.
-customMainperkSight1c=Le cariche che applichi +3. La vista sui nemici non puo' essere impedita da Buffer o immunita' alla Vista, ma perde tutte le cariche alla fine del turno.
+customMainperkSight1b=La vista sui nemici rimuove anche lo Stealth quando applicata e non può essere dissolta a meno che non sia specificato.
+customMainperkSight1c=Le cariche che applichi +3. La vista sui nemici non può essere impedita da Buffer o immunità alla Vista, ma perde tutte le cariche alla fine del turno.
 customMainperkStealth1a=Lo Stealth sugli eroi aumenta i danni e la guarigione effettuati del 25% per carica.
 customMainperkStealth1b=Lo Stealth su questo eroe non perde cariche all'inizio del turno.
 customMainperkStealth1c=Lo Stealth sugli eroi aumenta anche tutte le resistenze del 5% per carica.
-customMainperkFury1b=La furia su questo eroe invece aumenta i danni dell'1% per carica ma non applica piu' il Sanguinamento alla fine del turno.
-customMainperkFury1c=La furia su questo eroe invece aumenta i danni del 5% per carica. Il Sanguinamento su questo eroe infligge il 50% di danni in piu' e non puo' essere impedito da Buffer o immunita' al Sanguinamento.
-customMainperkBleed2b=Il sanguinamento su questo eroe invece infligge i suoi danni alla fine del turno ma non puo' essere dissolto a meno che non sia specificato. Le cariche massime di Furia su questo eroe sono 25.
-customMainperkBleed2c=Le cariche che applichi +2. Il sanguinamento sui nemici invece infligge danni alla fine del turno ma non puo' essere impedito da Buffer o immunita' al Sanguinamento.
+customMainperkFury1b=La furia su questo eroe invece aumenta i danni dell'1% per carica ma non applica più il Sanguinamento alla fine del turno.
+customMainperkFury1c=La furia su questo eroe invece aumenta i danni del 5% per carica. Il Sanguinamento su questo eroe infligge il 50% di danni in più e non può essere impedito da Buffer o immunità al Sanguinamento.
+customMainperkBleed2b=Il sanguinamento su questo eroe invece infligge i suoi danni alla fine del turno ma non può essere dissolto a meno che non sia specificato. Le cariche massime di Furia su questo eroe sono 25.
+customMainperkBleed2c=Le cariche che applichi +2. Il sanguinamento sui nemici invece infligge danni alla fine del turno ma non può essere impedito da Buffer o immunità al Sanguinamento.
 
-customMainperkSharp1a=Sharp su questo eroe aumenta il danno Tagliente di 1,5 per carica ma non aumenta piu' il danno Perforante.
-customMainperkSharp1b=Sharp su questo eroe aumenta il danno Perforante di 1,5 per carica ma non aumenta piu' il danno Tagliente.
-customMainperkSharp1c=Sharp sugli eroi non perde le cariche alla fine del turno e non puo' essere rimosso a meno che non sia specificato.
+customMainperkSharp1a=Sharp su questo eroe aumenta il danno Tagliente di 1,5 per carica ma non aumenta più il danno Perforante.
+customMainperkSharp1b=Sharp su questo eroe aumenta il danno Perforante di 1,5 per carica ma non aumenta più il danno Tagliente.
+customMainperkSharp1c=Sharp sugli eroi non perde le cariche alla fine del turno e non può essere rimosso a meno che non sia specificato.
 customMainperkStanza0a=Questo eroe ottiene Stanza I al loro primo turno.
 customMainperkStanza0b=Stanza I su questo eroe fornisce anche 1 Ispirazione alla fine del turno.
-customMainperkStanza0c=Questo eroe non puo' ottenere Stanza III.
-customMainperkReinforce0=Questo eroe ottiene 1 Rinforzo al loro primo turno. Il Rinforzo su questo eroe non puo' essere rimosso a meno che non sia specificato.
+customMainperkStanza0c=Questo eroe non può ottenere Stanza III.
+customMainperkReinforce0=Questo eroe ottiene 1 Rinforzo al loro primo turno. Il Rinforzo su questo eroe non può essere rimosso a meno che non sia specificato.
 customMainperkReinforce1b=Rinforzo sugli eroi invece aumenta le resistenze Tagliente, Perforante e Contundente del 35%.
-customMainperkReinforce1c=Rinforzo su questo eroe puo' accumularsi e invece aumenta le resistenze Tagliente, Perforante e Contundente del 7% per carica. Le cariche massime sono 8.
-customMainperkInsulate0=Questo eroe ottiene 1 Isolamento al loro primo turno. L'Isolamento su questo eroe non puo' essere rimosso a meno che non sia specificato.
+customMainperkReinforce1c=Rinforzo su questo eroe può accumularsi e invece aumenta le resistenze Tagliente, Perforante e Contundente del 7% per carica. Le cariche massime sono 8.
+customMainperkInsulate0=Questo eroe ottiene 1 Isolamento al loro primo turno. L'Isolamento su questo eroe non può essere rimosso a meno che non sia specificato.
 customMainperkInsulate1b=Isolamento sugli eroi invece aumenta le resistenze Fuoco, Freddo e Fulmine del 35%.
-customMainperkInsulate1c=Isolamento su questo eroe puo' accumularsi e invece aumenta le resistenze Fuoco, Freddo e Fulmine del 7% per carica. Le cariche massime sono 8.
-customMainperkCourage0=Questo eroe ottiene 1 Coraggio al loro primo turno. Il Coraggio su questo eroe non puo' essere rimosso a meno che non sia specificato.
+customMainperkInsulate1c=Isolamento su questo eroe può accumularsi e invece aumenta le resistenze Fuoco, Freddo e Fulmine del 7% per carica. Le cariche massime sono 8.
+customMainperkCourage0=Questo eroe ottiene 1 Coraggio al loro primo turno. Il Coraggio su questo eroe non può essere rimosso a meno che non sia specificato.
 customMainperkCourage1b=Coraggio sugli eroi invece aumenta le resistenze Sacro, Ombra e Mente del 35%.
-customMainperkCourage1c=Coraggio su questo eroe puo' accumularsi e invece aumenta le resistenze Sacro, Ombra e Mente del 7% per carica. Le cariche massime sono 8.
+customMainperkCourage1c=Coraggio su questo eroe può accumularsi e invece aumenta le resistenze Sacro, Ombra e Mente del 7% per carica. Le cariche massime sono 8.
 customMainperkInspire0a=Questo eroe ottiene 1 Ispirazione all'inizio del combattimento.
-customMainperkInspire0b=Il massimo di cariche di Ispirazione su questo eroe e' 1, ma l'Ispirazione pesca 2 carte all'inizio del turno.
-customMainperkInspire0c=Questo eroe e' immune allo Stress.
+customMainperkInspire0b=Il massimo di cariche di Ispirazione su questo eroe è 1, ma l'Ispirazione pesca 2 carte all'inizio del turno.
+customMainperkInspire0c=Questo eroe è immune allo Stress.
 customMainperkInsane2b=Pazzia sui nemici riduce anche il loro HP massimo di 2 per carica.
 customMainperkInsane2c=Pazzia sugli eroi invece riduce la resistenza Mente di 0,5 per carica e il danno inflitto del 0,3% per carica.
 customMainperkWet1a=Bagnato sui nemici aumenta anche il danno Freddo subito di 1 per carica.
 customMainperkWet1b=Bagnato sui nemici riduce anche la resistenza Fulmine del 1% per carica e non perde le cariche alla fine del turno.
 customMainperkWet1c=Bagnato sugli eroi invece previene 3 cariche di Bruciatura per carica e non perde le cariche alla fine del turno.
-customMainperkFortify1a=Fortificazione su questo eroe puo' accumularsi e aumenta il danno Contundente e Fuoco di 1 per carica. Le cariche massime sono 50.
-customMainperkFortify1b=Questo eroe ottiene 1 Fortificazione al loro primo turno. La Fortificazione su questo eroe non puo' essere rimossa a meno che non sia specificato.
+customMainperkFortify1a=Fortificazione su questo eroe può accumularsi e aumenta il danno Contundente e Fuoco di 1 per carica. Le cariche massime sono 50.
+customMainperkFortify1b=Questo eroe ottiene 1 Fortificazione al loro primo turno. La Fortificazione su questo eroe non può essere rimossa a meno che non sia specificato.
 customMainperkFortify1c=Fortificazione sugli eroi fornisce anche 7 Blocchi alla fine del round per carica.
 customMainperkSpark2b=Scintilla sui nemici applica anche il 30% delle sue cariche come cariche di Scintilla ai lati, all'inizio del turno.
 customMainperkSpark2c=Scintilla sui nemici applica anche 1 Lento ogni 14 cariche alla fine del turno.
 customMainperkCrack2b=Crepa sui nemici riduce anche le cariche di Blocco guadagnate del 0,5 per carica.
-customMainperkCrack2c=Crepa sui nemici applica anche 1 Vulnerabilita' ogni 14 cariche alla fine del turno.
+customMainperkCrack2c=Crepa sui nemici applica anche 1 Vulnerabilità ogni 14 cariche alla fine del turno.
 emptySave=[slot vuoto]
-madnessCorruptor1Help=Tutti gli eroi hanno -3 di guarigione effettuata, -25% di guarigione ricevuta e la Vitalita' fornisce solo il 50% degli HP massimi guadagnati
+madnessCorruptor1Help=Tutti gli eroi hanno -3 di guarigione effettuata, -25% di guarigione ricevuta e la Vitalità fornisce solo il 50% degli HP massimi guadagnati
 faeborg=Foresta di Faeborg
 
-act1Intro=Il gruppo attraverso' l'obelisco e in un istante si trovo' in un altro luogo, lontano dalla foresta di Senenthia. <br> <br> Uno dei misteri dell'obelisco e' appena stato rivelato loro... Nell'antichita', l'obelisco veniva utilizzato come mezzo di trasporto, poiche' raggiungere questa terra per strada avrebbe richiesto diversi giorni. <br> <br> Cercarono segni che la principessa o Lord Hanshek fossero stati li' e trovarono due paia di impronte che portavano via dalla zona. <br> <br> Il gruppo guardo' all'orizzonte e vide che c'era un altro obelisco in quest'area che era attivo. Senza dubbio, la principessa e Lord Hanshek avevano qualcosa a che fare con l'attivazione degli obelischi. La prossima destinazione del gruppo era chiara.
-act2Intro=Il gruppo attraverso' il loro secondo obelisco e, come prima, trovo' una traccia piu' recente della principessa e di Lord Hanshek. <br> <br> Ricordarono che la regina di Senenthia, nota per le sue grandi capacita' magiche, era scomparsa anche lei alcuni anni fa. Potrebbe la principessa aver ereditato quelle capacita'? E Lord Hanshek ne sta approfittando? <br> <br> Avevano troppe domande per tornare indietro ora. Dovevano raggiungere Lord Hanshek a tutti i costi. <br> <br> In quest'area, non furono sorpresi di vedere che c'era anche un obelisco attivo all'orizzonte. <br> <br> Questa volta il gruppo aveva la sensazione che, se si fossero affrettati, avrebbero potuto raggiungere la principessa e Lord Hanshek.
-act3Intro=Anche se si erano abituati ad attraversare gli obelischi, questa volta la sensazione era stata leggermente diversa. <br> <br> Quando guardarono intorno, rimasero stupiti. Infinite nuvole e antichi ruderi fluttuavano intorno a loro... Dove si trovavano? Certamente, questo luogo non poteva essere raggiunto a piedi o in modo normale. <br> <br> Il gruppo poteva sentire quanto fosse intensa la magia e senza dubbio questo doveva essere l'obiettivo di Lord Hanshek con gli obelischi. <br> <br> All'orizzonte videro una grande scala che si alzava sopra le nuvole... Li' era dove il gruppo doveva andare per scoprire cosa stava combinando Lord Hanshek.
-actEndGame=Congratulazioni! Hai completato il gioco con difficolta' normale. <br> <br> Hai sbloccato i livelli di follia. Ora potrai aumentare la difficolta' del gioco e adattarlo alle tue preferenze, come avere nemici casuali in ogni combattimento. <br> <br> Inoltre, nei livelli di follia appaiono nuovi oggetti corrotti. Questi oggetti sono versioni molto piu' potenti degli oggetti normali. Ogni livello di difficolta' aumenta la probabilita' di apparizione di questi oggetti e carte corrotte. <br> <br> Speriamo che ti sia divertito con il gioco. C'e' ancora molto altro da venire! Cordiali saluti, Adam, Javier e Juanjo.
-cinematicIntro0=Tutto e' cominciato il sedicesimo compleanno della principessa.
-cinematicIntro1=Quando improvvisamente, un'esplosione di energia scoppio' dalla camera della principessa
+act1Intro=Il gruppo attraversò l'obelisco e in un istante si trovò in un altro luogo, lontano dalla foresta di Senenthia. <br> <br> Uno dei misteri dell'obelisco è appena stato rivelato loro... Nell'antichità, l'obelisco veniva utilizzato come mezzo di trasporto, poichè raggiungere questa terra per strada avrebbe richiesto diversi giorni. <br> <br> Cercarono segni che la principessa o Lord Hanshek fossero stati lì e trovarono due paia di impronte che portavano via dalla zona. <br> <br> Il gruppo guardò all'orizzonte e vide che c'era un altro obelisco in quest'area che era attivo. Senza dubbio, la principessa e Lord Hanshek avevano qualcosa a che fare con l'attivazione degli obelischi. La prossima destinazione del gruppo era chiara.
+act2Intro=Il gruppo attraversò il loro secondo obelisco e, come prima, trovò una traccia più recente della principessa e di Lord Hanshek. <br> <br> Ricordarono che la regina di Senenthia, nota per le sue grandi capacità magiche, era scomparsa anche lei alcuni anni fa. Potrebbe la principessa aver ereditato quelle capacità? E Lord Hanshek ne sta approfittando? <br> <br> Avevano troppe domande per tornare indietro ora. Dovevano raggiungere Lord Hanshek a tutti i costi. <br> <br> In quest'area, non furono sorpresi di vedere che c'era anche un obelisco attivo all'orizzonte. <br> <br> Questa volta il gruppo aveva la sensazione che, se si fossero affrettati, avrebbero potuto raggiungere la principessa e Lord Hanshek.
+act3Intro=Anche se si erano abituati ad attraversare gli obelischi, questa volta la sensazione era stata leggermente diversa. <br> <br> Quando guardarono intorno, rimasero stupiti. Infinite nuvole e antichi ruderi fluttuavano intorno a loro... Dove si trovavano? Certamente, questo luogo non poteva essere raggiunto a piedi o in modo normale. <br> <br> Il gruppo poteva sentire quanto fosse intensa la magia e senza dubbio questo doveva essere l'obiettivo di Lord Hanshek con gli obelischi. <br> <br> All'orizzonte videro una grande scala che si alzava sopra le nuvole... Lì era dove il gruppo doveva andare per scoprire cosa stava combinando Lord Hanshek.
+actEndGame=Congratulazioni! Hai completato il gioco con difficoltà normale. <br> <br> Hai sbloccato i livelli di follia. Ora potrai aumentare la difficoltà del gioco e adattarlo alle tue preferenze, come avere nemici casuali in ogni combattimento. <br> <br> Inoltre, nei livelli di follia appaiono nuovi oggetti corrotti. Questi oggetti sono versioni molto più potenti degli oggetti normali. Ogni livello di difficoltà aumenta la probabilità di apparizione di questi oggetti e carte corrotte. <br> <br> Speriamo che ti sia divertito con il gioco. C'è ancora molto altro da venire! Cordiali saluti, Adam, Javier e Juanjo.
+cinematicIntro0=Tutto è cominciato il sedicesimo compleanno della principessa.
+cinematicIntro1=Quando improvvisamente, un'esplosione di energia scoppiò dalla camera della principessa
 cinematicIntro2=e si diffuse attraverso il regno di Senenthia.
 cinematicIntro3=Le guardie reali esplorarono ogni angolo del castello,
 cinematicIntro4=ma non trovarono alcun segno di lei o di Lord Hanshek, il mago di corte.
-cinematicIntro5=Il re invio' soldati in tutto il regno, ma nessuno di loro torno'.
+cinematicIntro5=Il re inviò soldati in tutto il regno, ma nessuno di loro tornò.
 cinematicIntro6=La traccia della principessa fu persa nel profondo della Vecchia Foresta,
 cinematicIntro7=vicino all'antico obelisco che era stato dormiente per secoli...
-cinematicIntro8=Disperato, il re proclamo' un decreto reale.
+cinematicIntro8=Disperato, il re proclamò un decreto reale.
 cinematicIntro9=Annunciando una ricompensa per chiunque avesse riportato a casa la principessa sana e salva.
 cinematicIntro10=La notizia si diffuse rapidamente in tutto il regno.
 cinematicIntro11=Molti gruppi di avventurieri si prepararono per indagare sull'obelisco.
-cinematicIntro12=Questa e' la storia di uno di quei gruppi.
-cinematicOutro0=Questa e' la storia di come mi hanno salvato...
+cinematicIntro12=Questa è la storia di uno di quei gruppi.
+cinematicOutro0=Questa è la storia di come mi hanno salvato...
 selectLanguage=Lingua
 selectLanguageChanged=Le modifiche alla lingua avranno effetto al prossimo avvio del gioco.
 steamErrorConnect=Impossibile inizializzare l'API di Steam. Si prega di riavviare Steam e riprovare.
@@ -1610,26 +1610,26 @@ creditsAnd = {0} e a tutti coloro che ci aiutano ogni giorno a migliorare il gio
 partyMembersWithPerk = Membri del gruppo con questo vantaggio:
 multiplayerNotWorkLowerVersion = Il gioco multiplayer non funziona per le versioni inferiori a {0}
 pleaseUpdate = Aggiorna il tuo gioco
-crackedVersion = Qualcuno sta utilizzando una versione crackata del gioco. Il gioco si chiudera' ora.
+crackedVersion = Qualcuno sta utilizzando una versione crackata del gioco. Il gioco si chiuderà ora.
 lastPlayedCard = Ultima carta giocata
 restart = Riavvia
-restartInfo = Annullerai tutte le selezioni effettuate e il processo iniziera' nuovamente.
+restartInfo = Annullerai tutte le selezioni effettuate e il processo inizierà nuovamente.
 restartClient = {0} chiede un rollback. Vuoi riavviare questa schermata?
-exhaust = <u>Esaurimento:</u> Quando fai rimescolare il tuo mazzo durante il tuo turno, subisci Esaurimento, facendo si' che qualsiasi nuova carta aggiunta alla tua mano dal tuo mazzo di pesca, dal tuo mazzo di scarto o dal tuo mazzo di sparizione costi 1 in piu' fino alla fine del turno. L'Esaurimento puo' accumularsi, non puo' essere dissolto e viene rimosso alla fine del turno.
-madnessCorruptor3Help = Tutti i mostri guadagnano un ulteriore +10% in tutte le resistenze. Il massimo di cariche Vulnerabili sui mostri e' di 6.
-resistantMonstersDesc = Tutti i mostri guadagnano un ulteriore +10% in tutte le resistenze. Il massimo di cariche Vulnerabili sui mostri e' di 6.
+exhaust = <u>Esaurimento:</u> Quando fai rimescolare il tuo mazzo durante il tuo turno, subisci Esaurimento, facendo sì che qualsiasi nuova carta aggiunta alla tua mano dal tuo mazzo di pesca, dal tuo mazzo di scarto o dal tuo mazzo di sparizione costi 1 in più fino alla fine del turno. L'Esaurimento può accumularsi, non può essere dissolto e viene rimosso alla fine del turno.
+madnessCorruptor3Help = Tutti i mostri guadagnano un ulteriore +10% in tutte le resistenze. Il massimo di cariche Vulnerabili sui mostri è di 6.
+resistantMonstersDesc = Tutti i mostri guadagnano un ulteriore +10% in tutte le resistenze. Il massimo di cariche Vulnerabili sui mostri è di 6.
 customMainperkPowerful1b = Il massimo di cariche Potenti su questo eroe aumenta di 2. Le cariche vengono invece ridotte di 1 alla fine del turno.
 customMainperkVulnerable0b = Il massimo di cariche Vulnerabili sui nemici aumenta di 1. Le cariche vengono invece ridotte di 1 alla fine del turno.
-customMainperkReinforce0 = Questo eroe guadagna 1 Rinforzo all'inizio del combattimento. Il Rinforzo su questo eroe non puo' essere purgato a meno che non sia specificato.
-customMainperkInsulate0 = Questo eroe guadagna 1 Isolante all'inizio del combattimento. L'Isolante su questo eroe non puo' essere purgato a meno che non sia specificato.
-customMainperkCourage0 = Questo eroe guadagna 1 Coraggio all'inizio del combattimento. Il Coraggio su questo eroe non puo' essere purgato a meno che non sia specificato.
+customMainperkReinforce0 = Questo eroe guadagna 1 Rinforzo all'inizio del combattimento. Il Rinforzo su questo eroe non può essere purgato a meno che non sia specificato.
+customMainperkInsulate0 = Questo eroe guadagna 1 Isolante all'inizio del combattimento. L'Isolante su questo eroe non può essere purgato a meno che non sia specificato.
+customMainperkCourage0 = Questo eroe guadagna 1 Coraggio all'inizio del combattimento. Il Coraggio su questo eroe non può essere purgato a meno che non sia specificato.
 customMainperkBurn2c = La Bruciatura sui nemici infligge danni Freddi e riduce la resistenza al Fuoco e al Freddo dello 0,3% per carica.
 customMainperkBurn2d = La Bruciatura sui nemici infligge il doppio dei danni se il bersaglio ha due o meno maledizioni (Bruciatura inclusa)
 customMainperkSharp1d = Affilato sui personaggi aumenta anche i danni da Ombra di 1 per carica.
 customMainperkStanza0a = Stanza sui personaggi aumenta tutti i danni invece che solo i danni da Mente.
-abortMultiplayerPlayer = Un giocatore si e' disconnesso. Quando il giocatore rientrera', potrai continuare il gioco dall'ultimo punto di salvataggio.
-abortMultiplayerMaster = Il maestro del gioco si e' disconnesso. Il gioco si chiudera' ora. Puoi creare un nuovo gioco e caricarlo dal punto di salvataggio precedente.
-errorSteamAuth = Si e' verificato un errore di autenticazione Steam. Riprova piu' tardi.
+abortMultiplayerPlayer = Un giocatore si è disconnesso. Quando il giocatore rientrerà, potrai continuare il gioco dall'ultimo punto di salvataggio.
+abortMultiplayerMaster = Il maestro del gioco si è disconnesso. Il gioco si chiuderà ora. Puoi creare un nuovo gioco e caricarlo dal punto di salvataggio precedente.
+errorSteamAuth = Si è verificato un errore di autenticazione Steam. Riprova più tardi.
 lfmRoom = Cerca membri
 joinOldGame = Sembra che ti sia disconnesso dal gioco. Vuoi provare a rientrare nel tuo vecchio gioco?
 darkestnight = Notte Oscura
@@ -1656,16 +1656,16 @@ minDeckCards = Numero minimo di carte in un mazzo (escludendo Doni e Infortuni):
 profileMenu = Profilo corrente: <size=+5><color=#B0B0B0>{0}</color></size>
 profileCreate = [Crea profilo]
 challengeThirdFloorReward = Raggiungi il terzo piano della sfida per sbloccare questo dorso di carta.
-langCommunity = *Creato dalla comunita'
+langCommunity = *Creato dalla comunità
 itemCorruptionUpgrade = * Quando un eroe equipaggia lo stesso oggetto due volte, l'oggetto si trasforma nella sua versione corrotta.
 
 challengeYlmer=Sveglia della Foresta
 challengeYogger=Ululati Minacciosi
-challengeIgnidoh=Il Pavimento e' Lavico
+challengeIgnidoh=Il Pavimento è Lavico
 challengeFaeborg=Gelido fino alle Ossa
 challengeTulah=Sangue Verde
 challengeMinotaur=Campioni Selvaggi
-challengeNhir=Oscurita' Totale
+challengeNhir=Oscurità Totale
 
 sacredthorns=Spine Sacre
 sacredthornsDesc=Le spine infliggono danni Sacri invece che Penetranti.
@@ -1674,18 +1674,18 @@ extremeburningDesc=La Bruciatura infligge il doppio dei danni se il bersaglio ha
 frostfire=Ghiaccio e Fuoco
 frostfireDesc=La Bruciatura infligge danni Freddi e riduce la resistenza al Fuoco e al Freddo dello 0,3% per carica.
 intensecold=Freddo Intenso
-intensecoldDesc=Il Raffreddamento riduce la Velocita' di 1 ogni 4 cariche invece di ogni 5.
+intensecoldDesc=Il Raffreddamento riduce la Velocità di 1 ogni 4 cariche invece di ogni 5.
 lethalpoison=Veleno Letale
-lethalpoisonDesc=Il Veleno infligge il 50% in piu' di danni ma perde tutte le cariche alla fine del turno.
+lethalpoisonDesc=Il Veleno infligge il 50% in più di danni ma perde tutte le cariche alla fine del turno.
 hemorrhage=Emorragia
-hemorrhageDesc=Le Sanguinamento aumentano di 2. Il Sanguinamento infligge danni alla fine del turno ma non puo' essere impedito da Buffer o immunita' al Sanguinamento.
+hemorrhageDesc=Le Sanguinamento aumentano di 2. Il Sanguinamento infligge danni alla fine del turno ma non può essere impedito da Buffer o immunità al Sanguinamento.
 containedfury=Furia Contenuta
-containedfuryDesc=La Furia aumenta i danni del 2% per carica ma non applica piu' il Sanguinamento alla fine del turno.
+containedfuryDesc=La Furia aumenta i danni del 2% per carica ma non applica più il Sanguinamento alla fine del turno.
 
-customChaoticWind=<gl>Tutti i mostri ottengono:</gl><br>Velocita' <bl>+1</bl><br><gl>-Ogni turno-</gl><br>Applica <rd>1<i=fast> 2</rd><i=insane> a un personaggio casuale.
-customChaoticWindA=<gl>Tutti i mostri ottengono:</gl><br>Velocita' <bl>+1</bl><br><gl>-Ogni turno-</gl><br>Applica <rd>2<i=fast> 2</rd><i=insane> a un personaggio casuale.
-customChaoticWindB=<gl>Tutti i mostri ottengono:</gl><br>Velocita' <bl>+2</bl><br><gl>-Ogni turno-</gl><br>Applica <rd>2<i=fast> 2</rd><i=insane> a un personaggio casuale.
-customChaoticWindRare=<gl>Tutti i mostri ottengono:</gl><br>Velocita' <bl>+3</bl><br><gl>-Ogni turno-</gl><br>Applica <rd>2<i=fast> 3</rd><i=insane> a un personaggio casuale.
+customChaoticWind=<gl>Tutti i mostri ottengono:</gl><br>Velocità <bl>+1</bl><br><gl>-Ogni turno-</gl><br>Applica <rd>1<i=fast> 2</rd><i=insane> a un personaggio casuale.
+customChaoticWindA=<gl>Tutti i mostri ottengono:</gl><br>Velocità <bl>+1</bl><br><gl>-Ogni turno-</gl><br>Applica <rd>2<i=fast> 2</rd><i=insane> a un personaggio casuale.
+customChaoticWindB=<gl>Tutti i mostri ottengono:</gl><br>Velocità <bl>+2</bl><br><gl>-Ogni turno-</gl><br>Applica <rd>2<i=fast> 2</rd><i=insane> a un personaggio casuale.
+customChaoticWindRare=<gl>Tutti i mostri ottengono:</gl><br>Velocità <bl>+3</bl><br><gl>-Ogni turno-</gl><br>Applica <rd>2<i=fast> 3</rd><i=insane> a un personaggio casuale.
 
 customLivingForest=<gl>Tutti i mostri ottengono:</gl><br>HP Massimi <bl>+15</bl><br>Tutti i danni <bl>+2</bl><br><gl>-Ogni turno-</gl><br>Un mostro casuale ottiene <rd>2<i=thorns> 2</rd><i=regeneration>
 customLivingForestA=<gl>Tutti i mostri ottengono:</gl><br>HP Massimi <bl>+25</bl><br>Tutti i danni <bl>+2</bl><br><gl>-Ogni turno-</gl><br>Un mostro casuale ottiene <rd>3<i=thorns> 3</rd><i=regeneration>
@@ -1766,22 +1766,22 @@ customGainPerHeroAnd=Guadagna {0} e {1} per eroe.
 itemEveryRoundRound=Ogni Round
 menuLog=Registro di combattimento
 youMustSelectHero=Devi selezionare il seguente eroe:<br><color=#FFC555>{0}</color>
-townTutorial=Tutorial della citta'
+townTutorial=Tutorial della città
 townTutorialStep0=Entra nella Fucina Magica e compra una carta "{0}" per {1}.
 townTutorialStep1=Vai all'Altare e aggiorna la carta "{0}" per {1}.
 townTutorialStep2=Entra nell'Armeria e compra un "{0}" per {1}.
-tutorialTownNeedComplete=Devi completare il Tutorial della citta'.
+tutorialTownNeedComplete=Devi completare il Tutorial della città.
 
 tutorialTownCraftTitle=Crafta carte
-tutorialTownCraft=Una volta che una carta e' stata sbloccata saccheggiandola, sarai in grado di crearla per i tuoi eroi.<line-height=160%><br></line-height><color=#FFC555>Crea la carta "{0}" con {1}</color>.
+tutorialTownCraft=Una volta che una carta è stata sbloccata saccheggiandola, sarai in grado di crearla per i tuoi eroi.<line-height=160%><br></line-height><color=#FFC555>Crea la carta "{0}" con {1}</color>.
 tutorialTownCraftDoneTitle=Carte create
 tutorialTownCraftDone=Sblocca nuove carte durante le tue avventure. Ora vai all'Altare per il prossimo passo del tutorial cittadino.
 tutorialTownUpgradeTitle=Trasforma le carte
-tutorialTownUpgrade=Pagando una quantita' di frammenti, sarai in grado di potenziare le tue carte in versioni piu' potenti.<line-height=160%><br></line-height><color=#FFC555>Aggiorna la carta "{0}" da {1}</color>.
+tutorialTownUpgrade=Pagando una quantità di frammenti, sarai in grado di potenziare le tue carte in versioni più potenti.<line-height=160%><br></line-height><color=#FFC555>Aggiorna la carta "{0}" da {1}</color>.
 tutorialTownUpgradeDoneTitle=Carte trasformate
-tutorialTownUpgradeDone=Tieni presente che il costo dell'aggiornamento di una carta sara' basato sulla rarita' della carta. Ora vai all'Armeria per finire il tutorial cittadino.
+tutorialTownUpgradeDone=Tieni presente che il costo dell'aggiornamento di una carta sarà basato sulla rarità della carta. Ora vai all'Armeria per finire il tutorial cittadino.
 tutorialTownLootTitle=Compra oggetti
-tutorialTownLoot=Nelle citta' e nei negozi sparsi per il mondo, puoi comprare oggetti per i tuoi eroi che miglioreranno le loro statistiche e prestazioni.<line-height=160%><br></line-height><color=#FFC555>Compra "{0}" con {1}</color>.
+tutorialTownLoot=Nelle città e nei negozi sparsi per il mondo, puoi comprare oggetti per i tuoi eroi che miglioreranno le loro statistiche e prestazioni.<line-height=160%><br></line-height><color=#FFC555>Compra "{0}" con {1}</color>.
 tutorialTownLootDoneTitle=Oggetti acquistati
 tutorialTownLootDone>Congratulazioni! Hai completato il tutorial cittadino e sei pronto per iniziare la tua avventura!
 terrainCondition=Condizioni del terreno
@@ -1798,7 +1798,7 @@ wolfWars=Le guerre dei lupi
 wolfWarsIntro=Diversi anni dopo aver sposato il Re di Senenthia, la Regina Amelia ha avviato una campagna per rafforzare i legami e accogliere tutte le diverse razze del regno sotto un'unica bandiera.<br><br>La maggior parte delle razze, sempre perseguitate e cacciate dai licantropi, ha accettato la proposta con speranza. Tuttavia, il capo Gorio ha voluto continuare a governare la parte nord-orientale della foresta e ha rivendicato il diritto di cacciare liberamente per i suoi licantropi.<br><br>Dopo mesi di colloqui tra la Regina Amelia e il capo Gorio, quest'ultimo ha interrotto le trattative. Gorio ha dichiarato che i suoi licantropi non sarebbero stati addomesticati e che chiunque entrasse nella foresta sarebbe stato la sua preda.<br><br>Mossa dall'appello di tutte le razze del regno e sperando di proteggerle, la Regina Amelia ha deciso di lanciare un'offensiva per rovesciare Gorio.
 bandit=Bandito
 food=Cibo
-roadmapHomeText=<tit>Benvenuti a tutti!</tit>Abbiamo appena rilasciato la versione 1.1 del gioco, con molti contenuti gratuiti come due nuove sottolivelli, nuovi oggetti e nuove funzionalita' come il registro di combattimento.<br><br>Inoltre, abbiamo rilasciato il nostro primo DLC della storia, Le guerre dei lupi, che include un nuovo eroe, skin, ecc. Speriamo che vi piaccia!<br><br><tit>Cosa c'e' dopo?</tit>Lavoreremo sulla Heropedia con un piccolo tocco. E ci concentreremo sul primo grande DLC, una grande zona per gli atti 2 e 3 piena di nuovi nemici, oggetti, eventi e nuovi eroi!
+roadmapHomeText=<tit>Benvenuti a tutti!</tit>Abbiamo appena rilasciato la versione 1.1 del gioco, con molti contenuti gratuiti come due nuove sottolivelli, nuovi oggetti e nuove funzionalità come il registro di combattimento.<br><br>Inoltre, abbiamo rilasciato il nostro primo DLC della storia, Le guerre dei lupi, che include un nuovo eroe, skin, ecc. Speriamo che vi piaccia!<br><br><tit>Cosa c'è dopo?</tit>Lavoreremo sulla Heropedia con un piccolo tocco. E ci concentreremo sul primo grande DLC, una grande zona per gli atti 2 e 3 piena di nuovi nemici, oggetti, eventi e nuovi eroi!
 requiredEvent=Devi completare l'evento "{0}"
 
 challengeHydra=Aree pericolose
@@ -1820,12 +1820,12 @@ cardbackTitle0=Personaggio
 cardbackTitle1=Generale
 cardbackTitle2=Altro
 
-customHeavenlyArmaments=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+15</bl><br>Immunita' a <i=sanctify><br><gl>-Ogni round-</gl><br>Guadagna <bl>2</bl><i=bless><bl>2</bl><i=regeneration><bl>2</bl><i=vitality><bl>1</bl><i=fast>
-customHeavenlyArmamentsA=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+30</bl><br>Immunita' a <i=sanctify><br><gl>-Ogni round-</gl><br>Guadagna <bl>3</bl><i=bless><bl>3</bl><i=regeneration><bl>2</bl><i=vitality><bl>1</bl><i=fast>
-customHeavenlyArmamentsB=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+45</bl><br>Immunita' a <i=sanctify><br><gl>-Ogni round-</gl><br>Guadagna <bl>4</bl><i=bless><bl>3</bl><i=regeneration><bl>3</bl><i=vitality><bl>2</bl><i=fast>
-customHeavenlyArmamentsRare=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+60</bl><br>Immunita' a <i=sanctify><br><gl>-Ogni round-</gl><br>Guadagna <bl>4</bl><i=bless><bl>4</bl><i=regeneration><bl>3</bl><i=vitality><bl>2</bl><i=fast>
+customHeavenlyArmaments=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+15</bl><br>Immunità a <i=sanctify><br><gl>-Ogni round-</gl><br>Guadagna <bl>2</bl><i=bless><bl>2</bl><i=regeneration><bl>2</bl><i=vitality><bl>1</bl><i=fast>
+customHeavenlyArmamentsA=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+30</bl><br>Immunità a <i=sanctify><br><gl>-Ogni round-</gl><br>Guadagna <bl>3</bl><i=bless><bl>3</bl><i=regeneration><bl>2</bl><i=vitality><bl>1</bl><i=fast>
+customHeavenlyArmamentsB=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+45</bl><br>Immunità a <i=sanctify><br><gl>-Ogni round-</gl><br>Guadagna <bl>4</bl><i=bless><bl>3</bl><i=regeneration><bl>3</bl><i=vitality><bl>2</bl><i=fast>
+customHeavenlyArmamentsRare=<gl>Tutti i mostri guadagnano:</gl><br>Max HP <bl>+60</bl><br>Immunità a <i=sanctify><br><gl>-Ogni round-</gl><br>Guadagna <bl>4</bl><i=bless><bl>4</bl><i=regeneration><bl>3</bl><i=vitality><bl>2</bl><i=fast>
 
-itemRecoverLowestHPHero=il personaggio con la vita piu' bassa recupera {0} HP
+itemRecoverLowestHPHero=il personaggio con la vita più bassa recupera {0} HP
 
 customButchersTable=Max HP <bl>+10</bl><br><gl>[Ogni turno]</gl><br>Metti <crd=premiummeat,1>, <crd=meat,1> o <crd=spoiledmeat,1> nella tua mano.
 customButchersTableRare=Max HP <bl>+20</bl><br><gl>[Ogni turno]</gl><br>Metti <crd=premiummeat,1>, <crd=meat,1> o <crd=bloodsausage,1> nella tua mano.
@@ -1835,22 +1835,22 @@ requiredDLCandQuest=Devi possedere il DLC <nobr>"<color=#FFF>{0}</color>"</nobr>
 characterSkin=Pelle del personaggio
 playerDontHaveDLC=Questo giocatore non ha il DLC <nobr>"<color=#FFF>{0}</color>"</nobr>
 enableKeysOption=Attiva scorciatoie da tastiera in combattimento//Mostra le scorciatoie da tastiera in combattimento.
-enableKeysOptionDes=I numeri delle scorciatoie saranno mostrati anche durante il combattimento//Questa opzione verra' attivata anche se si utilizza una scorciatoia durante il combattimento.
+enableKeysOptionDes=I numeri delle scorciatoie saranno mostrati anche durante il combattimento//Questa opzione verrà attivata anche se si utilizza una scorciatoia durante il combattimento.
 
-consoleDraw=<color=#AAA>Pesca carte ({0})</color> {1} // 0 e' il numero di carte e 1 e' un elenco di aure
-consoleCardToHand={0} <color=#AAA>mette in mano</color> // {0} e' il nome del personaggio
-consoleCardToTopDeck={0} <color=#AAA>posiziona nella cima del mazzo</color> // {0} e' il nome del personaggio
-consoleCardToBottomDeck={0} <color=#AAA>posiziona nella parte inferiore del mazzo</color> // {0} e' il nome del personaggio
-consoleCardToRandomDeck={0} <color=#AAA>mescola nel mazzo</color> // {0} e' il nome del personaggio
+consoleDraw=<color=#AAA>Pesca carte ({0})</color> {1} // 0 è il numero di carte e 1 è un elenco di aure
+consoleCardToHand={0} <color=#AAA>mette in mano</color> // {0} è il nome del personaggio
+consoleCardToTopDeck={0} <color=#AAA>posiziona nella cima del mazzo</color> // {0} è il nome del personaggio
+consoleCardToBottomDeck={0} <color=#AAA>posiziona nella parte inferiore del mazzo</color> // {0} è il nome del personaggio
+consoleCardToRandomDeck={0} <color=#AAA>mescola nel mazzo</color> // {0} è il nome del personaggio
 consoleCardToDiscard={0} <color=#AAA>scarta</color>
-consoleCardToVanish={0} <color=#AAA>sposta in scomparsa</color> // {0} e' il nome del personaggio
-consoleCardModification={0} <color=#AAA>modifica la carta</color> // {0} e' il nome del personaggio
+consoleCardToVanish={0} <color=#AAA>sposta in scomparsa</color> // {0} è il nome del personaggio
+consoleCardModification={0} <color=#AAA>modifica la carta</color> // {0} è il nome del personaggio
 consoleCorruptionActivated=Corruzione attivata
 consoleItemActivated=Oggetto attivato
 consoleTraitActivated=Tratto attivato
-consoleCharacterCasted={0} <color=#AAA>ha lanciato</color> // {0} e' il nome del personaggio
-consoleBeginTurn=<b>{0}</b> <link={1}><color=#B7789E><u>Inizio turno</u></color></link> // {0} e' il nome del personaggio
-consoleEndTurn=<b>{0}</b> <link={1}><color=#B7789E><u>Fine turno</u></color></link> // {0} e' il nome del personaggio
+consoleCharacterCasted={0} <color=#AAA>ha lanciato</color> // {0} è il nome del personaggio
+consoleBeginTurn=<b>{0}</b> <link={1}><color=#B7789E><u>Inizio turno</u></color></link> // {0} è il nome del personaggio
+consoleEndTurn=<b>{0}</b> <link={1}><color=#B7789E><u>Fine turno</u></color></link> // {0} è il nome del personaggio
 consoleCombatStatus=Stato di combattimento
 
 yoggerPet1=Chi pensi di essere? Magnus?
