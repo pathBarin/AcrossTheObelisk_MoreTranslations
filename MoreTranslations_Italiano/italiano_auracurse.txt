@@ -46,7 +46,7 @@ shackle_description=Velocità<r> ridotta a 0</r>.
 sight_description=Rivela<y>  <ChargesMultiplier>  </y>carte.
 silence_description=Impossibilità di giocare carte <b>"Incantesimo"</b>.
 slow_description=Velocità<r>  -<ChargesMultiplier></r>.
-spark_description=<lig>Resistenza fulminea</lig><r>  -<ResistAux1>%</r>.<br3>Infliggi<lig> <ChargesMultiplier> danni da fulmine</lig> a questo bersaglio ai lati all'<w>inzio del turno.</w>
+spark_description=<lig>Resistenza fulminea</lig><r>  -<ResistAux1>%</r>.<br3>Infliggi<lig> <ChargesMultiplier> danni da fulmine</lig> ai lati di questo bersaglio all'<w>inzio del turno.</w>
 stress_description=Pesca <r><ChargesMultiplier> meno carte</r> al prossimo turno.</w>
 vulnerable_description>Tutte le resistenze<r>  -<ResistAux1>%</r>.<br3>Cariche massime<y>  <MaxCharges></y>.
 weak_description=Danno e guarigione inflitti <r>-50%</r>.
