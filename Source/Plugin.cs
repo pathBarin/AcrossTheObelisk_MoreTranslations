@@ -4,11 +4,9 @@ using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
 using BepInEx;
-using BepInEx.Logging;
 using HarmonyLib;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Scripting;
 
 namespace MoreTranslations
 {
@@ -21,15 +19,44 @@ namespace MoreTranslations
         private static string selectedLanguage = null;
         private static List<String> languages = new List<String>();
         private static List<String> tips = new List<String>();
+        private static TMP_FontAsset alternativeFont = null;
 
-        private void Awake()
+        void Awake()
         {
             Harmony.CreateAndPatchAll(typeof(Plugin));
+        }
+
+        [HarmonyPatch(typeof(AtOManager), "Update"), HarmonyPrefix]
+        static void Update()
+        {
+            // Utilizzo un font diverso in caso di caratteri speciali
+            if (alternativeFont != null)
+            {
+                List<TMP_Text> texts = new List<TMP_Text>(FindObjectsOfType<TMP_Text>());
+                for (int i = 0; i < texts.Count; i++)
+                {
+                    texts[i].font.fallbackFontAssetTable = new List<TMP_FontAsset>() { alternativeFont };
+                }
+            }
         }
 
         [HarmonyPatch(typeof(GameManager), "Start"), HarmonyPrefix]
         static void Start()
         {
+            // Carico il font CantoraOne-Regular Fix SDF.asset dalla cartella attuale
+            string thisPath = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            string filePath = thisPath + "/CantoraOne-Regular Fix.ttf";
+            if (File.Exists(filePath))
+            {
+                Font font = new Font(filePath);
+                TMP_FontAsset fontAsset = TMP_FontAsset.CreateFontAsset(font);
+
+                if (fontAsset != null)
+                {
+                    alternativeFont = fontAsset;
+                }
+            }
+
             selectedLanguage = PlayerPrefs.GetString("linguaSelezionata");
 
             TextStrings = new Dictionary<string, Dictionary<string, string>>((IEqualityComparer<string>)StringComparer.OrdinalIgnoreCase);
